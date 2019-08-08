@@ -1,0 +1,9 @@
+state={
+	id=179
+	name="STATE_179"
+	provinces={
+		482 622 742 851 1851 2245 2539 3887 4769 7582 9932 9983 10034 10052 10129 10204 10323 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
