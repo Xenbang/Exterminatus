@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "TST"
 		default = yes
 		
-		"TST"={
+		"FRA"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		effect = {
