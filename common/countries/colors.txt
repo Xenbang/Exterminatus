@@ -2,28 +2,28 @@
 
 
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 192 192 192 }
+	color_ui = rgb { 255 255 255 }
 }
 YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 255 227 89 }
+	color_ui = rgb { 255 208 0 }
 }
 GXC = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 71 113 97 }
+	color = rgb { 214 68 68 }
+	color_ui = rgb { 214 0 0 }
 }
 
 SHX = {
-	color = rgb { 82  2  15 }
-	color_ui = rgb { 101  30  41 }
+	color = rgb { 146 134 117 }
+	color_ui = rgb { 91 84 74 }
 }
 
 XSM = {
-	color = rgb { 105 90 132 }
-	color_ui = rgb { 105 90 132 }
+	color = rgb { 109 91 53 }
+	color_ui = rgb { 109 74 0 }
 }
 MAN = {
-        color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+    color = rgb { 84 119 52 }
+	color_ui = rgb { 36 78 0 }
 }
