@@ -1,4 +1,29 @@
+#reload countrycolors
+
+
 FRA = {
 	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+YUN = {
+	color = rgb { 114 148 80 }
+	color_ui = rgb { 222 247 198 }
+}
+GXC = {
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 71 113 97 }
+}
+
+SHX = {
+	color = rgb { 82  2  15 }
+	color_ui = rgb { 101  30  41 }
+}
+
+XSM = {
+	color = rgb { 105 90 132 }
+	color_ui = rgb { 105 90 132 }
+}
+MAN = {
+        color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }

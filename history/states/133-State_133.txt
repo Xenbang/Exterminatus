@@ -4,6 +4,11 @@ state={
 	provinces={
 		2136 2149 2201 2416 2559 3233 3609 4118 4197 4410 4612 4695 6025 6144 7329 7442 7639 7810 7951 9371 9386 9431 9455 9462 9478 9545 9561 9573 9604 9643 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=2405118
+	state_category = town
+	history={
+	Owner = MAN 
+	victory_points = { 9455 10 }
+	add_core_of = MAN
+	}
 }
