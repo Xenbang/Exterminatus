@@ -18,13 +18,23 @@ if = {
 	add_ideas = MAN_low_legitimacy_5
 }
 
+create_country_leader = {
+	name = "Dhirzux Ragecuttah"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/ork/ork_leader_portrait_2.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		stout_defender
+	}
+}
+
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 80
-	neutrality = 20
+	democratic = 100
 }

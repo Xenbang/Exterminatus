@@ -160,7 +160,7 @@ guiTypes = {
 		iconType ={
 			name ="war_support_icon"
 			spriteType = "GFX_war_support_icon"
-			position = { x= 285 y = 19 }
+			position = { x= 280 y = 16 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -185,14 +185,14 @@ guiTypes = {
 		iconType ={
 			name ="manpower_icon"
 			spriteType = "GFX_manpower_icon"
-			position = { x= 360 y = 16 }
+			position = { x= 358 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name ="manpower"
-			position = { x= 389 y = 21 }
-			font = "hoi_18mbs"
+			position = { x= 389 y = 23 }
+			font = "hoi_16mbs"
 			text = "9999"
 			format = center
 			maxWidth = 57
@@ -210,14 +210,14 @@ guiTypes = {
 		iconType ={
 			name ="industrial_capacity_icon"
 			spriteType = "GFX_industrial_capacity_icon"
-			position = { x= 451 y = 16 } 
+			position = { x= 451 y = 17 } 
 			Orientation = "UPPER_LEFT"
 		}
         
 		instantTextBoxType = {
 			name ="industrial_capacity"
 			position = { x= 475 y = 23 } 
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			text = "12/12/12"
 			format = center
 			maxWidth = 66
@@ -272,20 +272,20 @@ guiTypes = {
 		iconType ={
 			name ="experience_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=755 y=5 }
+			position = { x=1135 y=19 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="experience_icon"
 			spriteType = "GFX_army_experience"
-			position = { x= 762 y=11 }
+			position = { x= 1140 y=24 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name ="experience_value"
-			position = { x=777 y=9 }
+			position = { x=1155 y=24 }
 			font = "hoi_16mbs"
 			text = "999"
 			format = center
@@ -297,20 +297,20 @@ guiTypes = {
 		iconType ={
 			name ="navy_experience_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=1135 y=19 }
+			position = { x=700 y=19 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="navy_experience_icon"
 			spriteType = "GFX_navy_experience"
-			position = { x= 1140 y = 23 }
+			position = { x= 700 y = 23 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="navy_experience_value"
-			position = { x= 1160 y = 23 }
+			position = { x= 700 y = 23 }
 			font = "hoi_16mbs"
 			text = "999"
 			format = center
@@ -329,13 +329,13 @@ guiTypes = {
 		iconType = {
 			name ="air_experience_icon"
 			spriteType = "GFX_air_experience"
-			position = { x= 1215 y = 23 }
+			position = { x= 1215 y = 24 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="air_experience_value"
-			position = { x= 1230 y = 23 }
+			position = { x= 1230 y = 24 }
 			font = "hoi_16mbs"
 			text = "999"
 			format = center
@@ -379,8 +379,8 @@ guiTypes = {
 		buttonType ={
 			name ="threat_button"
 			spriteType = "GFX_world_tension_icon_big_strip"
-			position = { x=-140 y=145 }
-			Orientation = "UPPER_RIGHT"
+			position = { x=821 y=-395 }
+			Orientation = "center"
 			clicksound = click_default
 		}
 
@@ -395,17 +395,16 @@ guiTypes = {
 		buttonType ={
 			name ="threat_value_button"
 			spriteType = "GFX_world_tension_icon_big_strip"
-			position = { x=-145 y=120 }
-			Orientation = "UPPER_RIGHT"
+			position = { x=821 y=-395 }
+			Orientation = "center"
 			clicksound = click_default
-			size = { x=50 y=20 }
-			quadTextureSprite ="GFX_tiled_window_transparent"
+			size = { x=200 y=200 }
 		}
 		
 		instantTextBoxType = {
 			name ="threat_value"
-			position = { x=-142 y=200 }
-			font = "hoi_18mbs"
+			position = { x=-136 y=274 }
+			font = "hoi_32mbs"
 			text = "50%"
 			format = center
 			maxWidth = 55
@@ -460,7 +459,7 @@ guiTypes = {
 			buttonType = {
 				name = "button_speeddown"
 				quadTextureSprite ="GFX_zoom_out"
-				position = { x = 75 y = 80 }
+				position = { x = 75 y = -880 }
 				shortcut = "KP_MINUS"
 				pdx_tooltip = "SPEED_DECREASE"
 				clicksound = time_down
@@ -470,42 +469,42 @@ guiTypes = {
 			buttonType = {
 				name = "button_speedstep1"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=100 y =85 }
+				position = { x=100 y =30 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep2"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=126 y =85 }
+				position = { x=126 y =30 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep3"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=152 y =85 }
+				position = { x=152 y =30 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep4"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=178 y =85 }
+				position = { x=178 y =30 }
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "button_speedstep5"
 				quadTextureSprite ="GFX_speed_step"
-				position = { x=204 y =85 }
+				position = { x=204 y =30 }
 				clicksound = click_default
 			}
 		
 			buttonType = {
 				name = "button_speedup"
 				quadTextureSprite ="GFX_zoom_in"
-				position = { x = 228 y =80 }
+				position = { x = 228 y =-800 }
 				shortcut = "KP_PLUS"
 				pdx_tooltip = "SPEED_INCREASE"
 				clicksound = time_up
@@ -710,7 +709,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "air_button"
-				position = { x = -385 y = 60 }
+				position = { x = -315 y = 15 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "l"

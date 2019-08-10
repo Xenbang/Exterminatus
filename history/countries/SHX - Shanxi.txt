@@ -18,12 +18,23 @@ if = {
 	}
 }
 
+create_country_leader = {
+	name = "Khatznod Crookrippah"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/ork/ork_leader_portrait_3.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		stout_defender
+	}
+}
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	democratic = 100
 }
