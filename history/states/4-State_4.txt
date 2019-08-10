@@ -4,6 +4,11 @@ state={
 	provinces={
 		2669 2993 3525 3699 5325 5569 6365 7482 7546 11125 11163 11177 11307 11323 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=610440
+	state_category = town
+		history={
+		owner = XSM
+		victory_points = { 3699 1 }
+		add_core_of = XSM
+	}	
 }
