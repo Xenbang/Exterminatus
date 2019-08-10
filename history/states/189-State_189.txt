@@ -4,6 +4,14 @@ state={
 	provinces={
 		163 1865 2984 3497 4490 5214 5922 7091 7424 7981 10009 10025 10063 10075 10125 10131 10160 10293 10294 10408 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+   manpower=940200
+    state_category = large_town
+	history={
+		owner = XSM
+		victory_points = { 7091 15 }
+		victory_points = { 10294 5 }
+		victory_points = { 7424 2 }
+		add_core_of = XSM
+	}
+	
 }

@@ -1,4 +1,4 @@
-﻿capital = 229
+﻿capital = 194
 
 oob = "XSM_1936"
 

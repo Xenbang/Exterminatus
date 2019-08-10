@@ -4,6 +4,18 @@ state={
 	provinces={
 		203 221 674 961 1267 2259 2451 3837 4000 4154 4479 4541 4565 4618 4701 5310 5471 5918 6865 7181 7316 7882 9896 9952 10016 10038 10055 10104 10105 10120 10137 10165 10172 10184 10185 10193 10248 10257 10276 10307 10325 10337 10353 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=8320010
+	state_category = large_city
+		history={
+		owner = XSM
+		victory_points = { 10276 20 }
+		victory_points = { 10248 20}
+		victory_points = { 10353 20 }
+		victory_points = { 5918 20 }
+		victory_points = { 4479 20 }
+		victory_points = { 221 5 }
+		victory_points = { 2259 5 }
+		victory_points = { 9896 5 }
+		add_core_of = XSM
+	}	
 }
