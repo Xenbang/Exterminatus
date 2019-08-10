@@ -4,14 +4,14 @@ state={
 	provinces={
 		809 3564 10338 10361 10414 5129 3891
 	}
-	manpower=6120020
+	manpower=7340050
     state_category = megalopolis
 	history={
 		owner = XSM
 		victory_points = { 3564 15 }
 		victory_points = { 10338 15}
 		victory_points = { 10361 50 }
-		victory_points = { 10411 15 }
+		victory_points = { 10414 15 }
 		victory_points = { 809 15 }
 		victory_points = { 5129 15 }
 		victory_points = { 3891 15 }
