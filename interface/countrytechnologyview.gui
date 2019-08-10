@@ -213,7 +213,7 @@ guiTypes = {
 	
 		instantTextboxType = {
 			name = "title"
-			position = { x = 8 y = 2 }
+			position = { x = 12 y = 2 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -224,7 +224,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "year"
-			position = { x = 11 y = 51 }
+			position = { x = -111 y = 51 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
