@@ -26,9 +26,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "decisionview_title"
-			position = { x = 45 y = 8 }
+			position = { x = 28 y = 22 }
 			textureFile = ""
-			font = "hoi_36header"
+			font = "hoi_20mbs"
 			borderSize = {x = 0 y = 0}
 			text = "DECISIONVIEW_TITLE"
 			maxWidth = 440
@@ -38,7 +38,7 @@ guiTypes = {
 			
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 9 }
+			position = { x = -41 y = 13 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -99,7 +99,7 @@ guiTypes = {
 			name = "name_text"
 			position = { x = 45 y = 23 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "hoi_14b"
 			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 365
@@ -214,7 +214,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name_text"
-			position = { x = 55 y = 45}
+			position = { x = 45 y = 45}
 			textureFile = ""
 			font = "hoi4_typewriter22"
 			borderSize = { x = 0 y = 0 }
