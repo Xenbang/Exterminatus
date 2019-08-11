@@ -47,7 +47,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "chart_explanation"
-			position = { x = 18 y = 116 }
+			position = { x = 18 y = 999 }
 			size = { width = 330 height = 70 }
 			clipping = no
 						
@@ -70,25 +70,18 @@ guiTypes = {
 			iconType = {
 				name = "chart"
 				spriteType = "GFX_political_chart"
-				position = { x = 28 y = 5 }
+				position = { x = 35 y = 2 }
 			}
 			
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1s }
+				position = { x= 5 y = -2 }
 			}
-		}		
 
-		containerWindowType = {
-			name = "ruling_party_info"
-			position = { x = -150 y = 525 }
-			size = { width = 255 height = 60 }
-			clipping = no
-						
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 103 y = -45 }
+				position = { x = 8 y = 25 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193
@@ -103,14 +96,14 @@ guiTypes = {
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 			}	
+		}		
 
-			iconType ={
-				name ="pol_faction_icon"
-				spriteType = "GFX_pol_factions_strip"
-				position = { x= 19 y = 305 }
-				Orientation = "UPPER_LEFT"
-				frame = 1
-			}
+		containerWindowType = {
+			name = "ruling_party_info"
+			position = { x = -150 y = 525 }
+			size = { width = 255 height = 60 }
+			clipping = no
+
 
 			instantTextboxType = {
 				name = "ideology"
@@ -129,7 +122,6 @@ guiTypes = {
 				maxWidth = 155
 				maxHeight = 20
 			}
-
 		}
 
 		containerWindowType = {
