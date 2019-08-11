@@ -4,10 +4,22 @@ state={
 	provinces={
 		108 262 1211 2082 2718 3199 4151 4336 4931 5173 6164 6257 6401 6682 7982 8212 8226 8241 8261 8267 8270 8298 8299 8335 8336 8337 8359 8377 8379 8404 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-history={
-	Owner = FRA
-	add_core_of = FRA
-	}
+	manpower = 4000000
+	resources={
+		steel=100
+		aluminium=100 
+                chromium=100
+                oil=100
+                tungsten=100
+                rubber=100
+                }
+	history={
+		owner = FRA
+                add_core_of = FRA
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+                        industrial_complex = 3
+                        }
 }

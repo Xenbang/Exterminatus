@@ -4,22 +4,22 @@ state={
 	provinces={
 		2312 2833 5803 6060 6493 6501 8036 8039 8045 8047 8058 8063
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-
-	state_category = town
-
+	manpower = 4000000
+	resources={
+		steel=100
+		aluminium=100 
+                chromium=100
+                oil=100
+                tungsten=100
+                rubber=100
+                }
 	history={
 		owner = FRA
-		victory_points = { 3838 1 }
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			air_base = 1
-			3838 = {
-				naval_base = 3
-			}
+                add_core_of = FRA
 		}
-		add_core_of = FRA
-	}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+                        industrial_complex = 3
+                        }
 }
