@@ -27,3 +27,7 @@ MAN = {
     color = rgb { 84 119 52 }
 	color_ui = rgb { 36 78 0 }
 }
+SCO = {
+    color = rgb {0 102 255}
+    color_ui = rgb { 0 102 255 }
+}
