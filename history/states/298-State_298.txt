@@ -4,6 +4,23 @@ state={
 	provinces={
 		499 1329 1432 1472 2393 2401 3438 3920 4107 4744 5215 5313 7392 7785 8031 11502 11524 11548 11560 11621 11694 11759 11767 11781 11800 11858 11873 11979 11988 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	
+	resources={
+		steel=10
+		aluminium=10 
+     	chromium=10
+        oil=10
+        tungsten=10
+        rubber=10
+    }
+
+	history = {
+		owner = FRA
+        add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+        	industrial_complex = 3
+        }
+	}
 }
