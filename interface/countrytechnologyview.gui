@@ -112,13 +112,13 @@ guiTypes = {
 
 			iconType = {
 				name = "research_speed_icon"
-				position = { x = 135 y = 113 }
+				position = { x = 125 y = 103 }
 				spriteType = "GFX_research_speed_icon"
 			}
 
 			instantTextboxType = {
 				name = "research_speed_value"
-				position = { x = 154 y = 115 }
+				position = { x = 154 y = 117 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}
@@ -240,13 +240,13 @@ guiTypes = {
 		iconType = {
 			name = "research_progressbar_frame_icon"
 			spriteType = "GFX_research_progressbar_frame"
-			position = { x=122 y=92 }		
+			position = { x=-600 y=-92 }		
 		}		
 		
 		iconType = {
 			name = "research_progressbar"
 			spriteType = "Gfx_research_progressbar"
-			position = { x=125 y=94 }		
+			position = { x=-600 y=-94 }		
 		}	
 	}
 }

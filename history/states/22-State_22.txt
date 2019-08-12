@@ -5,21 +5,25 @@ state={
 		807 1157 1651 1729 2482 4633 4694 5087 5120 5403 5975 6596 6611 7299 7956 8095 8096 8103 8109 8123 8124 8127 8128 8138 8143 8159 8160 
 	}
 	manpower = 4000000
+
+	state_category = large_town
+
 	resources={
-		steel=100
-		aluminium=100 
-                chromium=100
-                oil=100
-                tungsten=100
-                rubber=100
-                }
-	history={
+		steel=10
+		aluminium=10 
+     	chromium=10
+        oil=10
+        tungsten=10
+        rubber=10
+    }
+
+	history = {
 		owner = FRA
-                add_core_of = FRA
-		}
+        add_core_of = FRA
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			arms_factory = 3
-                        industrial_complex = 3
-                        }
+        	industrial_complex = 3
+        }
+	}
 }

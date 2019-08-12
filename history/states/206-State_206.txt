@@ -4,15 +4,19 @@ state={
 	provinces={
 	 191 536 1466 1629 1782 1944 2112 2388 2665 3485 3587 4054 4678 4724 4877 4962 5448 6496 6608 6869 7180 7702 7787 7890 10289 10425 10445 10455 10503 10511 10583 10584 10660 10679 10718 10725 10750 10757 10806 10833 10897 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-history={
-  owner = SCO
-  add_core_of = SCO
- }
- 	buildings = {
+	
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+		owner = SCO
+		add_core_of = SCO
+
+		buildings = {
 			infrastructure = 5
 			arms_factory = 3
-                        industrial_complex = 3
-                        }
+      	  	industrial_complex = 3
+		}
+	}
 }

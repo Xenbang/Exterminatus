@@ -580,10 +580,10 @@ guiTypes = {
 		}
 	}
 	
-	containerWindowType = { ##Laws and shit
+	containerWindowType = { ##Screen that shows up
 		name = "political_ideas_window"
-		position = { x = -356 y = 100 }	
-		show_position = { x = 544 y = 100 }
+		position = { x = -356 y = 500 }	
+		show_position = { x = 544 y = 500 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -596,6 +596,12 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			format = center
 		}
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent_transparent"
+			position = { x = -1 y = 0 }					
+		}	
 		
 		instantTextboxType = {
 			name = "title"
