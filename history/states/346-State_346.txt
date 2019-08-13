@@ -4,7 +4,7 @@ state={
 	provinces={
 		1757 2672 3151 4820 5131 5584 7296 7597 7835 7973 8007 12447 12522 12527 12560 12627 12671 12716 
 	}
-	manpower=0
+	manpower=7822530
 	state_category=metropolis
 	history={
 	victory_points = { 5131 10 }

@@ -4,7 +4,7 @@ state={
 	provinces={
 		282 1199 2426 2666 3665 4966 6155 6380 12073 12165 12252 12338 12339 12448 12512 12588 12672 12712 12738 
 	}
-	manpower=0
+	manpower=8458325
 	state_category=megalopolis
 	history={
 	victory_points = { 4966 10 }
