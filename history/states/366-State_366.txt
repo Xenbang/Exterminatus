@@ -4,9 +4,15 @@ state={
 	provinces={
 		11 889 2400 3029 6181 6809 7332 7359 7978 12936 12974 12983 12996 13054 13055 13105 13169 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=3601255
+	state_category = large_city
 	history={
+	victory_points = { 889 25 }
+	victory_points = { 11 10 }
+	victory_points = { 12974 10 }
+	victory_points = { 13055 10 }
+	victory_points = { 7332 20 }
+	victory_points = { 12983 25 }
 	Owner = YUN
 	add_core_of = YUN
 	}

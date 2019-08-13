@@ -4,8 +4,8 @@ state={
 	provinces={
 		85 276 2075 2766 3071 3560 4830 4942 6603 6771 6879 6950 6957 7194 10459 10536 10644 10733 10815 10898 10949 
 	}
-	manpower=0
-	state_category = town
+	manpower=510200
+	state_category = rural
 	history={
 	victory_points = { 6879 2 }
 	victory_points = { 4830 2 }

@@ -4,7 +4,7 @@ state={
 	provinces={
 		984 992 4157 4358 4574 5009 5812 5814 5974 10190 10213 10256 10317 10463 10504 10505 10634 10653 
 	}
-	manpower=19300321
+	manpower=1930321
 	state_category = city
 	history={
 	victory_points = { 10634 20 }
