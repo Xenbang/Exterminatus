@@ -5,6 +5,21 @@ state={
 	provinces={
 		311 547 766 821 2403 2800 3391 5331 7255 7550 8266 8316 8341 8348 8372 8416 8423 8459 8485 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+		
+          victory_points = { 547 10 }
+          victory_points = { 5535 10 }
+                owner = IRE
+		add_core_of = IRE
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
 }
