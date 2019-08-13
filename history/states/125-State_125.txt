@@ -2,11 +2,17 @@ state={
 	id=125
 	name="STATE_125"
 	provinces={
-		273 1691 4331 6300 7239 7495 7877 9238 9295 9397 9617 
+	 1691 4331 7239 7495 7877 9397 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=7554331
+	state_category = metropolis
 	history={
+	victory_points = { 1691 20 }
+	victory_points = { 4331 20 }
+	victory_points = { 7239 20 }
+	victory_points = { 7495 20 }
+	victory_points = { 7877 20 }
+	victory_points = { 9397 20 }
 	Owner = MAN
 	add_core_of = MAN
 	}

@@ -2,10 +2,10 @@ state={
 	id=105
 	name="STATE_105"
 	provinces={
-		573 1732 2288 4765 6563 8977 9070 9244 
+		573 1732 2288 4765 6563 8977 9070 9244 9295 9238
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=468000
+	state_category = rural
 	history={
 	Owner = MAN
 	add_core_of = MAN

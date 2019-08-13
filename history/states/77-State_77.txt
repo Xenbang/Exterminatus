@@ -5,7 +5,7 @@ state={
 		1240 3631 4819 6108 8693 8726 
 	}
 	manpower=341560
-	state_category = town
+	state_category = rural
 		history={
 		owner = MAN
 		victory_points = { 6108 5 }

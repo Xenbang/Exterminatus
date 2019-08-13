@@ -4,8 +4,8 @@ state={
 	provinces={
 		701 747 1008 4158 5186 5682 6158 8534 8561 8565 8622 8649 8672 8673 8714 
 	}
-	manpower=5120300
-	state_category = town
+	manpower=6220300
+	state_category = megalopolis
 		history={
 		owner = MAN
 		victory_points = { 8673 50 }

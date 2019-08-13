@@ -5,8 +5,10 @@ state={
 		85 276 2075 2766 3071 3560 4830 4942 6603 6771 6879 6950 6957 7194 10459 10536 10644 10733 10815 10898 10949 
 	}
 	manpower=0
-	buildings_max_level_factor=1.000
+	state_category = town
 	history={
+	victory_points = { 6879 2 }
+	victory_points = { 4830 2 }
 	Owner = MAN
 	add_core_of = MAN
 	}

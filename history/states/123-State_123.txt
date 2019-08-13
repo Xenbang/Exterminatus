@@ -4,9 +4,12 @@ state={
 	provinces={
 		764 1931 2443 2994 3040 3184 4162 4393 6194 7399 9121 9231 9261 9296 9361 9382 9440 9479 9574 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=960532
+	state_category = town
 	history={
+	victory_points = { 6194 3 }
+	victory_points = { 7399 3 }
+	victory_points = { 764 3 }
 	Owner = MAN
 	add_core_of = MAN
 	}
