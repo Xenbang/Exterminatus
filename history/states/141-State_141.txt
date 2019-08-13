@@ -1,22 +1,24 @@
+
 state={
 	id=141
 	name="STATE_141"
-	provinces={
-		5 331 477 900 1032 2002 2472 2630 2976 3611 4202 4721 4859 4970 5292 5477 5967 6183 6268 6295 6361 6457 7106 7288 7715 9138 9259 9260 9369 9402 9453 9513 9535 9544 9572 9615 9647 9663 9686 9738 9751 9766 9795 9828 
-	}
-	
-	manpower=1000000
 
-	state_category = large_town
-
-	history = { 
+	history={
 		owner = SCO
 		add_core_of = SCO
-
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3
-      	  	industrial_complex = 3
+			industrial_complex = 3
+
 		}
+
 	}
+
+	provinces={
+		5 331 477 622 900 1032 1916 2002 2406 2472 2630 2976 3611 4202 4721 4859 4970 5292 5477 5485 5967 6183 6268 6295 6361 6457 7106 7288 7493 7715 9138 9259 9260 9369 9402 9453 9513 9535 9544 9572 9615 9634 9647 9663 9686 9697 9738 9751 9757 9766 9795 9828 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

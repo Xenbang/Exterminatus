@@ -1,22 +1,24 @@
+
 state={
 	id=179
 	name="STATE_179"
-	provinces={
-		482 622 742 3887 4769 9932 9983 10052
-	}
-	
-	manpower=1000000
 
-	state_category = large_town
-
-	history = { 
+	history={
 		owner = SCO
 		add_core_of = SCO
-
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3
-      	  	industrial_complex = 3
+			industrial_complex = 3
+
 		}
+
 	}
+
+	provinces={
+		482 742 3887 4769 9932 9983 10052 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }
