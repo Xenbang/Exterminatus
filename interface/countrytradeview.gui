@@ -304,15 +304,17 @@ guiTypes = {
 		iconType = {
 			name = "player_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = -118 y = 5 }
+			position = { x = -118 y = -350 }
 			Orientation = upper_right
+			scale = 0.5
 		}
 			
 		iconType = {
 			name = "large_flag_frame"
-			position = { x = -124 y = 5 }
+			position = { x = -124 y = -305 }
 			spriteType = "GFX_large_flag_frame"
 			orientation = upper_right
+			scale = 0.5 
 		}	
 			
 		instantTextboxType = {
@@ -334,7 +336,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade"
-			position = { x = 114 y = 120 }
+			position = { x = 110 y = 120 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 180
@@ -478,7 +480,7 @@ guiTypes = {
 			
 		buttonType = {
 			name = "send_button"
-			position = { x = 352 y = -70 }
+			position = { x = 352 y = -72 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonFont = "hoi_16mbs"
 			buttonText = "SEND"
@@ -489,7 +491,7 @@ guiTypes = {
 			
 		buttonType = {
 			name = "cancel_button"
-			position = { x = 35 y = -70 }
+			position = { x = 35 y = -72 }
 			quadTextureSprite ="GFX_button_123x34"
 			buttonFont = "hoi_16mbs"
 			buttonText = "CLOSE"
@@ -623,7 +625,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "country_trade_entry"
-		position = { x = 0 y = 4 }
+		position = { x = -3 y = 1 }
 		size = { width = 511 height = 45 }
 		clipping = no
 

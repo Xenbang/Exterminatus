@@ -15,43 +15,41 @@ idea_categories = {
 	}
 	
 	government = {
+		slot = race
+		slot = form_of_government
+		slot = economic_state
+		slot = tithe_grade
+		slot = bureaucracy
+		slot = corruption
+
+		cost = 150
+		removal_cost = 999
+	}
+
+	military_stuff = {
+		slot = economy 
+		slot = production_grade
 		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
+		slot = production_facility
+		slot = production_facility
+		slot = production_facility
 		
 		cost = 150
-		removal_cost = 0
+		removal_cost = 999
 	}
-	
-	research_production = {
-		slot = tank_manufacturer
-		slot = naval_manufacturer
-		slot = aircraft_manufacturer
-		slot = materiel_manufacturer
-		slot = industrial_concern
-		slot = theorist
+
+	faction_related_stuff = {
+		slot = religious
+		slot = military
+		slot = nobility
+		slot = bureaucrats
+		slot = technocrats
 
 		cost = 150
-		removal_cost = 0
-
+		removal_cost = 999
 	}
-	
+
 	military_staff = {
-		slot = army_chief 
-		slot = navy_chief 
-		slot = air_chief
-		slot = high_command
-		slot = high_command
-		slot = high_command
-		
-		cost = 150
-		removal_cost = 0
-	}
-
-	military_staff2 = {
 		slot = army_chief 
 		slot = navy_chief 
 		slot = air_chief

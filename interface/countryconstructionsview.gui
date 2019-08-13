@@ -58,7 +58,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "available_factories_value"
-				position = { x = 20 y = 40 }
+				position = { x = 20 y = 42 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}
@@ -298,7 +298,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 9 }
+			position = { x = -43 y = 14 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"

@@ -2,21 +2,13 @@ state={
 	id=247
 	name="STATE_247"
 	provinces={
-		1275 2099 3235 3468 4136 4659 6918 7611 7983 10832 10892 10928 11006 11039 11056 11089 11189 11256
+		1275 2099 3235 3468 4136 4659 6918 7983 10892 10928 11006 11039 11056 11089 11189 11256
 	}
 	
-	manpower=1000000
+	manpower=100
 
-	state_category = large_town
+	state_category = wasteland
 
 	history = { 
-		owner = SCO
-		add_core_of = SCO
-
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-      	  	industrial_complex = 3
-		}
 	}
 }

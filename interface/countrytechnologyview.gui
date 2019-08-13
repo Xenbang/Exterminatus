@@ -57,7 +57,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "research_title"
-			position = { x = 35 y = 22 }
+			position = { x = 35 y = 23 }
 			textureFile = ""
 			font = "hoi_20mbs"
 			borderSize = {x = 0 y = 0}
@@ -106,14 +106,16 @@ guiTypes = {
 			
 			iconType = {
 				name = "focus_bonuses"
-				position = { x = 35 y = 115 }
+				position = { x = 10 y = 105 }
 				spriteType = "GFX_focus_bonuses_icon"
+				scale = 0.8
 			}
 
 			iconType = {
 				name = "research_speed_icon"
-				position = { x = 125 y = 103 }
+				position = { x = 110 y = 110 }
 				spriteType = "GFX_research_speed_icon"
+				scale = 0.8
 			}
 
 			instantTextboxType = {

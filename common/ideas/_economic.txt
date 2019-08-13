@@ -1,0 +1,118 @@
+ideas = {
+
+	race = {
+		human = {
+						
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}		
+		greenskins = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}	
+	}
+
+	form_of_government = {
+		dictatorship = {
+						
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}		
+		theocracy = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}	
+		technocracy = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		feudal = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		military_junta = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		brotherhood = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		dictatorship = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}																							
+	}
+}
