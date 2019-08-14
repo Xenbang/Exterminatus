@@ -781,7 +781,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "title"
-			position = { x = -75 y = 15 }
+			position = { x = -100 y = 15 }
 			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
@@ -790,7 +790,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 15 y = 35 }
+			position = { x = 5 y = 35 }
 			font = "hoi_16mbs"
 			text = "Switch out Henschel"
 			maxWidth = 250
@@ -853,7 +853,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trait"
-			position = { x = -8 y = 0 }
+			position = { x = -14 y = 0 }
 			font = "hoi_16mbs"
 			fixedsize = yes
 			text = ""
