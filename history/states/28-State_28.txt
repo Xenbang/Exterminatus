@@ -5,6 +5,18 @@ state={
 	provinces={
 		1511 4810 5178 6536 6932 8147 8150 8163 8176 8180 8191 8193 8211 8218 8234 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                owner = FIN
+		add_core_of = FIN
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
 }

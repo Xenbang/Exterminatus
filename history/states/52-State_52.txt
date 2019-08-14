@@ -5,6 +5,18 @@ state={
 	provinces={
 		504 1317 4128 4748 4759 6042 6078 6786 6851 7490 7492 8366 8417 8446 8531 8605 8648 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                owner = DEN
+		add_core_of = DEN
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
 }
