@@ -4,6 +4,18 @@ state={
 	provinces={
 		486 751 1130 1355 1755 2935 3037 3354 3369 4082 4354 4375 4803 5011 5029 5651 6848 7342 7344 7369 7741 10321 10403 10500 10551 10581 10677 10686 10717 10749 10762 10781 10782 10813 10867 10903 10931 10942 10972 11005 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                owner = SWI
+		add_core_of = SWI
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
 }

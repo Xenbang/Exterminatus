@@ -5,6 +5,22 @@ state={
 	provinces={
 		158 336 366 598 668 811 874 1060 1093 1185 1663 2204 2896 3021 3111 3188 3910 4049 4061 4816 4831 4887 5288 5908 6516 6569 6872 7070 7462 7893 7943 10631 10756 10804 10858 10879 10883 10884 10918 10925 11046 11054 11070 11076 11082 11114 11339 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                victory_point = { 4887 20 }
+                victory_point = { 10858 10 }
+                victory_point = { 158 10 }
+                victory_point = { 10925 10 }
+                owner = SWI
+		add_core_of = SWI
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
 }

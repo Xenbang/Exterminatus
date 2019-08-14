@@ -1,9 +1,9 @@
-﻿capital = 95
+﻿capital = 162
 
 create_country_leader = {
-	name = "Kastar Wendorfer"
+	name = "Heimar Pfizermann"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_5.dds"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_11.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {

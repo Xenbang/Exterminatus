@@ -4,6 +4,18 @@ state={
 	provinces={
 		156 2114 2145 3625 3664 4092 4553 4634 4740 5147 5714 6397 6564 6815 6878 6948 7429 7501 7536 7918 9321 9396 9419 9420 9511 9579 9582 9737 9803 10012 10051 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                owner = GER
+		add_core_of = GER
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
 }
