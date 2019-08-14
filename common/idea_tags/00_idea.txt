@@ -14,7 +14,7 @@ idea_categories = {
 		removal_cost = -1
 	}
 	
-	government = {
+	government = { #internal politics
 		slot = race
 		slot = form_of_government
 		slot = economic_state
@@ -25,12 +25,23 @@ idea_categories = {
 		removal_cost = 999
 	}
 
-	military_stuff = {
+	economy_stuff_2 = {
 		slot = economy 
 		slot = production_grade
 		slot = mobilization_laws
+		slot = sector_focus 
 		slot = production_facility
-		slot = production_facility
+		
+		cost = 150
+		removal_cost = 999
+	}
+
+	military_staff = {
+		slot = political_advisor 
+		slot = political_advisor
+		slot = political_advisor
+		slot = military_advisor
+		slot = military_advisor
 		
 		cost = 150
 		removal_cost = 999
@@ -42,18 +53,8 @@ idea_categories = {
 		slot = nobility
 		slot = technocrats
 
+
 		cost = 150
 		removal_cost = 999
-	}
-
-	military_staff = {
-		slot = army_chief 
-		slot = navy_chief 
-		slot = air_chief
-		slot = high_command
-		slot = high_command
-		
-		cost = 150
-		removal_cost = 0
 	}
 }

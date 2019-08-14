@@ -80,5 +80,70 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_adeptus_non"
 		textureFile = "gfx/interface/ideas/idea_tithe_grade_1.dds"
+	} 
+
+	spriteType = {
+		name = "GFX_idea_human"
+		textureFile = "gfx/interface/ideas/idea_humans_race.dds"
 	}   
+
+	spriteType = {
+		name = "GFX_idea_greenskins"
+		textureFile = "gfx/interface/ideas/idea_orks_race.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_ruination"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_5.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_decay"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_4.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_stagnation"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_3.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_growth"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_2.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_prosperity"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_1.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_dictatorship"
+		textureFile = "gfx/interface/ideas/governmenticons/dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_theocracy"
+		textureFile = "gfx/interface/ideas/governmenticons/theocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_technocracy"
+		textureFile = "gfx/interface/ideas/governmenticons/technocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_clan"
+		textureFile = "gfx/interface/ideas/governmenticons/clan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_brotherhood"
+		textureFile = "gfx/interface/ideas/governmenticons/brotherhood.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_governance"
+		textureFile = "gfx/interface/ideas/governmenticons/military_junta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_feudal"
+		textureFile = "gfx/interface/ideas/governmenticons/feudal.dds"
+	}   
+
 }

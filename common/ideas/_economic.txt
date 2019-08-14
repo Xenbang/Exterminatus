@@ -11,6 +11,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_race }
+
 			ai_will_do = {
    			}
 		}		
@@ -22,6 +24,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_race }
 
 			ai_will_do = {
    			}
@@ -39,6 +43,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_form_of_government }
+
 			ai_will_do = {
    			}
 		}		
@@ -50,6 +56,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_form_of_government }
 
 			ai_will_do = {
    			}
@@ -63,6 +71,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_form_of_government }
+
 			ai_will_do = {
    			}
 		}
@@ -74,6 +84,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_form_of_government }
 
 			ai_will_do = {
    			}
@@ -87,6 +99,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_form_of_government }
+
 			ai_will_do = {
    			}
 		}
@@ -98,6 +112,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_form_of_government }
 
 			ai_will_do = {
    			}
@@ -111,6 +127,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_form_of_government }
+
 			ai_will_do = {
    			}																							
 		}
@@ -122,6 +140,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_form_of_government }
 
 			ai_will_do = {
    			}																							
@@ -138,6 +158,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_tithe_grade }
+
 			ai_will_do = {
    			}																							
 		}
@@ -149,6 +171,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_tithe_grade }
 
 			ai_will_do = {
    			}																							
@@ -162,6 +186,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_tithe_grade }
+
 			ai_will_do = {
    			}																							
 		}
@@ -173,6 +199,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_tithe_grade }
 
 			ai_will_do = {
    			}																							
@@ -186,6 +214,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_tithe_grade }
+
 			ai_will_do = {
    			}																							
 		}	
@@ -197,6 +227,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_tithe_grade }
 
 			ai_will_do = {
    			}																							
@@ -210,6 +242,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_tithe_grade }
+
 			ai_will_do = {
    			}																							
 		}
@@ -221,6 +255,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_tithe_grade }
 
 			ai_will_do = {
    			}																							
@@ -234,6 +270,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_tithe_grade }
+
 			ai_will_do = {
    			}																							
 		}
@@ -245,6 +283,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_tithe_grade }
 
 			ai_will_do = {
    			}																							
@@ -261,6 +301,8 @@ ideas = {
 				
 			cancel_if_invalid = no
 
+			traits = { trait_economic_state }
+
 			ai_will_do = {
 			}																							
 		}
@@ -272,7 +314,9 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-		
+
+			traits = { trait_economic_state }
+
 			ai_will_do = {			
 			}																							
 		}
@@ -285,6 +329,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 	
+			traits = { trait_economic_state }
+
 			ai_will_do = {
 			}																							
 		}
@@ -297,6 +343,8 @@ ideas = {
 				
 			cancel_if_invalid = no
 
+			traits = { trait_economic_state }
+
 			ai_will_do = {
 			}																							
 		}
@@ -308,6 +356,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_economic_state }
 
 			ai_will_do = {
 			}																							
@@ -324,6 +374,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_corruption }
+
 			ai_will_do = {
    			}																							
 		}
@@ -335,6 +387,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_corruption }
 
 			ai_will_do = {
    			}																							
@@ -348,6 +402,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_corruption }
+
 			ai_will_do = {
    			}																							
 		}
@@ -359,6 +415,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_corruption }
 
 			ai_will_do = {
    			}																							
@@ -372,6 +430,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_corruption }
+
 			ai_will_do = {
    			}																							
 		}	
@@ -383,6 +443,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_corruption }
 
 			ai_will_do = {
    			}																							
@@ -396,6 +458,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_corruption }
+
 			ai_will_do = {
    			}																							
 		}
@@ -407,6 +471,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_corruption }
 
 			ai_will_do = {
    			}																							
@@ -420,6 +486,8 @@ ideas = {
 			
 			cancel_if_invalid = no
 
+			traits = { trait_corruption }
+
 			ai_will_do = {
    			}																							
 		}
@@ -431,6 +499,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
+
+			traits = { trait_corruption }
 
 			ai_will_do = {
    			}																							

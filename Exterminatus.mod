@@ -5,6 +5,7 @@ replace_path="history/units"
 replace_path="history/countries"
 replace_path="common/decisions"
 replace_path="common/national_focus"
+replace_path="common/ideas"
 replace_path="events"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
@@ -22,5 +23,6 @@ tags={
 	"Map"
 	"Utilities"
 }
+
 picture="blank_map_template_5632x2048.jpg"
 supported_version="1.7.1*"

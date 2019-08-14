@@ -583,10 +583,10 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "ideas_grid"
-			position = { x = 17 y = 46 }
+			position = { x = 30 y = 46 }
 			size = { width = 100%% height = 100%% }
-			slotsize = { width = 80 height = 64 }
-			max_slots = { x = 7 y = 1 }
+			slotsize = { width = 95 height = 64 }
+			max_slots = { x = 5 y = 1 }
 			format = "UPPER_LEFT"
 		}
 	}
@@ -764,12 +764,12 @@ guiTypes = {
 
 	containerWindowType = { ##Screen that shows up
 		name = "political_ideas_window"
-		position = { x = -356 y = 500 }	
-		show_position = { x = 544 y = 500 }
+		position = { x = -356 y = 400 }	
+		show_position = { x = 544 y = 400 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=500 height=540 }
+		size = { width=275 height=617 }
 		show_sound = open_sub_window
 		
 		background = {
@@ -778,16 +778,10 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			format = center
 		}
-
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-			position = { x = -1 y = 0 }					
-		}	
 		
 		instantTextboxType = {
 			name = "title"
-			position = { x = 0 y = 25 }
+			position = { x = -75 y = 15 }
 			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
@@ -796,25 +790,30 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 0 y = 45 }
-			font = "hoi_18b"
+			position = { x = 15 y = 35 }
+			font = "hoi_16mbs"
 			text = "Switch out Henschel"
-			maxWidth = 450
-			maxHeight = 20
+			maxWidth = 250
+			maxHeight = 200
 			format = center
 		}
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 50 }
+			position = { x = 0 y = 80 }
 			size = { width=500 height=100%% }	
 			
 			containerWindowType = {
 				name = "grid"
-				position = { x = 0 y = 25 }
-				size = { width=500 height=-4 }
+				position = { x = 0 y = 20 }
+				size = { width=270 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 4 bottom = 12}	
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window2_1b_border"
+				}
 
 				background = {
 					name = "Background"
@@ -825,9 +824,9 @@ guiTypes = {
 				gridBoxType = {
 					name = "box"
 					position = { x = 10 y = 10 }
-					size = { width = 500 height = 1 }
+					size = { width = 280 height = 1 }
 					slotsize = { width = 231 height = 75 }
-					max_slots_horizontal = 2
+					max_slots_horizontal = 1
 					add_horizontal = yes
 					format = "UPPER_LEFT"
 				}
@@ -854,7 +853,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trait"
-			position = { x = -16 y = 0 }
+			position = { x = -8 y = 0 }
 			font = "hoi_16mbs"
 			fixedsize = yes
 			text = ""
