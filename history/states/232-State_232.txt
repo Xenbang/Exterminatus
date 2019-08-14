@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = SCO
-		add_core_of = SCO
+		owner = BEL
+		add_core_of = BEL
 		buildings = {
 			infrastructure = 4
 			arms_factory = 3
