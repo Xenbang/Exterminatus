@@ -554,14 +554,14 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
-		position = { x = 0 y = 75 }
-		size = { width=550 height= 100 }
+		position = { x = 0 y = 35 }
+		size = { width=550 height= 150 }
 		clipping = no
 		
 		iconType ={
 			name ="category_header"
 			spriteType = "GFX_category_header"
-			position = { x=-5 y=2 }
+			position = { x=-5 y=0 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -589,91 +589,6 @@ guiTypes = {
 			max_slots = { x = 7 y = 1 }
 			format = "UPPER_LEFT"
 		}
-	}
-	
-	containerWindowType = { ##Screen that shows up
-		name = "political_ideas_window"
-		position = { x = -356 y = 500 }	
-		show_position = { x = 544 y = 500 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 300
-		size = { width=500 height=540 }
-		show_sound = open_sub_window
-		
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_plain_bg"
-			position = { x = 0 y = 0 }
-			format = center
-		}
-
-		background = {
-			name = "Background"
-			quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-			position = { x = -1 y = 0 }					
-		}	
-		
-		instantTextboxType = {
-			name = "title"
-			position = { x = 0 y = 25 }
-			font = "hoi_20b"
-			text = "Economic Laws"
-			maxWidth = 450
-			maxHeight = 20
-			format = center
-		}
-		instantTextboxType = {
-			name = "switch"
-			position = { x = 0 y = 45 }
-			font = "hoi_18b"
-			text = "Switch out Henschel"
-			maxWidth = 450
-			maxHeight = 20
-			format = center
-		}
-		
-		containerWindowType = {
-			name = "ideas"
-			position = { x = 0 y = 50 }
-			size = { width=500 height=100%% }	
-			
-			containerWindowType = {
-				name = "grid"
-				position = { x = 0 y = 25 }
-				size = { width=500 height=-4 }
-				verticalScrollbar = "right_vertical_slider"
-				margin = { top = 4 bottom = 12}	
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
-					position = { x = -1 y = 0 }					
-				}
-				
-				gridBoxType = {
-					name = "box"
-					position = { x = 10 y = 10 }
-					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 75 }
-					max_slots_horizontal = 2
-					add_horizontal = yes
-					format = "UPPER_LEFT"
-				}
-			}
-		}
-		
-		buttonType = {
-			name = "close"
-			position = { x = -50 y = 5 }
-			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "Main_14_black"
-			shortcut = "ESCAPE"
-			Orientation = "UPPER_RIGHT"
-			clicksound = click_close
-			pdx_tooltip = "CLOSE"
-		}
-		
 	}
 	
 	containerWindowType = {
@@ -835,16 +750,7 @@ guiTypes = {
 			position = { x = 64 y = 6 }
 			spriteType = "GFX_pol_party_colour"
 		}
-		
-		#instantTextboxType = {
-		#	name = "score"
-		#	position = { x = 160 y = 4 }
-		#	font = "hoi_16mbs"
-		#	text = "score"
-		#	maxWidth = 60
-		#	maxHeight = 18
-		#}
-			
+					
 		instantTextboxType = {
 			name = "name"
 			position = { x = 82 y = 4 }
@@ -855,7 +761,92 @@ guiTypes = {
 			maxHeight = 18
 		}
 	}
-	
+
+	containerWindowType = { ##Screen that shows up
+		name = "political_ideas_window"
+		position = { x = -356 y = 500 }	
+		show_position = { x = 544 y = 500 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width=500 height=540 }
+		show_sound = open_sub_window
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+			position = { x = 0 y = 0 }
+			format = center
+		}
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent_transparent"
+			position = { x = -1 y = 0 }					
+		}	
+		
+		instantTextboxType = {
+			name = "title"
+			position = { x = 0 y = 25 }
+			font = "hoi_20b"
+			text = "Economic Laws"
+			maxWidth = 450
+			maxHeight = 20
+			format = center
+		}
+		instantTextboxType = {
+			name = "switch"
+			position = { x = 0 y = 45 }
+			font = "hoi_18b"
+			text = "Switch out Henschel"
+			maxWidth = 450
+			maxHeight = 20
+			format = center
+		}
+		
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=500 height=100%% }	
+			
+			containerWindowType = {
+				name = "grid"
+				position = { x = 0 y = 25 }
+				size = { width=500 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 4 bottom = 12}	
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+					position = { x = -1 y = 0 }					
+				}
+				
+				gridBoxType = {
+					name = "box"
+					position = { x = 10 y = 10 }
+					size = { width = 500 height = 1 }
+					slotsize = { width = 231 height = 75 }
+					max_slots_horizontal = 2
+					add_horizontal = yes
+					format = "UPPER_LEFT"
+				}
+			}
+		}
+		
+		buttonType = {
+			name = "close"
+			position = { x = -50 y = 5 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+	}
+
 	containerWindowType = {
 		name = "idea_trait_entry"
 		#size = { width=24 height=32 }
@@ -1359,6 +1350,12 @@ guiTypes = {
 			format = left
 		}
 		
+	
+	
+	
+	
+	
+	
 	
 	containerWindowType = {
 		name = "occupied_entries_window"

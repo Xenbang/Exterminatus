@@ -1,0 +1,84 @@
+spriteTypes = {
+
+    ##Corruption##
+	spriteType = {
+		name = "GFX_idea_corruptio_exactic_extremis"
+		textureFile = "gfx/interface/ideas/idea_corruption_10.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_exactis_median"
+		textureFile = "gfx/interface/ideas/idea_corruption_9.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_exactic_tertius"
+		textureFile = "gfx/interface/ideas/idea_corruption_8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_decuma_extremis"
+		textureFile = "gfx/interface/ideas/idea_corruption_7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_decuma_prima"
+		textureFile = "gfx/interface/ideas/idea_corruption_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_decuma_tertius"
+		textureFile = "gfx/interface/ideas/idea_corruption_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_solutio_extremis"
+		textureFile = "gfx/interface/ideas/idea_corruption_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_solutio_prima"
+		textureFile = "gfx/interface/ideas/idea_corruption_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_solutio_tertius"
+		textureFile = "gfx/interface/ideas/idea_corruption_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_corruptio_adeptus_non"
+		textureFile = "gfx/interface/ideas/idea_corruption_1.dds"
+	}
+ 	spriteType = {
+		name = "GFX_idea_exactic_extremis"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_10.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_exactis_median"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_9.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_exactic_tertius"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_decuma_extremis"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_decuma_prima"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_decuma_tertius"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_solutio_extremis"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_solutio_prima"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_solutio_tertius"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_adeptus_non"
+		textureFile = "gfx/interface/ideas/idea_tithe_grade_1.dds"
+	}   
+}

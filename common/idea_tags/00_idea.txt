@@ -18,9 +18,8 @@ idea_categories = {
 		slot = race
 		slot = form_of_government
 		slot = economic_state
-		slot = tithe_grade
-		slot = bureaucracy
-		slot = corruption
+		slot = idea_category_tithe_grade
+		slot = idea_category_corruption
 
 		cost = 150
 		removal_cost = 999
@@ -32,7 +31,6 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = production_facility
 		slot = production_facility
-		slot = production_facility
 		
 		cost = 150
 		removal_cost = 999
@@ -42,7 +40,6 @@ idea_categories = {
 		slot = religious
 		slot = military
 		slot = nobility
-		slot = bureaucrats
 		slot = technocrats
 
 		cost = 150
@@ -53,7 +50,6 @@ idea_categories = {
 		slot = army_chief 
 		slot = navy_chief 
 		slot = air_chief
-		slot = high_command
 		slot = high_command
 		slot = high_command
 		

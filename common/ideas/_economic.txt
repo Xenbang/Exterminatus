@@ -78,7 +78,7 @@ ideas = {
 			ai_will_do = {
    			}
 		}
-		military_junta = {
+		military_governance = {
 			cost = 0
 			removal_cost = -1
 			
@@ -112,7 +112,328 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   			}
-		}																							
+   			}																							
+		}
+		clan = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
 	}
+
+	idea_category_tithe_grade = {
+		exactic_extremis = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		exactis_median = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		exactic_tertius = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		decuma_extremis = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		decuma_prima = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}	
+		decuma_tertius = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		solutio_extremis = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		solutio_prima = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}	
+		solutio_tertius = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		adeptus_non = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}	
+	}	
+
+	economic_state = {
+		economic_ruination = {
+			cost = 0
+			removal_cost = -1
+
+			modifier = {
+			}
+				
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			}																							
+		}
+		economic_decay = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		
+			ai_will_do = {			
+			}																							
+		}
+		economic_stagnation = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+	
+			ai_will_do = {
+			}																							
+		}
+		economic_growth = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+				
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			}																							
+		}
+		economic_prosperity = {
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+			}																							
+		}
+	}
+
+	idea_category_corruption = {
+		corruptio_exactic_extremis = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_exactis_median = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_exactic_tertius = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_decuma_extremis = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_decuma_prima = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}	
+		corruptio_decuma_tertius = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_solutio_extremis = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_solutio_prima = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}	
+		corruptio_solutio_tertius = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}
+		corruptio_adeptus_non = { 
+			cost = 0
+			removal_cost = -1
+			
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}																							
+		}	
+	}	
 }
