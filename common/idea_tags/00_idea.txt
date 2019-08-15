@@ -26,10 +26,10 @@ idea_categories = {
 	}
 
 	economy_stuff_2 = {
-		slot = economy 
+		slot = sector_focus 
 		slot = production_grade
 		slot = mobilization_laws
-		slot = sector_focus 
+		slot = production_facility 
 		slot = production_facility
 		
 		cost = 150
