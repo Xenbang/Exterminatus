@@ -118,20 +118,6 @@ ideas = {
 			ai_will_do = {
    			}
 		}
-		dictatorship = {
-			cost = 0
-			removal_cost = -1
-			
-			modifier = {
-			}
-			
-			cancel_if_invalid = no
-
-			traits = { trait_form_of_government }
-
-			ai_will_do = {
-   			}																							
-		}
 		clan = {
 			cost = 0
 			removal_cost = -1

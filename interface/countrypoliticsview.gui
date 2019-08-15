@@ -555,7 +555,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_politics_idea_category_entry"
 		position = { x = 0 y = 35 }
-		size = { width=550 height= 150 }
+		size = { width=550 height= 50 }
 		clipping = no
 		
 		iconType ={
