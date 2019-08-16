@@ -1,17 +1,16 @@
-
 state={
 	id=170
 	name="STATE_170"
-
+	manpower=2430300
+	state_category=city
 	history={
-		Owner = GXC
-		add_core_of = GXC
-
+	victory_points = { 9906 10 }
+	victory_points = { 9959 10 }
+	victory_points = { 4519 20 }
+	Owner = GXC
+	add_core_of = GXC
 	}
-
-	provinces={
+provinces={
 		15 141 160 307 495 1086 1239 1376 1474 1502 1648 1843 2230 3539 3567 3759 4519 4696 5061 5134 5291 6067 7209 7368 8012 9639 9731 9804 9905 9906 9917 9933 9959 10013 10035 10044 10074 10087 10157 10236 10263 10284 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+}
 }

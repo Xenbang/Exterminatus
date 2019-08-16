@@ -4,23 +4,11 @@ state={
 	provinces={
 		499 1329 1432 1472 2280 2393 2401 2533 3438 3920 4107 4744 5215 5313 6971 7392 7785 8031 11502 11524 11541 11548 11560 11611 11621 11666 11694 11759 11767 11781 11800 11858 11873 11979 11988 
 	}
-	
-	resources={
-		steel=10
-		aluminium=10 
-     	chromium=10
-        oil=10
-        tungsten=10
-        rubber=10
-    }
-
+	manpower=433445
+	state_category=rural
 	history = {
-		owner = SHX
-        add_core_of = SHX
-		buildings = {
-			infrastructure = 4
-			arms_factory = 3
-        	industrial_complex = 3
-        }
+	victory_points = { 3920 2 }
+	owner = SHX
+     add_core_of = SHX
 	}
 }
