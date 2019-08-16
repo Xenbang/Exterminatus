@@ -329,7 +329,7 @@ guiTypes = {
 				#################################
 				buttonType = {
 					name = "infantry_button"
-					position = { x=31 y=152 }
+					position = { x=31 y=136 }
 					quadTextureSprite ="GFX_add_prod_inf_art_line"
 					#pdx_tooltip = "PRODUCTION_INFANTRY_BUTTON"
 					clicksound = click_checkbox
@@ -346,7 +346,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "tank_button"
-					position = { x=111 y=152 }
+					position = { x=111 y=136 }
 					quadTextureSprite ="GFX_add_prod_armour_line"
 					#pdx_tooltip = "PRODUCTION_VEHICLES_BUTTON"
 					clicksound = click_checkbox
@@ -363,7 +363,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "aircraft_button"
-					position = { x=190 y=152 }
+					position = { x=190 y=136 }
 					quadTextureSprite ="GFX_add_prod_aircraft_line"
 					#pdx_tooltip = "PRODUCTION_AIRCRAFT_BUTTON"
 					clicksound = click_checkbox
@@ -621,14 +621,14 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_resources"
-					position = { x = 300 y = 165 }
+					position = { x = -300 y = 165 }
 					quadTextureSprite = "GFX_resources_checkbox"
 					clicksound = click_checkbox
 				}
 				
 				instantTextboxType = {
 					name = "factories_used_resources"
-					position = { x = 333 y = 165 }
+					position = { x = -333 y = 165 }
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -639,14 +639,14 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_outdated"
-					position = { x = 370 y = 165 }
+					position = { x = -370 y = 165 }
 					quadTextureSprite = "GFX_outdated_checkbox"
 					clicksound = click_checkbox
 				}
 				
 				instantTextboxType = {
 					name = "factories_used_outdated"
-					position = { x = 405 y = 165 }
+					position = { x = -405 y = 165 }
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -657,14 +657,14 @@ guiTypes = {
 
 				checkBoxType = {
 					name = "show_stockpiling"
-					position = { x = 430 y = 165 }
+					position = { x = -430 y = 165 }
 					quadTextureSprite = "GFX_stockpiling_checkbox"
 					clicksound = click_checkbox
 				}
 				
 				instantTextboxType = {
 					name = "factories_used_stockpiling"
-					position = { x = 465 y = 165 }
+					position = { x = -465 y = 165 }
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -1457,7 +1457,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "production_military_line_entry"
 		position = { x=0 y=0 }
-		size = { width=500 height=100 }
+		size = { width=500 height=105 }
 		clipping = no
 
 		background = {
@@ -1469,18 +1469,18 @@ guiTypes = {
 		iconType = {
 			name ="production_line_selected"
 			spriteType = "GFX_production_line_selected"
-			position = { x= 0 y = 0 }
+			position = { x = 1 y = 0 }
 		}
 		
 		iconType = {
 			name ="priority_frame"
 			spriteType = "GFX_conveyor_group_btn_frame"
-			position = { x= 2 y = 1 }
+			position = { x= -350 y = 1 }
 		}	
 		
 		instantTextboxType = {
 			name = "priority"
-			position = { x = 3 y = 6 }
+			position = { x = -350 y = 6 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			maxWidth = 25
@@ -1493,29 +1493,41 @@ guiTypes = {
 		iconType = {
 			name ="efficiency_progressbar_to_max"
 			spriteType = "GFX_efficiency_progressbar_to_max"
-			position = { x= 250 y = 8 }
+			position = { x= 165 y = 87 }
 		}
 		iconType = {
 			name ="efficiency_progressbar"
 			spriteType = "GFX_efficiency_progressbar"
-			position = { x= 250 y = 8 }
+			position = { x= 155 y = 87 }
 		
 		}
 		iconType = {
 			name ="efficiency_progressbar_frame"
 			spriteType = "GFX_efficiency_progressbar_frame"
-			position = { x= 246 y = 7 }
-		}		
+			position = { x= 155 y = 87 }
+		}
 
 		iconType = {
-			name ="efficiency_icon"
-			spriteType = "GFX_efficiency_icon"
-			position = { x= 223 y = 4 }
+			name ="progressbar"
+			spriteType = "GFX_prod_progress_bar2"
+			position = { x= 132 y = 16 }
+			hide = yes
+		}
+		
+		instantTextboxType = {
+			name = "speed"
+			position = { x = 136 y = 18 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			text = "--"
+			maxWidth = 120
+			maxHeight = 20
+			format = center
 		}
 		
 		buttonType = {
 			name = "equipment_button"
-			position = { x=1 y=27 }
+			position = { x=-12 y=5 }
 			quadTextureSprite = "GFX_prod_land_equipment_item_large"
 			clicksound = click_default
 		}
@@ -1523,36 +1535,37 @@ guiTypes = {
 		iconType = {
 			name ="outdated_equipment_overlay"
 			spriteType = "GFX_outdated_equipment_overlay"
-			position = {  x=4 y=31 }
+			position = {  x=4 y=5 }
 			alwaystransparent = yes			
 		}
 		
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=80 y=72 }
+			position = { x=80 y=48 }
 			centerposition = yes
 			alwaystransparent = yes
+			scale = 0.75
 		}
 
 		iconType = {
 			name ="subtech_strip_w_bg"
 			spriteType = "GFX_sub_tech_strip_w_bg"
-			position = { x=120 y=54 }
+			position = { x=-800 y=54 }
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name ="carrier_fighter_icon"
 			spriteType = "GFX_airwing_carrier_icon"
-			position = { x=20 y=88 }
+			position = { x=-320 y=88 }
 			centerposition = yes
 			alwaystransparent = yes
 		}		
 		
 		gridBoxType = {
 			name = "resources_grid"
-			position = { x = 462 y = 31 }
+			position = { x = 455 y = 31 }
 			size = { width = 40 height = 50 }
 			slotsize = { width = 40 height = 24 }
 			max_slots_vertical = 3
@@ -1561,41 +1574,23 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="progressbar"
-			spriteType = "GFX_prod_progress_bar2"
-			position = { x= 157 y = 27 }
-			hide = yes
-		}
-		
-		instantTextboxType = {
-			name = "speed"
-			position = { x = 155 y = 28 }
-			textureFile = ""
-			font = "hoi_18mbs"
-			text = "--"
-			maxWidth = 120
-			maxHeight = 20
-			format = center
-		}
-
-		iconType = {
 			name = "creator_flag"
 			quadTextureSprite ="GFX_flag_small"
-			position = { x = 245 y = 53 }
+			position = { x = -545 y = 53 }
 		}
 			
 		iconType = {
 			name ="equipment_designer"
 			spriteType = "GFX_tech_idea_bg"
-			position = { x = 230 y = 51 }
+			position = { x = -530 y = 51 }
 			scale = 0.6
 			alwaystransparent = yes
 		}
 		
 		gridBoxType = {
 			name = "factories_grid"
-			position = { x = 317 y = 33 }	
-			size = { width = 150  height = 90 }
+			position = { x = 307 y = 32 }	
+			size = { width = 150  height = 92 }
 			slotsize = { width = 29 height = 23 }
 			max_slots = { x = 5 y = 3 }
 			format = "UPPER_LEFT"
@@ -1603,27 +1598,27 @@ guiTypes = {
 
 		iconType = {
 			name = "prod_line_glow"
-			position = { x = 315 y = 31 }
+			position = { x = 305 y = 31 }
 			spriteType = "GFX_prod_line_glow"
 			alwaystransparent = yes
 		}
 		
 		buttonType = {
 			name = "btn_x10"
-			position = { x=278 y=30	 }
+			position = { x=263 y=55	 }
 			quadTextureSprite = "GFX_btn_x10"
 			clicksound = click_close
 		}
 		buttonType = {
 			name = "btn_x5"
-			position = { x=278 y=68	 }
+			position = { x=263 y=15	 }
 			quadTextureSprite = "GFX_btn_x5"
 			clicksound = click_close
 		}
 		
 		buttonType = {
 			name = "close_production_line"
-			position = { x=481 y=2	 }
+			position = { x=471 y=2	 }
 			quadTextureSprite = "GFX_NV_btn_delete"
 			clicksound = click_close
 			scale = 0.9
@@ -1631,7 +1626,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 55 y = 4 }
+			position = { x = 25 y = 83 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1644,7 +1639,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "general_name"
-			position = { x = 10 y = 31 }
+			position = { x = -194 y = 83 }
 			font = "hoi_16mbs"
 			maxWidth = 150
 			maxHeight = 30
@@ -1654,13 +1649,13 @@ guiTypes = {
 
 		iconType = {
 			name = "new_target"
-			position = { x=245 y=78 }
+			position = { x=220 y=52 }
 			quadTextureSprite = "GFX_prod_line_target_strip"
 		}
 		
 		instantTextboxType = {
 			name = "total_need"
-			position = { x = 145 y = 86 }
+			position = { x = 115 y = 53 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -1673,14 +1668,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "convert"
-			position = { x=10 y=75 }
+			position = { x=-300 y=75 }
 			quadTextureSprite = "GFX_production_line_convert"
 			clicksound = click_default
 		}		
 
 		buttonType = {
 			name = "expand"
-			position = { x=30 y=4 }
+			position = { x=25 y=16 }
 			quadTextureSprite = "GFX_strategicair_expand"
 			font = "hoi_16mbs"
 			frame = 2
@@ -1689,15 +1684,15 @@ guiTypes = {
 
 		iconType = {
 			name = "factories_used"
-			position = { x=@prod_icon_pos_x y=7 }	
+			position = { x=-325 y=7 }	
 			spriteType = "GFX_factory_item"
 			frame = 1
 			scale = 0.9
 		}
 		instantTextboxType = {
 			name = "factories_used_txt"
-			position = { x=@prod_nof_pos_x y=6 }
-			font = "hoi_18b"
+			position = { x=358 y=7 }
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 50
@@ -1707,42 +1702,42 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "factories_sub_1x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=320 y=5 }
 			quadTextureSprite = "GFX_subtract_one"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_sub_5x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=320 y=5 }
 			quadTextureSprite = "GFX_subtract_5"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_sub_10x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=320 y=5 }
 			quadTextureSprite = "GFX_subtract_10"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}	
 		buttonType = {
 			name = "factories_add_1x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=420 y=4 }
 			quadTextureSprite = "GFX_add_one"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_add_5x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=420 y=4 }
 			quadTextureSprite = "GFX_add_5"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_add_10x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=420 y=4 }
 			quadTextureSprite = "GFX_add_10"
 			font = "hoi_16mbs"
 			clicksound = click_default
@@ -1768,64 +1763,40 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name ="priority_frame"
-			spriteType = "GFX_conveyor_group_btn_frame"
-			position = { x= 2 y = 1 }
-		}	
-		
-		instantTextboxType = {
-			name = "priority"
-			position = { x = 3 y = 6 }
-			textureFile = ""
-			font = "hoi_16mbs"
-			maxWidth = 25
-			maxHeight = 20
-			text = "7"
-			format = center
-			alwaystransparent = yes
-		}
-
-		iconType = {
 			name ="efficiency_progressbar_to_max"
 			spriteType = "GFX_efficiency_progressbar_to_max"
-			position = { x= 250 y = 8 }
+			position = { x= 240 y = 10 }
 		}
 		iconType = {
 			name ="efficiency_progressbar"
 			spriteType = "GFX_efficiency_progressbar"
-			position = { x= 250 y = 8 }
+			position = { x= 240 y = 10 }
 		
 		}
 		iconType = {
 			name ="efficiency_progressbar_frame"
 			spriteType = "GFX_efficiency_progressbar_frame"
-			position = { x= 246 y = 7 }
+			position = { x= 236 y = 9 }
 		}		
 
 		iconType = {
 			name ="efficiency_icon"
 			spriteType = "GFX_efficiency_icon"
-			position = { x= 223 y = 4 }
+			position = { x= 200 y = -3 }
+			scale = 0.8
 		}
 		
-		buttonType = {
-			name = "equipment_button"
-			position = { x=0 y=33 }
-			quadTextureSprite = "GFX_equipment_item_collapsed"
-			clicksound = click_default
-		}
-
 		iconType = {
 			name ="outdated_equipment_overlay"
 			spriteType = "GFX_outdated_equipment_overlay_collapsed"
-			position = {  x=4 y=31 }
+			position = { x=80 y=43 }
 			alwaystransparent = yes			
 		}
 		
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=80 y=43 }
+			position = { x=80 y=45 }
 			centerposition = yes
 			scale = 0.5
 			alwaystransparent = yes
@@ -1834,7 +1805,7 @@ guiTypes = {
 		iconType = {
 			name ="subtech_strip_w_bg"
 			spriteType = "GFX_sub_tech_strip_w_bg"
-			position = { x=130 y=32 }
+			position = { x=-130 y=32 }
 			scale = 0.7
 			alwaystransparent = yes
 		}
@@ -1842,33 +1813,26 @@ guiTypes = {
 		iconType = {
 			name ="carrier_fighter_icon"
 			spriteType = "GFX_airwing_carrier_icon"
-			position = { x=20 y=44 }
+			position = { x=-220 y=44 }
 			centerposition = yes
 			alwaystransparent = yes
 		}		
 		
 		gridBoxType = {
 			name = "resources_grid"
-			position = { x = 360 y = 32 }
+			position = { x = 360 y =30 }
 			size = { width = 200 height = 50 }
 			slotsize = { width = 46 height = 24 }
 			max_slots_vertical = 1
 			max_slots_horizontal = 3			
 			format = "UPPER_LEFT"
 		}
-
-		iconType = {
-			name ="progressbar"
-			spriteType = "GFX_prod_progress_bar2"
-			position = { x= 157 y = 34 }
-			hide = yes
-		}
 		
 		instantTextboxType = {
 			name = "speed"
-			position = { x = 157 y = 34 }
+			position = { x = 157 y = 35 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			text = "--"
 			maxWidth = 120
 			maxHeight = 20
@@ -1877,7 +1841,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_production_line"
-			position = { x=481 y=2	 }
+			position = { x=481 y=31	 }
 			quadTextureSprite = "GFX_NV_btn_delete"
 			clicksound = click_close
 			scale = 0.9
@@ -1885,9 +1849,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "name"
-			position = { x = 55 y = 4 }
+			position = { x = 40 y = 8 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 170
 			maxHeight = 20
@@ -1898,13 +1862,13 @@ guiTypes = {
 		
 		iconType = {
 			name = "new_target"
-			position = { x=320 y=32 }
+			position = { x=325 y=35 }
 			quadTextureSprite = "GFX_prod_line_target_strip"
 		}
 		
 		instantTextboxType = {
 			name = "total_need"
-			position = { x = 281 y = 37 }
+			position = { x = 281 y = 35 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -1924,22 +1888,16 @@ guiTypes = {
 
 		buttonType = {
 			name = "expand"
-			position = { x=30 y=4 }
+			position = { x=20 y=7 }
 			quadTextureSprite = "GFX_strategicair_expand"
 			font = "hoi_16mbs"
 			frame = 1
 			clicksound = click_default
 		}
-		iconType = {
-			name = "factories_used"
-			position = { x=358 y=7 }	
-			spriteType = "GFX_factory_item"
-			frame = 1
-			scale = 0.9
-		}
+
 		instantTextboxType = {
 			name = "factories_used_txt"
-			position = { x=@prod_nof_pos_x y=6 }
+			position = { x=427 y=6 }
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
 			text = ""
@@ -1950,42 +1908,42 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "factories_sub_1x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=405 y=5 }
 			quadTextureSprite = "GFX_subtract_one"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_sub_5x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=405 y=5 }
 			quadTextureSprite = "GFX_subtract_5"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_sub_10x"
-			position = { x=@prod_sub_pos_x y=2 }
+			position = { x=405 y=5 }
 			quadTextureSprite = "GFX_subtract_10"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}	
 		buttonType = {
 			name = "factories_add_1x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=477 y=4 }
 			quadTextureSprite = "GFX_add_one"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_add_5x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=477 y=4 }
 			quadTextureSprite = "GFX_add_5"
 			font = "hoi_16mbs"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "factories_add_10x"
-			position = { x=@prod_add_pos_x y=2 }
+			position = { x=477 y=4 }
 			quadTextureSprite = "GFX_add_10"
 			font = "hoi_16mbs"
 			clicksound = click_default
@@ -2006,34 +1964,27 @@ guiTypes = {
 		iconType = {
 			name ="production_line_selected"
 			spriteType = "GFX_production_line_selected"
-			position = { x= 0 y = 0 }
+			position = { x = 0 y = 0 }
 		}
-				
+		
 		buttonType = {
 			name = "btn_x10"
-			position = { x=278 y=30	 }
+			position = { x=263 y=55	 }
 			quadTextureSprite = "GFX_btn_x10"
 			clicksound = click_close
 		}
 		buttonType = {
 			name = "btn_x5"
-			position = { x=278 y=68	 }
+			position = { x=263 y=15	 }
 			quadTextureSprite = "GFX_btn_x5"
 			clicksound = click_close
 		}
 
-		iconType = {
+		buttonType = {
 			name = "equipment_button"
-			position = { x=1 y=27 }
-			spriteType = "GFX_prod_land_equipment_item_large"
-		}
-
-		iconType = {
-			name ="equipment_icon"
-			spriteType = "GFX_technology_medium"
-			position = { x=140 y=68 }
-			centerposition = yes
-			alwaystransparent = yes
+			position = { x=-14 y=5 }
+			quadTextureSprite = "GFX_prod_land_equipment_item_large"
+			clicksound = click_default
 		}
 	}
 	
@@ -2372,37 +2323,7 @@ guiTypes = {
 			spriteType = "GFX_prod_line_glow"
 			alwaystransparent = yes
 		}
-		
-		#buttonType = {
-		#	name = "btn_x10"
-		#	position = { x=278 y=30	 }
-		#	quadTextureSprite = "GFX_btn_x10"
-		#	clicksound = click_close
-		#}
-		#buttonType = {
-		#	name = "btn_x5"
-		#	position = { x=278 y=68	 }
-		#	quadTextureSprite = "GFX_btn_x5"
-		#	clicksound = click_close
-		#}
-		#buttonType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	quadTextureSprite = "GFX_arrow_up_small"
-		#	pdx_tooltip = "PRODUCTION_INCREASE_PRIORITY_LABEL"
-		#	pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
-		#	clicksound = click_default
-		#}
-		#
-		#buttonType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	quadTextureSprite = "GFX_arrow_down_small"
-		#	pdx_tooltip = "PRODUCTION_DECREASE_PRIORITY_LABEL"
-		#	pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
-		#	clicksound = click_default
-		#}
-		
+				
 		buttonType = {
 			name = "close_production_line"
 			position = { x=481 y=2	 }
@@ -2597,14 +2518,6 @@ guiTypes = {
 			alwaystransparent = yes			
 		}		
 				
-		#iconType = {
-		#	name ="equipment_designer"
-		#	spriteType = "GFX_tech_idea_bg"
-		#	position = { x = 238 y = 49 }
-		#	scale = 0.5
-		#	alwaystransparent = yes
-		#}
-#		
 		buttonType = {
 			name = "increase_amount"
 			position = { x=326 y=32 }
@@ -3324,43 +3237,6 @@ guiTypes = {
 			pdx_tooltip = "NAVAL_SERIES_AMOUNT_DESC"			
 		}
 		
-		#iconType = {
-		#	name ="progressbar"
-		#	spriteType = "GFX_prod_progress_bar2"
-		#	position = { x= 158 y = 31 }
-		#}
-#
-		#instantTextboxType = {
-		#	name = "speed"
-		#	position = { x = 157 y = 32 }
-		#	textureFile = ""
-		#	font = "hoi_18mbs"
-		#	text = "--"
-		#	maxWidth = 120
-		#	maxHeight = 20
-		#	format = center
-		#}
-		
-		#iconType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	spriteType = "GFX_arrow_up_small"
-		#}
-		#
-		#iconType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	spriteType = "GFX_arrow_down_small"
-		#}
-
-		#buttonType = {
-		#	name = "deploy_location"
-		#	position = { x=200 y=-1	 }
-		#	quadTextureSprite = "GFX_naval_deploy_button"
-		#	buttonFont = "hoi_16mbs"
-		#	clicksound = click_default
-		#}	
-		
 		instantTextboxType = {
 			name = "name"
 			position = { x = 14 y = 3 }
@@ -3414,14 +3290,16 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "military_equipment_info_entry"
-		position = { x=0 y=0 }
-		size = { width=342 height= 80 }
+		position = { x=-9 y=5 }
+		size = { width=342 height= 100 }
 		clipping = no
 		
 		buttonType = {
 			name = "equipment_button"
 			position = { x=5 y=4 }
-			quadTextureSprite = "GFX_equipment_item_large"			
+			quadTextureSprite = "GFX_equipment_item_large"
+			size = { width=342 height= 200 }
+
 			clicksound = click_default
 			frame = 1
 		}
@@ -3443,7 +3321,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=175 y=51 }
+			position = { x=195 y=62 }
 			centerposition = yes
 			alwaystransparent = yes
 		}
@@ -3451,13 +3329,13 @@ guiTypes = {
 		iconType = {
 			name = "creator_flag"
 			quadTextureSprite ="GFX_flag_small"
-			position = { x = 230 y = 10 }
+			position = { x = -3505 y = 34 }
 		}
 		
 		iconType = {
 			name ="equipment_designer"
 			spriteType = "GFX_tech_idea_bg"
-			position = { x = 15 y = 34 }
+			position = { x = -3505 y = 34 }
 			scale = 0.5
 			alwaystransparent = yes
 		}
@@ -3465,21 +3343,21 @@ guiTypes = {
 		iconType = {
 			name ="sub_tech"
 			spriteType = "GFX_sub_tech_strip_w_bg"
-			position = { x=220 y=40 }
+			position = { x = -3505 y = 34 }
 			frame = 1
 			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "carrier_fighter_icon"
-			position = { x = 230 y = 55 }
+			position = { x = -3505 y = 34 }
 			spriteType = "GFX_airwing_carrier_icon"
 			alwaystransparent = yes
 		}
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 20 y = 6 }
+			position = { x = 66 y = 10 }
 			font = "hoi_18mbs"
 			text = "Maus"
 			maxWidth = 200
@@ -3491,7 +3369,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "general_name"
-			position = { x = 20 y = 22 }
+			position = { x = 66 y = 27 }
 			font = "hoi_16mbs"
 			text = "Perkele-tankki"
 			maxWidth = 150
@@ -3500,16 +3378,10 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-		iconType = {
-			name = "prod_entry_resource_bg"
-			position = { x = 257 y = 7 }
-			spriteType = "GFX_prod_entry_resource_bg"
-			alwaystransparent = yes
-		}
-		
+
 		gridBoxType = {
 			name = "resources_grid"
-			position = { x = 258 y = 10 }
+			position = { x = 305 y = 15 }
 			size = { width = 48 height = 150 }
 			slotsize = { width = 35 height = 23 }
 			max_slots_vertical = 6
@@ -3519,22 +3391,23 @@ guiTypes = {
 		
 		buttonType = {
 			name = "variant"
-			position = { x=297 y=37 }
+			position = { x=11 y=42 }
 			spriteType = "GFX_create_variants_button"
 			clicksound = click_default
+			scale = 0.8
 			frame = 1
 		}
 		
 		buttonType = {
 			name = "obsolete"
-			position = { x=306 y=15 }
+			position = { x=16 y=15 }
 			spriteType = "GFX_toggle_obsolete_button"
 			clicksound = click_default
 		}		
 		
 		instantTextboxType = {
 			name = "production_cost"
-			position = { x = 15 y = 61 }
+			position = { x = 66 y = 61 }
 			font = "hoi_18mbs"
 			text = "cost 9001"
 			maxWidth = 160
@@ -3549,7 +3422,6 @@ guiTypes = {
 			position = { x = 230 y = 10 }
 			alwaystransparent = yes
 		}
-
 	}
 	
 	containerWindowType = {
