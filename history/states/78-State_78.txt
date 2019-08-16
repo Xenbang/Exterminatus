@@ -10,14 +10,14 @@ state={
 	state_category = large_town
 
 	history = { 
-                victory_point = { 6983 20 }
-                victory_point = { 8816 10 }             
-                victory_point = { 8780 10 }
-                victory_point = { 5859 10 }
-                victory_point = { 2010 10 }
-                victory_point = { 8901 10 }
-                victory_point = { 4322 10 }
-                owner = SCO
+        victory_points = { 6983 20 }
+        victory_points = { 8816 10 }             
+        victory_points = { 8780 10 }
+        victory_points = { 5859 10 }
+        victory_points = { 2010 10 }
+        victory_points = { 8901 10 }
+        victory_points = { 4322 10 }
+        owner = SCO
 		add_core_of = SCO
 
 		buildings = {

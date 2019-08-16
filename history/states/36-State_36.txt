@@ -10,7 +10,7 @@ state={
 
 	history = { 
           
-                owner = NOR
+        owner = NOR
 		add_core_of = NOR
 
 		buildings = {

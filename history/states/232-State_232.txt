@@ -20,12 +20,13 @@ state={
 			industrial_complex = 3
 
 		}
-
 	}
 
 	provinces={
 		571 682 756 1594 2696 2826 3044 3088 3193 3601 3703 3935 4860 5119 5276 5472 5747 6576 7611 10535 10582 10625 10642 10652 10695 10702 10742 10763 10764 10783 10814 10822 10829 10832 10869 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
+	manpower = 1000000
+
+	state_category = large_town
 }

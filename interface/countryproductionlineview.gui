@@ -424,14 +424,14 @@ guiTypes = {
 
 				iconType = {
 					name = "military_factory_icon"
-					position = { x = 25 y = 120 }
+					position = { x = 295 y = 180 }
 					spriteType = "GFX_military_factory_icon"
 					pdx_tooltip = "arms_factory_desc"					
 				}
 				
 				instantTextboxType = {
 					name = "operational_factories"
-					position = { x = 55 y = 122 }
+					position = { x = 325 y = 182 }
 					textureFile = ""
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
@@ -445,7 +445,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "operational_factories_value"
-					position = { x = 168 y = 122 }
+					position = { x = 415 y = 182 }
 					textureFile = ""
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
@@ -547,14 +547,14 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_air"
-					position = { x = 430 y = 120 }
+					position = { x = 440 y = 120 }
 					quadTextureSprite = "GFX_air_checkbox"
 					clicksound = click_checkbox
 				}
 				
 				instantTextboxType = {
 					name = "factories_used_air"
-					position = { x = 450 y = 120 }
+					position = { x = 460 y = 120 }
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -1493,7 +1493,7 @@ guiTypes = {
 		iconType = {
 			name ="efficiency_progressbar_to_max"
 			spriteType = "GFX_efficiency_progressbar_to_max"
-			position = { x= 165 y = 87 }
+			position = { x= 155 y = 87 }
 		}
 		iconType = {
 			name ="efficiency_progressbar"
@@ -1504,19 +1504,19 @@ guiTypes = {
 		iconType = {
 			name ="efficiency_progressbar_frame"
 			spriteType = "GFX_efficiency_progressbar_frame"
-			position = { x= 155 y = 87 }
+			position = { x= 152 y = 87 }
 		}
 
 		iconType = {
 			name ="progressbar"
 			spriteType = "GFX_prod_progress_bar2"
-			position = { x= 132 y = 16 }
+			position = { x= -532 y = 16 }
 			hide = yes
 		}
 		
 		instantTextboxType = {
 			name = "speed"
-			position = { x = 136 y = 18 }
+			position = { x = 150 y = 21 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			text = "--"
@@ -1598,7 +1598,7 @@ guiTypes = {
 
 		iconType = {
 			name = "prod_line_glow"
-			position = { x = 305 y = 31 }
+			position = { x = 306 y = 32 }
 			spriteType = "GFX_prod_line_glow"
 			alwaystransparent = yes
 		}
@@ -1785,6 +1785,14 @@ guiTypes = {
 			position = { x= 200 y = -3 }
 			scale = 0.8
 		}
+
+		buttonType = {
+			name = "equipment_button"
+			position = { x=35 y=32 }
+			quadTextureSprite = "GFX_prod_land_equipment_item_large"
+			clicksound = click_default
+			scale = 0.3
+		}		
 		
 		iconType = {
 			name ="outdated_equipment_overlay"

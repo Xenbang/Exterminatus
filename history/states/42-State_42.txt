@@ -10,9 +10,9 @@ state={
 	state_category = large_town
 
 	history = { 
-victory_point = { 6483 20 }  
-victory_point = { 8281 10 }              
-owner = SWE
+		victory_points = { 6483 20 }  
+		victory_points = { 8281 10 }              
+		owner = SWE
 		add_core_of = SWE
 
 		buildings = {

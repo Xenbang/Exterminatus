@@ -4,11 +4,14 @@ state={
 	provinces={
 		7671 11018 10974 10913 2877 10904 
 	}
+	
 	manpower=85000
+	
 	state_category=town
+	
 	history={
-	victory_points = { 7671 10 }
-	owner=BEL
-	add_core_of=BEL
-	{
+		victory_points = { 7671 10 }
+		owner=BEL
+		add_core_of=BEL
+	}
 }

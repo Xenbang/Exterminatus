@@ -6,11 +6,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		stout_defender
 	}
 }
 
-oob = "FRA_1936"
+oob = ""
 
 set_politics = {
 	ruling_party = democratic
