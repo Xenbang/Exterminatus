@@ -34,4 +34,32 @@ leader_traits = {
 			factor = 1
 		}
 	}		
+	trait_sector = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	trait_production_grade = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	trait_mobilization_law = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	trait_special_facility = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 }
