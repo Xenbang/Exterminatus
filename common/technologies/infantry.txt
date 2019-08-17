@@ -15,7 +15,7 @@ technologies = {
 	special_weapons = {
 
 		enable_equipments = {
-			infantry_equipment_0
+			special_equipment_0
 		}
 		
 		enable_subunits = {
@@ -661,7 +661,7 @@ technologies = {
 	heavy_weapons = {
 
 		enable_equipments = {
-			infantry_equipment_0
+			heavy_equipment_0
 		}
 		
 		enable_subunits = {
