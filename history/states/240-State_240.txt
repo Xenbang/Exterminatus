@@ -6,6 +6,9 @@ state={
 	}
 	manpower=2005000
 	state_category = city
+	resources={
+        rubber=12
+    }
 	history={
 	victory_points = { 3847 20 }
 	victory_points = { 11109 20 }
