@@ -2,8 +2,8 @@
 
 
 FRA = {
-	color = rgb { 192 192 192 }
-	color_ui = rgb { 255 255 255 }
+	color = rgb { 52 148 216 }
+	color_ui = rgb { 0 126 216 }
 }
 YUN = {
 	color = rgb { 255 227 89 }
@@ -29,66 +29,61 @@ MAN = {
 }
 
 BEL = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 DEN = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 ENG = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 FIN = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 GER = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 GRE = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
-}
-
-GXC = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 IRE = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 NOR = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 SCO = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 SWE = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 SWI = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
 
 WLS = {
-	color = rgb { 115 115 115 }
-	color_ui = rgb { 122 145 93 }
+	color = rgb { 50 102 158 }
+	color_ui = rgb { 50 102 158 }
 }
