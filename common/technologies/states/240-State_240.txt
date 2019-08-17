@@ -1,0 +1,16 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		2320 3847 5928 6522 7993 10992 11049 11068 11109 11121 11181 
+	}
+	manpower=2005000
+	state_category = city
+	history={
+	victory_points = { 3847 20 }
+	victory_points = { 11109 20 }
+	victory_points = { 5928 20 }
+	Owner = YUN
+	add_core_of = YUN
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=226
+	name="STATE_226"
+	provinces={
+		46 298 531 1830 1835 3224 3245 3474 4019 4201 4802 5352 6340 7958 10618 10681 10688 10732 10779 10790 10825 10835 10861 10870 10907 10933 10966 10976 11029 11058 
+	}
+	manpower=564332
+	state_category=rural
+	history={
+	victory_points = { 10732 2 }
+	victory_points = { 10907 2 }
+	victory_points = { 4019 2 }
+	Owner = GXC
+	add_core_of = GXC
+	}
+}

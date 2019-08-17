@@ -1,0 +1,19 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		701 747 1008 4158 5186 5682 6158 8534 8561 8565 8622 8649 8672 8673 8714 
+	}
+	manpower=6220300
+	state_category = megalopolis
+		history={
+		owner = MAN
+		victory_points = { 8673 50 }
+		victory_points = { 747 10 }
+		victory_points = { 8672 10 }
+		victory_points = { 701 10 }
+		victory_points = { 8649 10 }
+		victory_points = { 6158 10 }
+		add_core_of = MAN
+	}
+}

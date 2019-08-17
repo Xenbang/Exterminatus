@@ -1,0 +1,26 @@
+state={
+	id=337
+	name="STATE_337"
+	provinces={
+		282 1199 2426 2666 3665 4966 6155 6380 12073 12165 12252 12338 12339 12448 12512 12588 12672 12712 12738 
+	}
+	manpower=8458325
+	state_category=megalopolis
+	history={
+	victory_points = { 4966 10 }
+	victory_points = { 12252 10 }
+	victory_points = { 12165 10 }
+	victory_points = { 12073 10 }
+	victory_points = { 6155 20 }
+	victory_points = { 12339 10 }
+	victory_points = { 3665 10 }
+	victory_points = { 12588 10 }
+	victory_points = { 282 10 }
+	victory_points = { 12672 20 }
+	victory_points = { 1199 25 }
+	victory_points = { 12738 50 }
+	victory_points = { 12712 30 }
+	Owner = YUN
+	add_core_of = YUN
+	}
+}

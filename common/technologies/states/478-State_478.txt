@@ -1,0 +1,13 @@
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		3153 3994 11249 11281 6479
+	}
+	manpower=45000
+	state_category=town
+	history={
+		owner = SHX
+		add_core_of = SHX
+	}	
+}

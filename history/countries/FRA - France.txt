@@ -18,7 +18,37 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Édouard Daladier"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Édouard Daladier"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Édouard Daladier"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	expire = "1965.1.1"
+	ideology = anti_revisionism
 	traits = {
 	}
 }
@@ -30,7 +60,52 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 69
-	fascism = 1
-	communism = 30
+	democratic = 0
+	fascism = 100
+	communism = 0
+}
+
+set_autonomy = {
+	target = BEL
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = DEN
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = ENG
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = GER
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = GRE
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = IRE
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = NOR
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = SCO
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = SWE
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = SWI
+	autonomous_state = autonomy_reichskommissariat
+}
+set_autonomy = {
+	target = WLS
+	autonomous_state = autonomy_reichskommissariat
 }

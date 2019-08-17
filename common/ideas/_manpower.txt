@@ -221,8 +221,6 @@ ideas = {
 		}
 		
 		service_by_requirement = {
-			
-			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
@@ -345,8 +343,6 @@ ideas = {
 		}
 		
 		all_adults_serve = {
-			
-			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
@@ -455,9 +451,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
-		scraping_the_barrel = {
-			
-			
+		scraping_the_barrel = {			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
@@ -551,7 +545,7 @@ ideas = {
 		}
 	}
 
-	economy = { 
+	mobilization_laws = { 
 		law = yes
 		undisturbed_isolation = {
 			
@@ -787,8 +781,26 @@ ideas = {
 
 	production_grade = { 
 		law = yes
+		adeptus_non = {
+						
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
 
-		free_trade = {
+			ai_will_do = {
+   			}
+		}
+
+		IV_tertius = {
 						
 			cost = 150
 			removal_cost = -1
@@ -807,7 +819,7 @@ ideas = {
    			}
 		}
 		
-		export_focus = {
+		IV_prima = {
 			
 			available = {
 			}
@@ -831,7 +843,7 @@ ideas = {
    			}
 		}
 		
-		limited_exports = {
+		IV_maximus = {
 			
 			
 			available = {
@@ -870,29 +882,18 @@ ideas = {
 				}
    			}
 		}
-		
-		closed_economy = {
-			
-			
-			available = {
-				has_war = yes
 
-				OR = {
-					has_idea = war_economy
-					has_idea = tot_economic_mobilisation
-				}
-			}
-			
+		III_tertius = {
+						
 			cost = 150
 			removal_cost = -1
 			
-			
 			modifier = {
-				min_export = 0
-			}
-			
-			on_add = {
-				custom_effect_tooltip = closed_economy_TT
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
 			}
 			
 			cancel_if_invalid = no
@@ -900,5 +901,234 @@ ideas = {
 			ai_will_do = {
    			}
 		}
+		
+		III_prima = {
+			
+			available = {
+			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		
+		III_maximus = {
+			
+			
+			available = {
+			}
+		
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+				}
+   			}
+		}	
+
+		II_tertius = {
+						
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		
+		II_prima = {
+			
+			available = {
+			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		
+		II_maximus = {
+			
+			
+			available = {
+			}
+		
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+				}
+   			}
+		}	
+		I_tertius = {
+						
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		
+		II_prima = {
+			
+			available = {
+			}
+			
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+			}
+			
+			default = yes
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}
+		
+		maximus = {
+			
+			
+			available = {
+			}
+		
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.25
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 0
+					
+					is_major = no
+					is_in_faction = yes
+					has_war = yes
+				}
+
+				# minors not at war should want to get the bonuses from free trade
+				modifier = {
+					factor = 0
+					
+					is_major = no
+					has_war = no
+				}
+   			}
+		}				
 	}
 }

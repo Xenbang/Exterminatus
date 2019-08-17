@@ -1,0 +1,22 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		849 1893 2480 2647 5696 7641 7907 8206 8214 8221 8231 8249 8283 8320 8326 
+	}
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+          
+        owner = NOR
+		add_core_of = NOR
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
+}

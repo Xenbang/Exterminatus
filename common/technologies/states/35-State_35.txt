@@ -1,0 +1,22 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		164 586 1429 2184 2677 2771 4284 4723 5601 5774 6489 6533 6955 6996 7201 7279 8140 8149 8164 8190 8199 8203 8217 8229 8232 8242 8245 8263 8291 8296 
+	}
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+          
+        owner = NOR
+		add_core_of = NOR
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
+}

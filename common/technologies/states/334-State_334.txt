@@ -1,0 +1,14 @@
+state={
+	id=334
+	name="STATE_334"
+	provinces={
+		472 2332 2542 3322 5920 6327 6567 6864 6945 7640 7780 12127 12151 12219 12232 12368 12386 12405 12452 12480 12571 12601 12628 12658 12717 
+	}
+	manpower=221044
+	state_category = small_island
+		history={
+		owner = XSM
+		victory_points = { 12628 1 }
+		add_core_of = XSM
+	}	
+}

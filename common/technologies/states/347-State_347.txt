@@ -1,0 +1,17 @@
+state={
+	id=347
+	name="STATE_347"
+	provinces={
+		535 871 1537 1616 1702 2764 2989 3147 3572 3741 4093 4140 4153 4385 5145 5600 5772 6967 7126 7384 7666 12325 12346 12427 12497 12754 12779 12806 12829 12898 12935 12949 13010 13090 13130 13158 
+	}
+	manpower=1405609
+	state_category = large_town
+	history={
+	victory_points = { 12806 20 }
+	victory_points = { 6967 5 }
+	victory_points = { 12829 5 }
+	victory_points = { 12779 5 }
+	Owner = YUN
+	add_core_of = YUN
+	}
+}

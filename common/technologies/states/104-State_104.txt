@@ -1,0 +1,24 @@
+
+state={
+	id=104
+	name="STATE_104"
+
+	history={
+		owner = SCO
+		add_core_of = SCO
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
+
+		}
+
+	}
+
+	provinces={
+		1242 1560 1582 1727 2059 2179 2228 2710 3229 3288 3380 4073 4676 5274 5427 5799 6016 6236 6453 6527 6706 7030 7033 7570 8824 8910 8917 8923 8946 8961 9031 9089 9179 9216 9250 9294 9313 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

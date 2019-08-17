@@ -1,0 +1,21 @@
+state={
+	id=119
+	name="STATE_119"
+	provinces={
+		1307 2728 2878 2879 3678 4192 4658 4688 5586 5968 6389 6591 6730 9025 9117 9236 9242 9270 9336 9359 9378 9489 9509 
+	}
+		manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                owner = ENG
+		add_core_of = ENG
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
+}

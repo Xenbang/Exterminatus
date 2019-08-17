@@ -1,0 +1,14 @@
+state={
+	id=281
+	name="STATE_281"
+	provinces={
+		159 234 339 1399 2015 2105 2162 3324 3660 3927 4016 4982 6118 6351 6733 6789 7098 7264 7689 7770 11320 11388 11467 11476 11622 11632 11678 11710 11747 11833 11899 
+	}
+	manpower=325000
+	state_category=pastoral
+	history={
+	victory_points = { 11622 2 }
+	Owner = GXC
+	add_core_of = GXC
+	}
+}

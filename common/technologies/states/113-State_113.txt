@@ -1,0 +1,19 @@
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		131 171 822 1133 1431 2775 2929 3467 4173 4244 4415 5002 5598 5720 5722 5742 6087 6111 6895 7065 7619 8891 8947 8974 9001 9007 9032 9085 9090 9153 9154 9172 9208 9230 9272 9276 9305 9338 9412 
+	}
+	manpower=9432210
+	state_category = metropolis
+    history={
+	Owner = MAN 
+	victory_points = { 5722 20 }
+	victory_points = { 3467 20 }
+	victory_points = { 9272 20 }
+	victory_points = { 4244 20 }
+	victory_points = { 9154 20 }
+	victory_points = { 9085 20 }
+	add_core_of = MAN
+	}	
+}

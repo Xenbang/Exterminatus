@@ -1,0 +1,12 @@
+state={
+	id=413
+	name="STATE_413"
+	provinces={
+		3076 3688 4318 4538 6988 7823 13516 13564 13607 13633 13637 13712 13724 
+	}
+	manpower = 1
+
+	state_category = wasteland
+
+	buildings_max_level_factor=1.000
+}

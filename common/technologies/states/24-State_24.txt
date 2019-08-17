@@ -1,0 +1,29 @@
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		1657 1896 3251 5017 5699 6530 6916 8104 8115 8137 
+	}
+	manpower = 4000000
+
+	state_category = large_town
+
+	resources={
+		steel=10
+		aluminium=10 
+     	chromium=10
+        oil=10
+        tungsten=10
+        rubber=10
+    }
+
+	history = {
+		owner = FRA
+        add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+        	industrial_complex = 3
+        }
+	}
+}

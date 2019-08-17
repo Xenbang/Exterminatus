@@ -1,0 +1,21 @@
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		20 39 777 1991 2038 2074 2608 2727 3058 3282 3944 4257 4785 5195 5200 5952 6687 7259 7755 7873 8646 8684 8685 8725 8753 8829 8847 8889 8896 8926 8998 9008 9030 9067 9134 
+	}
+		manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+                owner = ENG
+		add_core_of = ENG
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
+}

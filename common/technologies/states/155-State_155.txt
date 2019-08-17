@@ -1,0 +1,15 @@
+state={
+	id=155
+	name="STATE_155"
+	provinces={
+		659 3925 4406 4856 6636 9567 9623 9698 9741 9780 9797 9862 9907 
+	}
+   manpower=450300
+    state_category = town
+	history={
+		owner = XSM
+		victory_points = { 4856 2 }
+		victory_points = { 9862 5 }
+		add_core_of = XSM
+	}
+}

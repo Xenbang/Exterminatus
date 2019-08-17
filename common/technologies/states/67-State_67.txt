@@ -1,0 +1,22 @@
+state={
+	id=67
+	name="STATE_67"
+	provinces={
+		1763 1938 2762 3102 3377 3819 3841 4156 6307 6342 6584 7451 8592 8639 8654 8671 8705 8744 8755 8763 8767 8801 8817 8834 8840 
+	}
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+		
+                owner = SWE
+		add_core_of = SWE
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
+}

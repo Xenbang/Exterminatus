@@ -1,0 +1,25 @@
+
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		133 420 439 924 2068 2641 3461 4126 4127 4200 4389 4403 4917 5488 5560 5721 6003 6167 6414 7854 8437 8458 8461 8476 8477 8484 8504 8510 8516 8522 8523 8577 8603 8634 8666 8751 
+	}
+	manpower=1000000
+
+	state_category = large_town
+
+	history = { 
+		
+          victory_points = { 7854 10 }
+          victory_points = { 8510 10 }
+                owner = IRE
+		add_core_of = IRE
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+      	  	industrial_complex = 3
+		}
+	}
+}

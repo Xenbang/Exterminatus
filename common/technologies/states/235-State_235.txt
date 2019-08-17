@@ -1,0 +1,13 @@
+
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		921 1058 1059 2115 2593 4008 4159 5341 5470 6863 7204 7465 7476 7724 10700 10714 10724 10731 10761 10840 10866 10878 10924 10941 
+	}
+	manpower = 1
+
+	state_category = wasteland
+
+	buildings_max_level_factor=1.000
+}

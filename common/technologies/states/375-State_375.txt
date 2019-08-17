@@ -1,0 +1,23 @@
+state={
+	id=375
+	name="STATE_375"
+	provinces={
+		73 88 530 907 1128 1548 12711 1870 2531 2576 2967 3333 3914 4391 4663 4783 5085 5246 5328 5826 6930 7486 7509 12737 12870 12880 12900 12957 12975 13056 13091 13117 13123 13142 13159 13165 13198 13207 13234 13269 13280 13292 
+	}
+	manpower=3342299
+	state_category=large_city
+	history={
+	victory_points = { 4391 5 }
+	victory_points = { 5328 5 }
+    victory_points = { 13091 5 }
+    victory_points = { 12880 5 }
+    victory_points = { 12957 5 }
+    victory_points = { 5246 5 }
+    victory_points = { 13123 5 }
+    victory_points = { 7509	20 }
+    victory_points = { 13056 15 }
+    victory_points = { 13117 5 }	
+	Owner = YUN
+	add_core_of = YUN
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		2136 2149 2201 2416 2559 3233 3609 4118 4197 4410 4612 4695 6025 6144 7329 7442 7639 7810 7951 9371 9386 9431 9455 9462 9478 9545 9561 9573 9604 9643 
+	}
+	manpower=2405118
+	state_category = large_city
+	history={
+	Owner = MAN 
+	victory_points = { 9455 20 }
+	victory_points = { 4197 10 }
+	victory_points = { 9462 10 }
+	victory_points = { 9386 10 }
+	victory_points = { 2136 1 }
+	add_core_of = MAN
+	}
+}

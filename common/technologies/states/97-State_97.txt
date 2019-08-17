@@ -1,0 +1,17 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		3289 5703 5725 5819 6186 6471 7179 8802 8871 8918 8919 8973 9000 9044 9096 9114 9184 
+	}
+	manpower=640843
+	state_category = town
+	history={
+	Owner = MAN 
+	victory_points = { 3289 5 }
+	victory_points = { 8802 5 }
+	victory_points = { 6471 5 }
+	victory_points = { 8871 5 }
+	add_core_of = MAN
+	}
+}
