@@ -9,5 +9,8 @@ state={
 	history={
 	Owner = YUN
 	add_core_of = YUN
+	buildings = {
+			infrastructure = 1
+        }
 	}
 }
