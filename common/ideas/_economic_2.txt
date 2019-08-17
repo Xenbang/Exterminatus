@@ -545,134 +545,52 @@ ideas = {
 		}
 	}
 
-	mobilization_laws = { 
+	sector_focus = { 
 		law = yes
-		undisturbed_isolation = {
+	
+		feudal_sector = {
 			
-			allowed = {
-				always = no
-			}
-
-			level = 6 
-			
-			removal_cost = -1
-		
-			modifier = {
-				consumer_goods_factor = 0.50
-				production_speed_industrial_complex_factor = -0.5
-				production_speed_arms_factory_factor = -0.5
-				production_speed_dockyard_factor = -0.5
-				conversion_cost_civ_to_mil_factor = 0.5
-				conversion_cost_mil_to_civ_factor = 0.5
-				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				lend_lease_tension = 0.50
-				send_volunteers_tension = 0.20
-				guarantee_tension = 0.75
-				max_fuel_factor = -0.45
-				fuel_gain_factor = -0.6
-			}
-			
-			allowed_to_remove = {
-				OR = {
-					has_war = yes
-				}
-			}
-			
-			cancel_if_invalid = no
-		}
-		
-		isolation = {
-			
-			allowed = {
-				always = no
-			}
-
-			level = 5
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.4
-				production_speed_industrial_complex_factor = -0.4
-				production_speed_arms_factory_factor = -0.4
-				production_speed_dockyard_factor = -0.4
-				conversion_cost_civ_to_mil_factor= 0.4
-				conversion_cost_mil_to_civ_factor = 0.4
-				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				send_volunteers_tension = 0.20
-				guarantee_tension = 0.5
-				max_fuel_factor = -0.35
-				fuel_gain_factor = -0.5
-			}
-			allowed_to_remove = {
-				OR = {
-					has_war = yes
-				}
-			}
-			
-			cancel_if_invalid = no
-		}
-		
-		civilian_economy = {
-			
-			level = 5
-
-			cost = 150
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.35
-				production_speed_industrial_complex_factor = -0.3
-				production_speed_arms_factory_factor = -0.3
-				conversion_cost_civ_to_mil_factor= 0.3
-				conversion_cost_mil_to_civ_factor = 0.3
-				max_fuel_factor = -0.25
-				fuel_gain_factor = -0.4
-			}
-			
-			default = yes
-			
-			cancel_if_invalid = no
-		}
-		
-		low_economic_mobilisation = {
-			
-			level = 4 
-
 			available = {
-				has_war_support > 0.15
+				has_war_support > 0.25
 			}
-			
+
 			cost = 150
 			removal_cost = -1
-			
+			level = 3
+
 			modifier = {
-				consumer_goods_factor = 0.3
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = -0.1
-				fuel_gain_factor = -0.25
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
-
-			ai_will_do = {
-   				factor = 2
-
-   				modifier = {
-					factor = 20
-					
-					is_major = yes
-				}
-				modifier = {
-					has_war_support > 0.25
-					factor = 0 #don't even look at it if you could be taking partial mob
-				}
- 			}
 		}
-		
-		partial_economic_mobilisation = {
+
+		farming_sector = {
+			
+			available = {
+				has_war_support > 0.25
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		industrial_sector = {
 			
 			available = {
 				has_war_support > 0.25
@@ -693,86 +611,85 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
-		war_economy = {
+		hive_sector = {
 			
 			available = {
-				has_war_support > 0.5
+				has_war_support > 0.25
 			}
-		
+
 			cost = 150
 			removal_cost = -1
-			level = 2
+			level = 3
 
 			modifier = {
-				consumer_goods_factor = 0.2
-				production_speed_arms_factory_factor = 0.2
-				conversion_cost_civ_to_mil_factor= -0.2
-				conversion_cost_mil_to_civ_factor = -0.2
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
-			on_add = {
-			}
-			ai_will_do = {
-   				factor = 5
-
-				modifier = {
-					#High prio on production
-					factor = 20
-					manpower_per_military_factory >  1000
-				}
-   			}
 		}
 		
-		tot_economic_mobilisation = {
+		shrine_sector = {
 			
 			available = {
-				has_war = yes
-				has_war_support > 0.8
-				any_enemy_country = {
-					ic_ratio = { 
-						tag = ROOT 
-						ratio > 0.5
-					}
-				}
+				has_war_support > 0.25
 			}
 
-			ai_will_do = {
-   				factor = 1
-
-				modifier = {
-					factor = 25
-					#Prio this if nation has a lot of manpower compared to MIC
-					manpower_per_military_factory > 15000
-				}
-
-				modifier = {
-					#Block  unless nation has a lot of manpower
-					factor = 0
-					manpower_per_military_factory <  7000
-				}
-
-				
-				modifier = {
-					# never take this if we are on low conscription laws for safety
-					factor = 0
-					OR = {
-						has_idea = volunteer_only
-						has_idea = limited_conscription
-					}
-				}
-   			}
-			
 			cost = 150
 			removal_cost = -1
-			level = 1
+			level = 3
 
 			modifier = {
-				consumer_goods_factor = 0.10
-				conscription = -0.03
-				production_speed_arms_factory_factor = 0.3
-				conversion_cost_civ_to_mil_factor= -0.3
-				conversion_cost_mil_to_civ_factor = -0.3
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		fortress_sector = {
+			
+			available = {
+				has_war_support > 0.25
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		mining_sector = {
+			
+			available = {
+				has_war_support > 0.25
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor= -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -781,7 +698,8 @@ ideas = {
 
 	production_grade = { 
 		law = yes
-		adeptus_non = {
+
+		production_grade_adeptus_non = {
 						
 			cost = 150
 			removal_cost = -1
@@ -800,7 +718,7 @@ ideas = {
    			}
 		}
 
-		IV_tertius = {
+		production_grade_IV_tertius = {
 						
 			cost = 150
 			removal_cost = -1
@@ -818,32 +736,8 @@ ideas = {
 			ai_will_do = {
    			}
 		}
-		
-		IV_prima = {
-			
-			available = {
-			}
-			
-			cost = 150
-			removal_cost = -1
-			
-			modifier = {
-				min_export = 0.5
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
-			}
-			
-			default = yes
-			
-			cancel_if_invalid = no
-
-			ai_will_do = {
-   			}
-		}
-		
-		IV_maximus = {
+				
+		production_grade_IV_maximus = {
 			
 			
 			available = {
@@ -883,7 +777,7 @@ ideas = {
    			}
 		}
 
-		III_tertius = {
+		production_grade_III_tertius = {
 						
 			cost = 150
 			removal_cost = -1
@@ -901,32 +795,8 @@ ideas = {
 			ai_will_do = {
    			}
 		}
-		
-		III_prima = {
-			
-			available = {
-			}
-			
-			cost = 150
-			removal_cost = -1
-			
-			modifier = {
-				min_export = 0.5
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
-			}
-			
-			default = yes
-			
-			cancel_if_invalid = no
-
-			ai_will_do = {
-   			}
-		}
-		
-		III_maximus = {
+				
+		production_grade_III_maximus = {
 			
 			
 			available = {
@@ -966,7 +836,7 @@ ideas = {
    			}
 		}	
 
-		II_tertius = {
+		production_grade_II_tertius = {
 						
 			cost = 150
 			removal_cost = -1
@@ -984,32 +854,8 @@ ideas = {
 			ai_will_do = {
    			}
 		}
-		
-		II_prima = {
-			
-			available = {
-			}
-			
-			cost = 150
-			removal_cost = -1
-			
-			modifier = {
-				min_export = 0.5
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
-			}
-			
-			default = yes
-			
-			cancel_if_invalid = no
-
-			ai_will_do = {
-   			}
-		}
-		
-		II_maximus = {
+				
+		production_grade_II_maximus = {
 			
 			
 			available = {
@@ -1048,7 +894,8 @@ ideas = {
 				}
    			}
 		}	
-		I_tertius = {
+
+		production_grade_I_tertius = {
 						
 			cost = 150
 			removal_cost = -1
@@ -1066,32 +913,28 @@ ideas = {
 			ai_will_do = {
    			}
 		}
-		
-		II_prima = {
-			
-			available = {
-			}
-			
+
+		production_grade_I_extremis = {
+						
 			cost = 150
 			removal_cost = -1
 			
 			modifier = {
-				min_export = 0.5
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
 			}
-			
-			default = yes
 			
 			cancel_if_invalid = no
 
 			ai_will_do = {
    			}
 		}
-		
-		maximus = {
+
+
+		production_grade_maximus = {
 			
 			
 			available = {
@@ -1130,5 +973,43 @@ ideas = {
 				}
    			}
 		}				
+	}
+
+	production_facility = { 
+
+		tank_factory = {
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}	
+		research_facility = {	
+			cost = 150
+			removal_cost = -1
+			
+			modifier = {
+				min_export = 0.8
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   			}
+		}			
 	}
 }

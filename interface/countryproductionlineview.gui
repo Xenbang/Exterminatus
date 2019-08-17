@@ -309,6 +309,7 @@ guiTypes = {
 					format = left
 				}
 				#################################
+
 				iconType = {
 					name = "efficiency_growth_icon"
 					position = { x=336 y=52 }
@@ -326,7 +327,9 @@ guiTypes = {
 					maxHeight = 20
 					format = left
 				}				
+
 				#################################
+				
 				buttonType = {
 					name = "infantry_button"
 					position = { x=31 y=136 }
@@ -445,7 +448,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "operational_factories_value"
-					position = { x = 415 y = 182 }
+					position = { x = 425 y = 182 }
 					textureFile = ""
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
