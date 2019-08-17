@@ -6,6 +6,9 @@ state={
 	}
 	manpower=2731000
 	state_category = city
+	resources={
+        rubber=6
+    }
 	history={
 	victory_points = { 10351 2 }
 	victory_points = { 10826 20 }
@@ -13,5 +16,10 @@ state={
 	victory_points = { 10816 10 }
 	Owner = MAN
 	add_core_of = MAN
+	buildings = {
+			infrastructure = 3
+			arms_factory = 1
+        	industrial_complex = 1
+        }
 	}
 }
