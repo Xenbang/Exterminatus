@@ -10,5 +10,8 @@ state={
 	victory_points = { 11622 2 }
 	Owner = GXC
 	add_core_of = GXC
+	buildings = {
+			infrastructure = 2
+        }
 	}
 }

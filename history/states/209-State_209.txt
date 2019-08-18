@@ -14,5 +14,10 @@ state={
 	victory_points = { 1046 10 }
 	victory_points = { 5008 10 }
 	add_core_of = GXC
+	buildings = {
+			infrastructure = 4
+			arms_factory = 3
+        	industrial_complex = 3
+        }
 	}
 }

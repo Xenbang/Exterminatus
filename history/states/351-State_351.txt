@@ -6,6 +6,10 @@ state={
 	}
 	manpower=7445022
 	state_category=metropolis
+	resources={
+        rubber=8
+		oil=14
+    }
 	history={
 	victory_points = { 12736 10 }
 	victory_points = { 12598 10 }
@@ -16,5 +20,10 @@ state={
 	victory_points = { 12539 5 }
 	Owner = GXC
 	add_core_of = GXC
+	buildings = {
+			infrastructure = 3
+			arms_factory = 2
+        	industrial_complex = 2
+        }
 	}
 }
