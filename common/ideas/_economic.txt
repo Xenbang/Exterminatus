@@ -49,7 +49,7 @@ ideas = {
 				max_command_power = -50
 				drift_defence_factor = 0.5 	
 				political_power_factor = 0.1 
-				subjects_autonomy_gain = -0.2			
+				subjects_autonomy_gain = -0.5			
 			}
 
 			ai_will_do = {
@@ -111,6 +111,7 @@ ideas = {
 				stability_factor = -0.1 
 				drift_defence_factor = 0.5 
 				political_power_factor = -0.2 
+				autonomy_gain = -0.1
 			}
 
 			ai_will_do = {
@@ -190,6 +191,15 @@ ideas = {
 
 			traits = { trait_tithe_grade }
 
+			modifier = {
+				stability_factor = 0.9
+				conscription_factor = -0.9
+				local_resources_factor = -0.9
+				consumer_goods_factor = 0.9  
+			}
+
+			level = 10 
+
 			ai_will_do = {
    			}																							
 		}
@@ -204,9 +214,19 @@ ideas = {
 
 			traits = { trait_tithe_grade }
 
+			modifier = {
+				stability_factor = 0.8
+				conscription_factor = -0.8
+				local_resources_factor = -0.8
+				consumer_goods_factor = 0.8  
+			}
+
+			level = 9 
+
 			ai_will_do = {
    			}																							
 		}
+
 		exactic_tertius = { 
 			cost = 0
 			removal_cost = -1
@@ -218,9 +238,19 @@ ideas = {
 
 			traits = { trait_tithe_grade }
 
+			modifier = {
+				stability_factor = 0.7
+				conscription_factor = -0.7
+				local_resources_factor = -0.7
+				consumer_goods_factor = 0.7  
+			}
+
+			level = 8 
+
 			ai_will_do = {
    			}																							
 		}
+
 		decuma_extremis = { 
 			cost = 0
 			removal_cost = -1
@@ -231,6 +261,15 @@ ideas = {
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
+
+			modifier = {
+				stability_factor = 0.6
+				conscription_factor = -0.6
+				local_resources_factor = -0.6
+				consumer_goods_factor = 0.6  
+			}
+
+			level = 7 
 
 			ai_will_do = {
    			}																							
@@ -246,6 +285,15 @@ ideas = {
 
 			traits = { trait_tithe_grade }
 
+			modifier = {
+				stability_factor = 0.5
+				conscription_factor = -0.5
+				local_resources_factor = -0.5
+				consumer_goods_factor = 0.5 
+			}
+
+			level = 6
+
 			ai_will_do = {
    			}																							
 		}	
@@ -259,6 +307,15 @@ ideas = {
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
+
+			modifier = {
+				stability_factor = 0.4
+				conscription_factor = -0.4
+				local_resources_factor = -0.4
+				consumer_goods_factor = 0.4
+			}
+
+			level = 5
 
 			ai_will_do = {
    			}																							
@@ -274,6 +331,15 @@ ideas = {
 
 			traits = { trait_tithe_grade }
 
+			modifier = {
+				stability_factor = 0.3
+				conscription_factor = -0.3
+				local_resources_factor = -0.3
+				consumer_goods_factor = 0.3
+			}
+
+			level = 4
+
 			ai_will_do = {
    			}																							
 		}
@@ -287,6 +353,15 @@ ideas = {
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
+
+			modifier = {
+				stability_factor = 0.2
+				conscription_factor = -0.2
+				local_resources_factor = -0.2
+				consumer_goods_factor = 0.2
+			}
+
+			level = 3
 
 			ai_will_do = {
    			}																							
@@ -302,6 +377,15 @@ ideas = {
 
 			traits = { trait_tithe_grade }
 
+			modifier = {
+				stability_factor = 0.1
+				conscription_factor = -0.1
+				local_resources_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+
+			level = 2
+
 			ai_will_do = {
    			}																							
 		}
@@ -315,6 +399,12 @@ ideas = {
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
+
+			modifier = {
+				stability_factor = 0.1
+			}
+
+			level = 1
 
 			ai_will_do = {
    			}																							
@@ -333,6 +423,14 @@ ideas = {
 
 			traits = { trait_economic_state }
 
+			modifier = {
+				consumer_goods_factor = 0.25
+				local_resources_factor = -0.25 
+				industrial_capacity_factory = -0.25 
+				production_speed_buildings_factor = -0.25
+				min_export = 0.5
+			}
+
 			ai_will_do = {
 			}																							
 		}
@@ -346,6 +444,14 @@ ideas = {
 			cancel_if_invalid = no
 
 			traits = { trait_economic_state }
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				local_resources_factor = -0.15 
+				industrial_capacity_factory = -0.15 
+				production_speed_buildings_factor = -0.15
+				min_export = 0.35
+			}
 
 			ai_will_do = {			
 			}																							
@@ -361,6 +467,14 @@ ideas = {
 	
 			traits = { trait_economic_state }
 
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = -0.05 
+				industrial_capacity_factory = -0.05 
+				production_speed_buildings_factor = -0.05
+				min_export = 0.15
+			}
+
 			ai_will_do = {
 			}																							
 		}
@@ -375,6 +489,13 @@ ideas = {
 
 			traits = { trait_economic_state }
 
+			modifier = {
+				consumer_goods_factor = -0.15
+				local_resources_factor = 0.15 
+				industrial_capacity_factory = 0.15 
+				production_speed_buildings_factor = 0.15
+			}
+
 			ai_will_do = {
 			}																							
 		}
@@ -388,6 +509,13 @@ ideas = {
 			cancel_if_invalid = no
 
 			traits = { trait_economic_state }
+
+			modifier = {
+				consumer_goods_factor = -0.25
+				local_resources_factor = 0.25 
+				industrial_capacity_factory = 0.25 
+				production_speed_buildings_factor = 0.25
+			}
 
 			ai_will_do = {
 			}																							
@@ -406,6 +534,16 @@ ideas = {
 
 			traits = { trait_corruption }
 
+			modifier = {
+				subjects_autonomy_gain = 1	
+				stability_weekly = -0.1	
+				political_power_gain = 0.6	
+				conscription_factor = -0.5 
+				production_speed_buildings_factor = -0.5
+				drift_defence_factor = -1
+				research_speed_factor = -1
+			}
+
 			ai_will_do = {
    			}																							
 		}
@@ -420,6 +558,16 @@ ideas = {
 
 			traits = { trait_corruption }
 
+			modifier = {
+				subjects_autonomy_gain = 0.9	
+				stability_weekly = -0.09
+				political_power_gain = 0.5	
+				conscription_factor = -0.4 
+				production_speed_buildings_factor = -0.4
+				drift_defence_factor = -0.9
+				research_speed_factor = -0.9
+			}
+
 			ai_will_do = {
    			}																							
 		}
@@ -428,6 +576,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.8	
+				stability_weekly = -0.08
+				political_power_gain = 0.4	
+				conscription_factor = -0.3 
+				production_speed_buildings_factor = -0.3
+				drift_defence_factor = -0.8
+				research_speed_factor = -0.8
 			}
 			
 			cancel_if_invalid = no
@@ -442,6 +597,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.7	
+				stability_weekly = -0.07
+				political_power_gain = 0.3	
+				conscription_factor = -0.2 
+				production_speed_buildings_factor = -0.2
+				drift_defence_factor = -0.7
+				research_speed_factor = -0.7
 			}
 			
 			cancel_if_invalid = no
@@ -456,8 +618,15 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.6	
+				stability_weekly = -0.06
+				political_power_gain = 0.2	
+				conscription_factor = -0.1 
+				production_speed_buildings_factor = -0.1
+				drift_defence_factor = -0.6
+				research_speed_factor = -0.6
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_corruption }
@@ -470,6 +639,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.5	
+				stability_weekly = -0.05
+				conscription_factor = -0.05 
+				production_speed_buildings_factor = -0.05
+				drift_defence_factor = -0.5
+				research_speed_factor = -0.5
 			}
 			
 			cancel_if_invalid = no
@@ -484,6 +659,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.4	
+				stability_weekly = -0.04
+				conscription_factor = -0.04 
+				production_speed_buildings_factor = -0.04
+				drift_defence_factor = -0.4
+				research_speed_factor = -0.4
 			}
 			
 			cancel_if_invalid = no
@@ -498,6 +679,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.3	
+				stability_weekly = -0.03
+				conscription_factor = -0.03 
+				production_speed_buildings_factor = -0.03
+				drift_defence_factor = -0.3
+				research_speed_factor = -0.3				
 			}
 			
 			cancel_if_invalid = no
@@ -512,6 +699,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				subjects_autonomy_gain = 0.2	
+				stability_weekly = -0.02
+				conscription_factor = -0.02 
+				production_speed_buildings_factor = -0.02
+				drift_defence_factor = -0.2
+				research_speed_factor = -0.2
 			}
 			
 			cancel_if_invalid = no
@@ -526,6 +719,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				stability_factor = 0.1
 			}
 			
 			cancel_if_invalid = no
