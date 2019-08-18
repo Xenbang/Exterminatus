@@ -9,11 +9,14 @@ state={
 	victory_points = { 4476 5 }
 		owner = MAN
 		add_core_of = MAN
+		buildings = {
+			infrastructure = 1
+        }
 	}
 
 	resources={
-		steel=112 
-		aluminium=50 
+		steel=12
+		aluminium=8 
 	}	
 
 	manpower=780393
