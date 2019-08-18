@@ -15,5 +15,10 @@ state={
 	victory_points = { 9154 20 }
 	victory_points = { 9085 20 }
 	add_core_of = MAN
+	buildings = {
+			infrastructure = 3
+			arms_factory = 2
+        	industrial_complex = 2
+        }
 	}	
 }
