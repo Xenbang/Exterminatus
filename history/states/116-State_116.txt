@@ -5,7 +5,7 @@ state={
 		2462 6150 9162 9180 9218 
 	}
 	manpower=23000
-	state_category = wasteland
+	state_category = pastoral
 	history={
 	Owner = MAN
 	add_core_of = MAN

@@ -6,6 +6,9 @@ state={
 	}
 	manpower=700530
 	state_category=town
+		resources={
+	oil=12
+		}
 	history={
 	victory_points = { 12004 2 }
 	victory_points = { 2050 2 }

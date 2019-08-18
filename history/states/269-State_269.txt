@@ -5,11 +5,18 @@ state={
 		40 120 294 525 661 1372 1393 1565 2444 2501 2756 4408 4471 5156 6376 11140 11179 11190 11225 11259 11472 11532 11593 11598 11623 11687 11793 
 	}
 	manpower=740321
-	state_category=town
+	state_category=rural
+	resources={
+	oil=12
+		}
 	history={
 	victory_points = { 2501 5 }
 	victory_points = { 11598 5 }
 	Owner = GXC
 	add_core_of = GXC
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+        }
 	}
 }

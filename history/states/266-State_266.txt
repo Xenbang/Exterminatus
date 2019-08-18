@@ -5,9 +5,15 @@ state={
 		597 2223 2732 2835 3527 5751 11078 11154 11155 11207 11250 11293 11312 11390 11471 11485 11549 11679 
 	}
 	manpower=75400
-	state_category=wasteland
+	state_category=pastoral
+	resources={
+	oil=10
+		}
 	history={
 	Owner = GXC
 	add_core_of = GXC
+	buildings = {
+			infrastructure = 1
+        }
 	}
 }

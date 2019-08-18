@@ -5,7 +5,7 @@ state={
 		56 2159 2327 3046 3943 4548 9018 9052 9091 9155 9163 
 	}
 	manpower=94000
-	state_category = tiny_island
+	state_category = small_island
 		history={
 		owner = XSM
 		victory_points = { 9052 1 }
