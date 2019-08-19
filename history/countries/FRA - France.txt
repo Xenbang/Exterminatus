@@ -13,6 +13,17 @@ set_war_support = 1
 set_technology = {
 }
 
+add_ideas = {
+	human
+	dictatorship
+	solutio_extremis
+	economic_stagnation
+	corruptio_solutio_prima
+	production_grade_III_maximus
+	hive_sector
+	limited_conscription
+}
+
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"

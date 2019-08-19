@@ -274,24 +274,9 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}		
-
-			gridboxtype = {
-				name = "bike_infantry_tree"
-				position = { x = 1400 y = 125 }
-				size = { width = 400 height = 800 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-10 }	
-					format = "UP"				
-				}					
-			}
 		}
 
-				containerWindowType = {
+		containerWindowType = {
 			name = "support_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -5100,11 +5085,6 @@ guiTypes = {
 		size = { width=402 height=40 }
 		clipping = no
 
-		#background = {
-		#	name = "Background"
-		#	spriteType ="GFX_stats_entry_bg"
-		#}
-		
 		instantTextboxType = {
 			name = "name"
 			position = { x = 100 y = 10 }
@@ -5127,11 +5107,6 @@ guiTypes = {
 		position = { x=10 y=2 }	
 		size = { width=201 height=30 }
 		clipping = no
-
-		#background = {
-		#	name = "Background"
-		#	spriteType ="GFX_stats_entry_bg"
-		#}
 		
 		instantTextboxType = {
 			name = "name"
@@ -5181,16 +5156,6 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
-		
-		#instantTextboxType = {
-		#	name = "diff"
-		#	position = { x = 195 y = 0 }
-		#	font = "hoi4_typewriter16"
-		#	text = ""
-		#	maxWidth = 100
-		#	maxHeight = 20
-		#	format = right
-		#}
 	}
 	
 	containerWindowType = {
@@ -5326,7 +5291,6 @@ guiTypes = {
 		size = { width=201 height=30 }
 		clipping = no
 
-		
 		instantTextboxType = {
 			name = "header"
 			position = { x = 130 y = 18 }
@@ -5337,7 +5301,6 @@ guiTypes = {
 			format = center
 		}
 	}
-	
 	
 	containerWindowType = {
 		name = "padding_window"

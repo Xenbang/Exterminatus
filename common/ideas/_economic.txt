@@ -6,9 +6,10 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
-			}
-			
+			available = {
+				always = no
+			}	
+
 			cancel_if_invalid = no
 
 			traits = { trait_race }
@@ -20,9 +21,10 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
-			}
-			
+			available = {
+				always = no
+			}	
+
 			cancel_if_invalid = no
 
 			traits = { trait_race }
@@ -38,7 +40,16 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -59,7 +70,16 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -80,7 +100,16 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -100,7 +129,16 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -121,9 +159,18 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
 			}
-			
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
+
 			cancel_if_invalid = no
 
 			traits = { trait_form_of_government }
@@ -140,9 +187,18 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
 			}
-			
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
+
 			cancel_if_invalid = no
 
 			traits = { trait_form_of_government }
@@ -161,9 +217,18 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			allowed = {
+				always = no
 			}
-			
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = greenskins
+			}
+
 			cancel_if_invalid = no
 
 			traits = { trait_form_of_government }
@@ -184,9 +249,14 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
@@ -206,10 +276,15 @@ ideas = {
 		exactis_median = { 
 			cost = 0
 			removal_cost = -1
-			
-			modifier = {
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+	
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
@@ -231,7 +306,12 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -255,9 +335,14 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
@@ -278,7 +363,12 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -301,9 +391,14 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
@@ -324,9 +419,14 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
@@ -347,9 +447,14 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_tithe_grade }
@@ -370,7 +475,12 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -393,7 +503,12 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -416,8 +531,9 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 
-			modifier = {
-			}
+			available = {
+				always = no
+			}					
 				
 			cancel_if_invalid = no
 
@@ -437,9 +553,10 @@ ideas = {
 		economic_decay = {
 			cost = 0
 			removal_cost = -1
-			
-			modifier = {
-			}
+
+			available = {
+				always = no
+			}					
 			
 			cancel_if_invalid = no
 
@@ -459,9 +576,10 @@ ideas = {
 		economic_stagnation = {
 			cost = 0
 			removal_cost = -1
-			
-			modifier = {
-			}
+
+			available = {
+				always = no
+			}			
 			
 			cancel_if_invalid = no
 	
@@ -481,9 +599,14 @@ ideas = {
 		economic_growth = {
 			cost = 0
 			removal_cost = -1
-			
-			modifier = {
-			}
+
+			available = {
+				always = no
+			}	
+
+			available = {
+				always = no
+			}		
 				
 			cancel_if_invalid = no
 
@@ -502,9 +625,14 @@ ideas = {
 		economic_prosperity = {
 			cost = 0
 			removal_cost = -1
-			
-			modifier = {
-			}
+
+			available = {
+				always = no
+			}	
+
+			allowed = {
+				always = no
+			}			
 			
 			cancel_if_invalid = no
 
@@ -527,16 +655,21 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
-			
+
 			cancel_if_invalid = no
 
 			traits = { trait_corruption }
 
 			modifier = {
 				subjects_autonomy_gain = 1	
-				stability_weekly = -0.1	
+				stability_weekly = -0.01	
 				political_power_gain = 0.6	
 				conscription_factor = -0.5 
 				production_speed_buildings_factor = -0.5
@@ -551,7 +684,12 @@ ideas = {
 			cost = 0
 			removal_cost = -1
 			
-			modifier = {
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
 			}
 			
 			cancel_if_invalid = no
@@ -560,7 +698,7 @@ ideas = {
 
 			modifier = {
 				subjects_autonomy_gain = 0.9	
-				stability_weekly = -0.09
+				stability_weekly = -0.009
 				political_power_gain = 0.5	
 				conscription_factor = -0.4 
 				production_speed_buildings_factor = -0.4
@@ -574,10 +712,18 @@ ideas = {
 		corruptio_exactic_tertius = { 
 			cost = 0
 			removal_cost = -1
-			
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
+
 			modifier = {
 				subjects_autonomy_gain = 0.8	
-				stability_weekly = -0.08
+				stability_weekly = -0.008
 				political_power_gain = 0.4	
 				conscription_factor = -0.3 
 				production_speed_buildings_factor = -0.3
@@ -595,10 +741,18 @@ ideas = {
 		corruptio_decuma_extremis = { 
 			cost = 0
 			removal_cost = -1
-			
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
+						
 			modifier = {
 				subjects_autonomy_gain = 0.7	
-				stability_weekly = -0.07
+				stability_weekly = -0.007
 				political_power_gain = 0.3	
 				conscription_factor = -0.2 
 				production_speed_buildings_factor = -0.2
@@ -616,10 +770,18 @@ ideas = {
 		corruptio_decuma_prima = { 
 			cost = 0
 			removal_cost = -1
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
 			
 			modifier = {
 				subjects_autonomy_gain = 0.6	
-				stability_weekly = -0.06
+				stability_weekly = -0.006
 				political_power_gain = 0.2	
 				conscription_factor = -0.1 
 				production_speed_buildings_factor = -0.1
@@ -637,10 +799,18 @@ ideas = {
 		corruptio_decuma_tertius = { 
 			cost = 0
 			removal_cost = -1
-			
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
+						
 			modifier = {
 				subjects_autonomy_gain = 0.5	
-				stability_weekly = -0.05
+				stability_weekly = -0.005
 				conscription_factor = -0.05 
 				production_speed_buildings_factor = -0.05
 				drift_defence_factor = -0.5
@@ -657,10 +827,22 @@ ideas = {
 		corruptio_solutio_extremis = { 
 			cost = 0
 			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
 			
 			modifier = {
 				subjects_autonomy_gain = 0.4	
-				stability_weekly = -0.04
+				stability_weekly = -0.004
 				conscription_factor = -0.04 
 				production_speed_buildings_factor = -0.04
 				drift_defence_factor = -0.4
@@ -677,10 +859,22 @@ ideas = {
 		corruptio_solutio_prima = { 
 			cost = 0
 			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
 			
 			modifier = {
 				subjects_autonomy_gain = 0.3	
-				stability_weekly = -0.03
+				stability_weekly = -0.003
 				conscription_factor = -0.03 
 				production_speed_buildings_factor = -0.03
 				drift_defence_factor = -0.3
@@ -697,10 +891,22 @@ ideas = {
 		corruptio_solutio_tertius = { 
 			cost = 0
 			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+
+			visible = {
+				has_idea = human
+			}
 			
 			modifier = {
 				subjects_autonomy_gain = 0.2	
-				stability_weekly = -0.02
+				stability_weekly = -0.002
 				conscription_factor = -0.02 
 				production_speed_buildings_factor = -0.02
 				drift_defence_factor = -0.2
@@ -717,9 +923,22 @@ ideas = {
 		corruptio_adeptus_non = { 
 			cost = 0
 			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}	
+			
+			visible = {
+				has_idea = human
+			}
 			
 			modifier = {
 				stability_factor = 0.1
+				drift_defence_factor = 0.5
 			}
 			
 			cancel_if_invalid = no

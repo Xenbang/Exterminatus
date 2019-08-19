@@ -204,18 +204,6 @@ guiTypes = {
 				quadTextureSprite = "GFX_constructions_bg4"
 			}
 			
-			iconType = {
-				name = "constructions_bg3"
-				position = { x = 0 y = 380 }
-				quadTextureSprite = "GFX_constructions_bg2"
-			}
-
-			iconType = {
-				name = "constructions_bg4"
-				position = { x = 0 y = 525 }
-				quadTextureSprite = "GFX_constructions_bg3"
-			}
-			
 			gridBoxType = {
 				name = "non_shared_item_grid"
 				position = { x = -350 y = 1 }
@@ -227,7 +215,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "shared_item_grid"
-				position = { x = 5 y = 43 }
+				position = { x = 4 y = 25 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 50 height = 50 }
 				max_slots_horizontal = 2
@@ -236,7 +224,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "province_item_grid"
-				position = { x = 8 y = 422 }
+				position = { x = 4 y = 225 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 46 height = 44 }
 				max_slots_horizontal = 2
@@ -246,7 +234,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "convert_ic_button"
-			position = { x = -81 y = 584 }
+			position = { x = -58 y = 277 }
 			quadTextureSprite ="GFX_convert_ic_button"
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
@@ -256,7 +244,7 @@ guiTypes = {
 				
 		buttonType = {
 			name = "minimize"
-			position = { x = -74 y = 643 }
+			position = { x = -74 y = 335 }
 			quadTextureSprite ="GFX_production_line_arrow_left"
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
@@ -265,7 +253,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "expand"
-			position = { x = -74 y = 643 }
+			position = { x = -74 y = 335 }
 			quadTextureSprite ="GFX_production_line_arrow_right"
 			buttonFont = "Main_14_black"
 			Orientation = "UPPER_RIGHT"
