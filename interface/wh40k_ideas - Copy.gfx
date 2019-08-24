@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_heavy_weapons_medium"
+		name = "GFX_wargear_equipment_medium"
 		textureFile = "gfx/interface/technologies/FRA_heavy_equipment.dds"
 	}
 	spriteType = {

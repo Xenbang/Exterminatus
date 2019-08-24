@@ -37,13 +37,14 @@ sub_units = {
 		equipment_capture_factor = 0.05
 		
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 		
 		need = {
-			support_equipment = 25
+			HQ_equipment_0 = 25
 		}
 	}
+
 	trojan_supply_train = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -84,17 +85,17 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
 		essential = {
-			support_equipment
+			HQ_equipment_0
 			motorized_equipment
 		}
 
 		need = {
-			support_equipment = 20
+			HQ_equipment_0 = 20
 			motorized_equipment = 10
 		}
-
 	}
-	sentinel = {
+
+	recon_sentinel = {
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
@@ -138,12 +139,12 @@ sub_units = {
 		
 		essential = {
 			infantry_equipment
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 40
-			support_equipment = 10
+			HQ_equipment_0 = 10
 		}
 
 		forest = {
@@ -171,6 +172,7 @@ sub_units = {
 			movement = 0.1
 		}
 	}
+
 	astropath = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -211,16 +213,17 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 		
 		essential = {
-			support_equipment
+			HQ_equipment_0
 			motorized_equipment
 		}
 
 		need = {
-			support_equipment = 20
+			HQ_equipment_0 = 20
 			motorized_equipment = 10
 		}
 
 	}
+
 	regimental_field_hospital = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -262,15 +265,16 @@ sub_units = {
 		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 			motorized_equipment
 		}
 		
 		need = {
-			support_equipment = 30
+			HQ_equipment_0 = 30
 			motorized_equipment = 20
 		}
 	}
+
 	engineer = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -315,12 +319,12 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 10
-			support_equipment = 30
+			HQ_equipment_0 = 30
 		}
 
 		can_be_parachuted = yes
@@ -357,6 +361,7 @@ sub_units = {
 			attack = 0.25
 		}
 	}
+
  	regimental_command_staff = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -401,12 +406,12 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 10
-			support_equipment = 30
+			HQ_equipment_0 = 30
 		}
 
 		can_be_parachuted = yes
@@ -443,6 +448,7 @@ sub_units = {
 			attack = 0.25
 		}
 	} 
+
  	sanctioned_psykers = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -487,12 +493,12 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 10
-			support_equipment = 30
+			HQ_equipment_0 = 30
 		}
 
 		can_be_parachuted = yes
@@ -529,6 +535,7 @@ sub_units = {
 			attack = 0.25
 		}
 	}   
+
  	regimental_commissar = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -573,12 +580,12 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 10
-			support_equipment = 30
+			HQ_equipment_0 = 30
 		}
 
 		can_be_parachuted = yes
@@ -614,7 +621,8 @@ sub_units = {
 		amphibious = {
 			attack = 0.25
 		}
-	}    
+	}   
+
   	master_of_ordnance = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -659,12 +667,12 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 10
-			support_equipment = 30
+			HQ_equipment_0 = 30
 		}
 
 		can_be_parachuted = yes
@@ -701,6 +709,7 @@ sub_units = {
 			attack = 0.25
 		}
 	}   
+
   	ministorum_priest = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -745,12 +754,12 @@ sub_units = {
 		soft_attack = -0.5
 
 		essential = {
-			support_equipment
+			HQ_equipment_0
 		}
 
 		need = {
 			infantry_equipment = 10
-			support_equipment = 30
+			HQ_equipment_0 = 30
 		}
 
 		can_be_parachuted = yes
@@ -787,4 +796,5 @@ sub_units = {
 			attack = 0.25
 		}
 	}  
+	
 }

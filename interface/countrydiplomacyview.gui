@@ -26,7 +26,7 @@ guiTypes = {
 
 			iconType = {
 				name = "diplo_upper_win_bg"
-				position = { x = -139 y = -4 }
+				position = { x = 140 y = 50 }
 				spriteType = "GFX_diplo_upper_win_bg"
 			}				
 			
@@ -40,7 +40,7 @@ guiTypes = {
 			iconType = {
 				name = "diplo_country_flag"
 				quadTextureSprite ="GFX_shield_medium"
-				position = { x= 158 y = 82 }
+				position = { x= 164 y = 62 }
 				Orientation = "UPPER_LEFT"
 			}			
 			
@@ -72,7 +72,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 265 y = 105}	
+				position = { x = 265 y = 98}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
@@ -102,18 +102,18 @@ guiTypes = {
 			iconType = {
 				name ="stability_bg"
 				spriteType = "GFX_diplo_unity_bg"
-				position = { x= 370 y = 80 }
+				position = { x= 400 y = 60 }
 			}	
 			
 			iconType = {
 				name ="stability_icon"
 				spriteType = "GFX_stability_icon"
-				position = { x= 378 y = 92 }
+				position = { x= 408 y = 65 }
 			}			
 
 			instantTextboxType = {
 				name = "stability_value"
-				position = { x = 369 y = 122 }
+				position = { x = 400 y = 95 }
 				font = "hoi_16mbs"
 				text = "100%"
 				maxWidth = 44
@@ -124,18 +124,18 @@ guiTypes = {
 			iconType = {
 				name ="war_support_bg"
 				spriteType = "GFX_diplo_unity_bg"
-				position = { x= 414 y = 80 }
+				position = { x= 444 y = 60 }
 			}	
 			
 			iconType = {
 				name ="war_support_icon"
 				spriteType = "GFX_war_support_icon"
-				position = { x= 421 y = 88 }
+				position = { x= 451 y = 61 }
 			}			
 
 			instantTextboxType = {
 				name = "war_support_value"
-				position = { x = 414 y = 122 }
+				position = { x = 444 y = 95 }
 				font = "hoi_16mbs"
 				text = "100%"
 				maxWidth = 44
@@ -145,7 +145,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "opinion_info"
-				position = { x = 425 y = 84 }
+				position = { x = -425 y = 61 }
 				size = { width = 100 height = 60 }
 				clipping = no
 			
@@ -246,20 +246,20 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "active_national_focus_info"
-				position = { x = 146 y =  154 }
+				position = { x = 146 y =  128 }
 				size = { width = 330 height = 50 }
 				clipping = no
 				
 				buttonType = {
 					name = "show_national_goal_button"
-					position = { x = 103 y = 7 }
+					position = { x = 103 y = 0 }
 					spriteType = "GFX_diplo_goal_button"
 					clicksound = click_default
 				}
 
 				iconType = {
 					name = "goal_icon"
-					position = { x = 48 y = 39 }
+					position = { x = 53 y = 40 }
 					spriteType = "GFX_goal_unknown"
 					centerposition = yes					
 					scale = 0.9
@@ -267,7 +267,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "national_focus_label"
-					position = { x = 146 y = 23 }
+					position = { x = 140 y = 78 }
 					font = "hoi_18mbs"
 					text = "POLITICS_ACTIVE_GOAL"
 					maxWidth = 200
@@ -463,8 +463,8 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "window_header_text"
-					position = { x = 32 y = 17 }
-					font = "hoi_18mbs"
+					position = { x = 34 y = 17 }
+					font = "hoi_16mbs"
 					text = "DIPLOMACY_INTELLIGENCE"
 					maxWidth = 200
 					maxHeight = 20
@@ -497,19 +497,19 @@ guiTypes = {
 				iconType = {
 					name = "estimated_navy_forces_bg"
 					quadTextureSprite ="GFX_generic_text_bg_108"
-					position = { x = 10 y = 195 }
+					position = { x = -1110 y = 195 }
 				}
 				
 				iconType = {
 					name = "estimated_navy_forces_icon"
 					quadTextureSprite ="GFX_endgame_navy_button"
-					position = { x = 40 y = 145 }
+					position = { x = -1140 y = 145 }
 					pdx_tooltip = ESTIMATED_NAVY_FORCES
 				}
 				
 				instantTextboxType = {
 					name = "estimated_navy_forces"
-					position = { x = 16 y = 198 }
+					position = { x = -1140 y = 198 }
 					font = "hoi_18mbs"
 					text = "?"
 					maxWidth = 100
@@ -520,19 +520,19 @@ guiTypes = {
 				iconType = {
 					name = "estimated_air_forces_bg"
 					quadTextureSprite ="GFX_generic_text_bg_108"
-					position = { x = 10 y = 285 }
+					position = { x = 10 y = 200 }
 				}
 				
 				iconType = {
 					name = "estimated_air_forces_icon"
 					quadTextureSprite ="GFX_endgame_air_button"
-					position = { x = 40 y = 235 }
+					position = { x = 40 y = 145 }
 					pdx_tooltip = ESTIMATED_AIR_FORCES
 				}
 				
 				instantTextboxType = {
 					name = "estimated_airforce"
-					position = { x = 16 y = 289 }
+					position = { x = 16 y = 205 }
 					font = "hoi_18mbs"
 					text = "?"
 					maxWidth = 100
@@ -543,19 +543,19 @@ guiTypes = {
 				iconType = {
 					name = "estimated_civil_industry_bg"
 					quadTextureSprite ="GFX_generic_text_bg_108"
-					position = { x = 130 y = 285 }
+					position = { x = 130 y = 200 }
 				}
 				
 				iconType = {
 					name = "estimated_civil_industry_icon"
 					quadTextureSprite ="GFX_endgame_civ_industry_button"
-					position = { x = 155 y = 235 }
+					position = { x = 155 y = 145 }
 					pdx_tooltip = ESTIMATED_CIVIL_INDUSTRY
 				}
 				
 				instantTextboxType = {
 					name = "estimated_civil_industry_size"
-					position = { x = 130 y = 289 }
+					position = { x = 130 y = 205 }
 					font = "hoi_18mbs"
 					text = "?"
 					maxWidth = 100
@@ -589,19 +589,19 @@ guiTypes = {
 				iconType = {
 					name = "estimated_naval_industry_bg"
 					quadTextureSprite ="GFX_generic_text_bg_108"
-					position = { x = 130 y = 195 }
+					position = { x = -1140 y = 195 }
 				}
 				
 				iconType = {
 					name = "estimated_naval_industry_icon"
 					quadTextureSprite ="GFX_endgame_naval_industry_button"
-					position = { x = 155 y = 145 }
+					position = { x = -1140 y = 145 }
 					pdx_tooltip = ESTIMATED_NAVAL_INDUSTRY
 				}
 				
 				instantTextboxType = {
 					name = "estimated_naval_industry_size"
-					position = { x = 130 y = 198 }
+					position = { x = -1140 y = 198 }
 					font = "hoi_18mbs"
 					text = "?"
 					maxWidth = 100
@@ -612,19 +612,19 @@ guiTypes = {
 				iconType = {
 					name = "estimated_convoys_bg"
 					quadTextureSprite ="GFX_generic_text_bg_108"
-					position = { x = 10 y = 375 }
+					position = { x = -1140 y = 375 }
 				}
 				
 				iconType = {
 					name = "estimated_convoys_icon"
 					quadTextureSprite ="GFX_endgame_convoys_button"
-					position = { x = 40 y = 325 }
+					position = { x = -1140 y = 325 }
 					pdx_tooltip = ESTIMATED_CONVOYS_ICON
 				}				
 				
 				instantTextboxType = {
 					name = "estimated_convoy_size"
-					position = { x = 16 y = 379 }
+					position = { x = -1140 y = 379 }
 					font = "hoi_18mbs"
 					text = "?"
 					maxWidth = 100
@@ -635,19 +635,19 @@ guiTypes = {
 				iconType = {
 					name = "estimated_manpower_bg"
 					quadTextureSprite ="GFX_generic_text_bg_108"
-					position = { x = 130 y = 375 }
+					position = { x = 70 y = 290 }
 				}
 				
 				iconType = {
 					name = "estimated_manpower_icon"
 					quadTextureSprite ="GFX_endgame_manpower_button"
-					position = { x = 155 y = 325 }
+					position = { x = 100 y = 238 }
 					pdx_tooltip = ESTIMATED_MANPOWER
 				}				
 				
 				instantTextboxType = {
 					name = "estimated_manpower_size"
-					position = { x = 130 y = 379 }
+					position = { x = 75 y = 295 }
 					font = "hoi_18mbs"
 					text = "?"
 					maxWidth = 100
@@ -998,7 +998,6 @@ guiTypes = {
 		size = { width = 255 height = 100 }
 		clipping = no
 	
-		
 		background = {
 			name = "Background"		
 			spriteType = "GFX_diplo_details_header"
@@ -1008,7 +1007,7 @@ guiTypes = {
 		iconType = {
 			name = "idea_categories"
 			spriteType = "GFX_idea_categories"
-			position = { x = 23 y = 12 }	
+			position = { x = 0 y = 15 }	
 			frame = 1
 		}
 		
@@ -1025,7 +1024,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 14 y = 41 }
+			position = { x = 14 y = 51 }
 			size = { width = 100%% height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
 		

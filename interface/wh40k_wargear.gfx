@@ -1,0 +1,52 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_wargear_equipment_medium"
+		textureFile = "gfx/interface/technologies/FRA_heavy_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_special_weapons_medium"
+		textureFile = "gfx/interface/technologies/FRA_special_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_HQ_equipment_medium"
+		textureFile = "gfx/interface/technologies/HQ_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_special_forces_tech_medium"
+		textureFile = "gfx/interface/technologies/FRA_special_weapons_equipment.dds"
+	}	
+
+	##Artillery##
+	spriteType = {
+		name = "GFX_sp_antiair1_medium"
+		textureFile = "gfx/interface/technologies/IG_arty/IG_hydra_flak.dds"
+	}
+	spriteType = {
+		name = "GFX_light_artillery1_medium"
+		textureFile = "gfx/interface/technologies/IG_arty/IG_heavy_mortar.dds"
+	}
+	spriteType = {
+		name = "GFX_quad_gun_artillery1_medium"
+		textureFile = "gfx/interface/technologies/IG_arty/IG_thudd_gun.dds"
+	}
+	spriteType = {
+		name = "GFX_artillery1_medium"
+		textureFile = "gfx/interface/technologies/IG_arty/IG_earthshaker.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_heavy_artillery1_medium"
+		textureFile = "gfx/interface/technologies/IG_arty/IG_medusa_siege_gun.dds"
+	}
+	spriteType = {
+		name = "GFX_artillery_STC_design_medium"
+		textureFile = "gfx/interface/technologies/IG_secrets_of_the_omnissiah.dds"
+	}
+	spriteType = {
+		name = "GFX_ammo_2_medium"
+		textureFile = "gfx/interface/technologies/IG_aggressive_machine_spirits.dds"
+	}
+
+}
+
