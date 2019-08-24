@@ -21,3 +21,6 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+add_ideas = {
+greenskins
+}
