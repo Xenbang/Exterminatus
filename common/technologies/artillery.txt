@@ -20,11 +20,11 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = sp_antiair1 
+			leads_to_tech = antiair1 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 5
 		
 		folder = {
 			name = artillery_folder
@@ -40,20 +40,58 @@ technologies = {
 		}
 	}
 
-	sp_antiair1 = {
+	#Hydra Flak Branch# 
+	antiair1 = {
 
 		enable_equipments = {
-			heavy_anti_air_equipment_1
+			anti_air_equipment_1
 		}
 
 		enable_building = {
 			building = anti_air_building
 			level = 5
 		}
+
+		enable_subunits = {
+			mot_anti_air_brigade
+		}
+		
 		path = {
 			leads_to_tech = antiair_ammo1
 			research_cost_coeff = 1
 		}
+
+		research_cost = 1.5
+
+		start_year = 1936
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 2 }
+		}
+
+		sub_technologies = {
+			flak_tank1 
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	flak_tank1 = {
+
+		enable_equipments = {
+			heavy_anti_air_equipment_1
+		}
+
+		enable_subunits = {
+			heavy_anti_air_brigade
+		}
+		
 		research_cost = 1.5
 
 		start_year = 1936
@@ -71,7 +109,6 @@ technologies = {
 			artillery
 		}
 	}
-
 	antiair_ammo1 = {
 	
 		heavy_anti_air_brigade = {
@@ -87,7 +124,7 @@ technologies = {
 		start_year = 1936
 		
 		path = {
-			leads_to_tech = sp_antiair2
+			leads_to_tech = antiair2
 			research_cost_coeff = 1
 		}
 		
@@ -104,8 +141,7 @@ technologies = {
 			artillery
 		}
 	}
-
-	sp_antiair2 = {
+	antiair2 = {
 
 		enable_equipments = {
 			heavy_anti_air_equipment_2
@@ -137,7 +173,6 @@ technologies = {
 			artillery
 		}
 	}
-
 	antiair_ammo2 = {
 	
 		heavy_anti_air_brigade = {
@@ -169,14 +204,13 @@ technologies = {
 			artillery
 		}
 	}
-
 	antiair_ammo3 = {
 	
 		dependencies = {
 		}
 
 		path = {
-			leads_to_tech = sp_antiair3
+			leads_to_tech = antiair3
 			research_cost_coeff = 1
 		}
 		heavy_anti_air_brigade = {
@@ -203,8 +237,7 @@ technologies = {
 			artillery
 		}
 	}	
-
-	sp_antiair3 = {
+	antiair3 = {
 
 		enable_equipments = {
 			heavy_anti_air_equipment_3
@@ -232,7 +265,7 @@ technologies = {
 		}
 	}
 
-
+	#Heavy Mortar Branch#
 	light_artillery1 = {
 	
 		enable_equipments = {
@@ -243,7 +276,11 @@ technologies = {
 			leads_to_tech = light_artillery2
 			research_cost_coeff = 1
 		}
-		
+
+		enable_subunits = {
+			mot_light_artillery_brigade
+		}
+
 		research_cost = 1
 
 		start_year = 1936
@@ -259,9 +296,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-		}
-		sub_technologies = {
-			pack_artillery_1
 		}
 	}
 	light_artillery2 = {
@@ -318,6 +352,7 @@ technologies = {
 		}
 	}
 
+	#Thudd Gun Branch#
 	quad_gun_artillery1 = {
 	
 		enable_equipments = {
@@ -327,6 +362,10 @@ technologies = {
 		path = {
 			leads_to_tech = quad_gun_artillery2
 			research_cost_coeff = 1
+		}
+
+		enable_subunits = {
+			rocket_artillery_brigade
 		}
 		
 		research_cost = 1
@@ -403,6 +442,7 @@ technologies = {
 		}
 	}
 
+	#Earthshaker Branch#
 	ammo_2 = {
 
 		category_artillery = {
@@ -434,11 +474,14 @@ technologies = {
 			factor = 1
 		}
 	}
-
 	artillery1 = {
 	
 		enable_equipments = {
 			artillery_equipment_1
+		}
+
+		enable_subunits = {
+			mot_artillery_brigade
 		}
 		
 		path = {
@@ -446,6 +489,37 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 5 }
+		}
+		
+		categories = {
+			artillery
+		}
+
+		sub_technologies = {
+			sp_artillery1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sp_artillery1 = {
+	
+		enable_equipments = {
+			medium_tank_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			medium_sp_artillery_brigade
+		}
+				
 		research_cost = 1
 
 		start_year = 1940
@@ -510,6 +584,7 @@ technologies = {
 		}
 	}
 
+	#Medusa Branch#
 	heavy_artillery1 = {
 	
 		enable_equipments = {
@@ -521,6 +596,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_subunits = {
+			mot_heavy_artillery_brigade
+		}
+
 		research_cost = 1
 
 		start_year = 1940
@@ -538,7 +617,33 @@ technologies = {
 			factor = 1
 		}
 	}
+	sp_artillery1 = {
+	
+		enable_equipments = {
+			heavy_tank_artillery_equipment_1
+		}
 
+		enable_subunits = {
+			heavy_sp_artillery_brigade
+		}
+				
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 5 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	heavy_ammo_3 = {
 
 		category_artillery = {
@@ -586,6 +691,7 @@ technologies = {
 		}
 	}
 
+	#Manticore Branch#
 	rocket_artillery = {
 
 		enable_equipments = {
@@ -595,6 +701,10 @@ technologies = {
 		path = {
 			leads_to_tech = rocket_artillery2
 			research_cost_coeff = 1
+		}
+
+		enable_subunits = {
+			motorized_rocket_brigade
 		}
 		
 		research_cost = 2
@@ -709,20 +819,19 @@ technologies = {
 			rocketry
 		}
 	}
-	
+
+	#Anti Tank Gun Branch#
 	interwar_antitank = {
 
 		enable_equipments = {
 			anti_tank_equipment_1
 		}
-		
-		path = {
-			leads_to_tech = antitank2
-			research_cost_coeff = 1
-		}
 		path = {
 			leads_to_tech = antitank_ammo_2
 			research_cost_coeff = 1
+		}
+		enable_subunits = {
+			mot_anti_air_brigade
 		}
 		research_cost = 1.5
 
@@ -750,7 +859,6 @@ technologies = {
 			cat_anti_tank
 		}
 	}
-	
 	antitank_ammo_2 = {
 
 		anti_tank = {
@@ -770,7 +878,7 @@ technologies = {
 			ap_attack = 0.1
 		}
 		path = {
-			leads_to_tech = antitank_ammo_3
+			leads_to_tech = antitank2
 			research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -779,7 +887,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 10 y = 4 }
+			position = { x = 11 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -791,6 +899,36 @@ technologies = {
 			cat_anti_tank
 		}
 	}
+	antitank2 = {
+		
+		enable_equipments = {
+			anti_tank_equipment_2
+		}
+		
+		
+		path = {
+			leads_to_tech = antitank_ammo_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}	
 	antitank_ammo_3 = {
 
 		anti_tank = {
@@ -850,7 +988,7 @@ technologies = {
 			ap_attack = 0.1
 		}
 		path = {
-			leads_to_tech = antitank_ammo_5
+			leads_to_tech = antitank5
 			research_cost_coeff = 1
 		}
 		research_cost = 0.5
@@ -871,72 +1009,6 @@ technologies = {
 			cat_anti_tank
 		}
 	}
-	antitank_ammo_5 = {
-
-		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.1
-		}
-		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.1
-		}
-		mot_anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.1
-		}
-		category_all_armor = {
-			hard_attack = 0.05
-			ap_attack = 0.1
-		}
-		research_cost = 0.5
-
-		start_year = 1944
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 11 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}
-	antitank2 = {
-		
-		enable_equipments = {
-			anti_tank_equipment_2
-		}
-		
-		
-		path = {
-			leads_to_tech = antitank5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1
-
-		start_year = 1940
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 11 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-			cat_anti_tank
-		}
-	}	
 	antitank5 = {
 	
 		enable_equipments = {
