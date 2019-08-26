@@ -98,7 +98,6 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -8 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -273,8 +272,13 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = light_artillery2
+			leads_to_tech = light_artillery_upgrade1
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ammo_2
+			research_cost_coeff = 1 
 		}
 
 		enable_subunits = {
@@ -298,6 +302,30 @@ technologies = {
 			factor = 1
 		}
 	}
+
+	light_artillery_upgrade1 = {
+		path = {
+			leads_to_tech = light_artillery2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1936
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = 5 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	light_artillery2 = {
 	
 		enable_equipments = {
@@ -305,12 +333,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = ammo_2
-			research_cost_coeff = 1
-		}
-		
-		path = {
-			leads_to_tech = light_artillery3
+			leads_to_tech = light_artillery_upgrade2
 			research_cost_coeff = 1
 		}
 		research_cost = 1
@@ -319,7 +342,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 5 }
+			position = { x = -5 y = 7 }
 		}
 		categories = {
 			artillery
@@ -329,6 +352,30 @@ technologies = {
 			factor = 1
 		}
 	}
+	light_artillery_upgrade2 = {
+		path = {
+			leads_to_tech = light_artillery3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1
+
+		start_year = 1936
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = 9 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	light_artillery3 = {
 	
 		enable_equipments = {
@@ -341,7 +388,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = 9 }
+			position = { x = -5 y = 11 }
 		}
 		
 		categories = {
@@ -474,6 +521,7 @@ technologies = {
 			factor = 1
 		}
 	}
+	
 	artillery1 = {
 	
 		enable_equipments = {
@@ -510,6 +558,7 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	sp_artillery1 = {
 	
 		enable_equipments = {
@@ -526,7 +575,6 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -2 y = 5 }
 		}
 		
 		categories = {
@@ -537,6 +585,7 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	ammo_3 = {
 
 		category_artillery = {
@@ -617,33 +666,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	sp_artillery1 = {
-	
-		enable_equipments = {
-			heavy_tank_artillery_equipment_1
-		}
 
-		enable_subunits = {
-			heavy_sp_artillery_brigade
-		}
-				
-		research_cost = 1
-
-		start_year = 1940
-		
-		folder = {
-			name = artillery_folder
-			position = { x = -2 y = 5 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	heavy_ammo_3 = {
 
 		category_artillery = {
@@ -671,6 +694,7 @@ technologies = {
 			factor = 1
 		}
 	}	
+
 	heavy_artillery2 = {
 	
 		enable_equipments = {

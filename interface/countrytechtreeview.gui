@@ -623,14 +623,47 @@ guiTypes = {
 				}		
 			}	
 
-				
 			gridboxtype = {
-				name = "gwtank_tree"
-				position = { x = 10% y = 172 }
-				size = { width = 80% height = 80% }
+				name = "simple_vehicle_STC_tree"
+				position = { x = 200 y = 25 }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "UPPER_LEFT"
 			}
+
+			gridboxtype = {
+				name = "basic_utility_vehicle_tree"
+				position = { x = 200 y = 150 }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
+
+			gridboxtype = {
+				name = "basic_large_utility_vehicle_tree"
+				position = { x = 200 y = 300 }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
+
+			gridboxtype = {
+				name = "light_mechanized_tree"
+				position = { x = 200 y = 450 }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
+
+			gridboxtype = {
+				name = "tracked_apc_tree"
+				position = { x = 200 y = 600 }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
+
+			gridboxtype = {
+				name = "wheeled_apc_tree"
+				position = { x = 200 y = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}									
 		}
 
 		containerWindowType = {
@@ -975,7 +1008,7 @@ guiTypes = {
 				position = { x = 0 y = 20 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 70 height = 70 }
-				format = "left"
+				format = "UP"
 			}
 		}
 
