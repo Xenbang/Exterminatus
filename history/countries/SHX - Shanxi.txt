@@ -6,7 +6,6 @@ create_country_leader = {
 	picture = "gfx/leaders/ork/ork_leader_portrait_3.dds"
 	expire = "1965.1.1"
 	ideology = socialism
-	}
 }
 
 oob = ""
