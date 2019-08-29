@@ -17,15 +17,19 @@ technologies = {
         enable_equipments = {
             ork_melee_equipment_0
         }
+
         path = {
             leads_to_tech = ork_melee_upgrade_1
             research_cost_coeff = 1
         }
+
         research_cost = 1.5
+
         folder = {
             name = ork_infantry_folder
-            position = { x = 150 y = 150 } 
+            position = { x = 0 y = 0 } 
         }
+
         categories = {
             infantry_weapons
         }
@@ -33,5 +37,4 @@ technologies = {
             factor = 1
         }
     }
-	
 }

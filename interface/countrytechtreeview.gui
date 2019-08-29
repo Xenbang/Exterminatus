@@ -402,8 +402,8 @@ guiTypes = {
 				}
 			}
 			gridboxtype = {
-				name = "ork_melee_tech"
-				position = { x = 150 y = 150 }
+				name = "ork_melee_tech_tree"
+				position = { x = 0 y = 150 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}

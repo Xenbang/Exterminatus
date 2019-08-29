@@ -40,7 +40,6 @@ technologies = {
 		}
 	}
 
-	#Hydra Flak Branch# 
 	antiair1 = {
 
 		enable_equipments = {
@@ -113,7 +112,7 @@ technologies = {
 	antiair2 = {
 
 		enable_equipments = {
-			heavy_anti_air_equipment_2
+			anti_air_equipment_2
 		}
 
 		enable_building = {
@@ -210,7 +209,7 @@ technologies = {
 	antiair3 = {
 
 		enable_equipments = {
-			heavy_anti_air_equipment_3
+			anti_air_equipment_3
 		}
 
 		enable_building = {
