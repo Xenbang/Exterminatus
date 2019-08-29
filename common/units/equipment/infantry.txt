@@ -224,4 +224,63 @@ equipments = {
 		priority = 5
 		visual_level = 0
 	}
+	
+	#####ORK ORK ORK#####
+	
+	ork_melee_equipment = { 
+	    is_archetype = yes
+	    picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		interface_category = interface_category_land
+		
+		soft_attack = 2
+        hard_attack = 0.1
+		air_attack = 0
+        ap_attack = 0.1
+        breakthrough = 0.9
+		defense = 0.6
+		max_strength = 2
+		reliability = 0.4
+		build_cost_ic = 1
+		resources = {
+			steel = 1
+		}
+	}
+	ork_melee_equipment_0 = {
+		archetype = ork_melee_equipment
+		active = yes
+		priority = 5
+		visual_level = 15 
+	}
+	ork_melee_equipment_1 = {
+		archetype = ork_melee_equipment
+		parent = ork_melee_equipment_0
+		priority = 3
+		visual_level = 10
+		active = yes
+		
+		defense = 0.8
+		breakthrough = 1.2
+		soft_attack = 2.5
+		reliability = 0.45
+		build_cost_ic = 2
+	}
+	ork_melee_equipment_2 = {
+		archetype = ork_melee_equipment
+		parent = ork_melee_equipment_1
+		priority = 1
+		visual_level = 5
+		active = yes
+		
+		defense = 1
+		breakthrough = 1.5
+		soft_attack = 3
+		reliability = 0.5
+		build_cost_ic = 3
+		resources = {
+			steel = 3
+		}
+	}
 }

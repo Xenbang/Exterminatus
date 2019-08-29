@@ -285,7 +285,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_infantry"
-					position = { x = 30 y = 240 }
+					position = { x = 30 y = 400 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -297,7 +297,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_special_weapons"
-					position = { x = 30 y = 520 }
+					position = { x = 30 y = 650 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -309,7 +309,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_hq"
-					position = { x = 30 y = 750 }
+					position = { x = 30 y = 900 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -401,47 +401,12 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
 			gridboxtype = {
-				name = "ork_wargear_equipment_tree"
+				name = "ork_melee_tech"
 				position = { x = 150 y = 150 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-				
-			gridboxtype = {
-				name = "ork_infantry_weapons_tree"
-				position = { x = 150 y = 300 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}	
-
-			gridboxtype = {
-				name = "ork_infantry_upgrade_tree"
-				position = { x = 150 y = 400 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}			
-
-			gridboxtype = {
-				name = "ork_HQ_equipment_tree"
-				position = { x = 150 y = 800 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}	
-			gridboxtype = {
-				name = "ork_special_weapons_tree"
-				position = { x = 150 y = 600 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-			gridboxtype = {
-				name = "ork_special_forces_tech_tree"
-				position = { x = 1100 y = 800 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}		
-
 		}
 
 		containerWindowType = {
