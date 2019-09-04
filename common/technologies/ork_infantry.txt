@@ -27,7 +27,7 @@ technologies = {
 
         folder = {
             name = ork_infantry_folder
-            position = { x = 0 y = 0 } 
+            position = { x = 0 y = 1 } 
         }
 
         categories = {
@@ -37,4 +37,234 @@ technologies = {
             factor = 1
         }
     }
+	ork_melee_upgrade_1 = {
+
+        
+
+        path = {
+            leads_to_tech = ork_melee_upgrade_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 3 y = 1 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	ork_melee_upgrade_2 = {
+
+
+
+        path = {
+		    leads_to_tech = ork_melee_tech_2
+            research_cost_coeff = 1
+        }
+		path = {
+		    leads_to_tech = ork_at_tech_1
+			research_cost_coeff = 1
+		}
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 6 y = 1 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	ork_melee_tech_2 = {
+
+        enable_equipments = {
+            ork_melee_equipment_1
+        }
+
+        path = {
+            leads_to_tech = ork_melee_upgrade_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 9 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	ork_melee_upgrade_3 = {
+
+        
+
+        path = {
+            leads_to_tech = ork_melee_upgrade_4
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 12 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	ork_melee_upgrade_4 = {
+
+        
+
+        path = {
+            leads_to_tech = ork_melee_tech_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 15 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	ork_melee_tech_3 = {
+
+        enable_equipments = {
+            ork_melee_equipment_2
+        }
+
+        path = {
+            leads_to_tech = ork_melee_upgrade_5
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 18 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	ork_melee_upgrade_5 = {
+
+        
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 21 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_at_tech_1 = {
+
+        enable_equipments = {
+		    ork_at_equipment_0
+		}
+		
+		path = { 
+		    leads_to_tech = ork_at_upgrade
+  		    research_cost_coeff = 1
+        }
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 9 y = 2 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_at_upgrade = {
+
+        
+
+		path = {
+		    leads_to_tech = ork_at_tech_2
+		    research_cost_coeff = 1
+        }
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 14 y = 2 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_at_tech_2 = { 
+ 
+         enable_equipments = {
+		    ork_at_equipment_1
+		}
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 19 y = 2 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
 }

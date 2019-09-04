@@ -248,13 +248,13 @@ equipments = {
 			steel = 1
 		}
 	}
-	ork_melee_equipment_0 = {
+	ork_melee_equipment_0 = { # CHOPPA #
 		archetype = ork_melee_equipment
 		active = yes
 		priority = 5
 		visual_level = 15 
 	}
-	ork_melee_equipment_1 = {
+	ork_melee_equipment_1 = { # UGE CHOPPA #
 		archetype = ork_melee_equipment
 		parent = ork_melee_equipment_0
 		priority = 3
@@ -267,7 +267,7 @@ equipments = {
 		reliability = 0.45
 		build_cost_ic = 2
 	}
-	ork_melee_equipment_2 = {
+	ork_melee_equipment_2 = { # BIG CHOPPA #
 		archetype = ork_melee_equipment
 		parent = ork_melee_equipment_1
 		priority = 1
@@ -283,4 +283,37 @@ equipments = {
 			steel = 3
 		}
 	}
+	ork_at_equipment = { 
+	    is_archetype = yes
+	    picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		interface_category = interface_category_land
+		
+		soft_attack = 1
+        hard_attack = 3
+		air_attack = 0
+        ap_attack = 15
+        breakthrough = 0.5
+		defense = 0.5
+		max_strength = 3
+		reliability = 0.5
+		build_cost_ic = 5
+		resources = {
+			steel = 1
+		}
+	}
+	ork_at_equipment_0 = { # Rokkit Launcha #
+		archetype = ork_at_equipment
+		active = yes
+		priority = 4
+		visual_level = 15
+	}
+    ork_at_equipment_1 = { # Lobba #
+		archetype = ork_at_equipment
+		active = yes
+		priority = 2
+		visual_level = 20
+	}	
 }

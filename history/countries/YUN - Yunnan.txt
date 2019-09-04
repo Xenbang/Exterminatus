@@ -23,3 +23,6 @@ set_popularities = {
 add_ideas = {
 greenskins
 }
+set_technology = {
+	ork_melee_tech = 1	
+}
