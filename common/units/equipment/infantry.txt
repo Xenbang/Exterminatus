@@ -316,4 +316,64 @@ equipments = {
 		priority = 2
 		visual_level = 20
 	}	
+    ork_assault_equipment = { 
+	    is_archetype = yes
+	    picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		interface_category = interface_category_land
+		
+		soft_attack = 1
+        hard_attack = 3
+		air_attack = 0
+        ap_attack = 15
+        breakthrough = 0.5
+		defense = 0.5
+		max_strength = 3
+		reliability = 0.5
+		build_cost_ic = 5
+		resources = {
+			steel = 1
+		}
+	}
+	ork_assault_equipment_1 = { # Shoota #
+		archetype = ork_assault_equipment
+		active = yes
+		priority = 2
+		visual_level = 20
+	}
+	ork_assault_equipment_2 = { # Big Shoota #
+		archetype = ork_assault_equipment
+		active = yes
+		priority = 2
+		visual_level = 20
+	}
+	ork_assault_equipment_3 = { # Dakkagun #
+		archetype = ork_assault_equipment
+		active = yes
+		priority = 2
+		visual_level = 20
+	}
+	ork_specgun_equipment = { 
+	    is_archetype = yes
+	    picture = archetype_infantry_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		interface_category = interface_category_land
+		
+		soft_attack = 1
+        hard_attack = 3
+		air_attack = 0
+        ap_attack = 15
+        breakthrough = 0.5
+		defense = 0.5
+		max_strength = 3
+		reliability = 0.5
+		build_cost_ic = 5
+		resources = {
+			steel = 1
+		}
+	}
 }

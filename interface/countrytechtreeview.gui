@@ -297,7 +297,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_special_weapons"
-					position = { x = 30 y = 650 }
+					position = { x = 30 y = 800 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -404,6 +404,12 @@ guiTypes = {
 			gridboxtype = {
 				name = "ork_melee_tech_tree"
 				position = { x = 200 y = 150 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "ork_assault_tech_tree"
+				position = { x = 200 y = 300 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}

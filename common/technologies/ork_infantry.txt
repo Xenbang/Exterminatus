@@ -267,4 +267,162 @@ technologies = {
             factor = 1
         }
 	}
+	ork_assault_tech = { 
+ 
+        path = {
+            leads_to_tech = ork_assault_tech_1
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 0 y = 4 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_assault_tech_1 = { 
+	
+	    enable_equipments = {
+		    ork_assault_equipment_1
+		}
+ 
+        path = {
+            leads_to_tech = ork_assault_tech_2
+            research_cost_coeff = 1
+        }
+		path = {
+            leads_to_tech = ork_assault_upgrade_1
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 3 y = 4 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_assault_upgrade_1 = { 
+
+        
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 3 y = 2 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_assault_tech_2 = { 
+	
+	    enable_equipments = {
+		    ork_assault_equipment_2
+		}
+ 
+        path = {
+            leads_to_tech = ork_assault_tech_3
+            research_cost_coeff = 1
+        }
+		path = {
+            leads_to_tech = ork_assault_upgrade_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 10 y = 4 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_assault_upgrade_2 = { 
+
+        
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 10 y = 2 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_assault_tech_3 = { 
+	
+	    enable_equipments = {
+		    ork_assault_equipment_3
+		}
+ 
+        path = {
+            leads_to_tech = ork_assault_upgrade_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 18 y = 4 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_assault_upgrade_3 = { 
+
+
+		
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 18 y = 2 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
 }
