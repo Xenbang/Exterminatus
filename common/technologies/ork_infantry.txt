@@ -425,4 +425,155 @@ technologies = {
             factor = 1
         }
 	}
+	ork_gears_tech = { 
+
+        enable_equipments = {
+		    ork_gears_equipment
+		}
+		
+		path = {
+            leads_to_tech = ork_gears_tech_2
+            research_cost_coeff = 1
+        }
+		
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 0 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_gears_tech_2 = { 
+
+
+		 path = {
+            leads_to_tech = ork_gears_tech_3
+            research_cost_coeff = 1
+        }
+		
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 3 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_gears_tech_3 = { 
+
+        enable_equipments = {
+		    ork_gears_equipment_1
+		}
+		
+		path = {
+            leads_to_tech = ork_gears_tech_4
+            research_cost_coeff = 1
+        }
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 8 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_gears_tech_4 = { 
+
+
+
+		path = {
+            leads_to_tech = ork_gears_tech_5
+            research_cost_coeff = 1
+        }
+		
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 13 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_gears_tech_5 = { 
+
+        enable_equipments = {
+		    ork_gears_equipment_2
+		}
+		
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 18 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_spec1_tech = { ## psyonics i guess? ##
+
+        enable_equipments = {
+		    ork_specgun_equipment
+		}
+		
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 1 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	ork_spec2_tech = { # paratroops i guess #
+
+        
+        research_cost = 1.5
+
+        folder = {
+            name = ork_infantry_folder
+            position = { x = 1 y = 0 } 
+        }
+
+        categories = {
+            infantry_weapons
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
 }

@@ -355,7 +355,41 @@ equipments = {
 		priority = 2
 		visual_level = 20
 	}
-	ork_specgun_equipment = { 
+	ork_gears_equipment = {  # just gear apparently #
+	    is_archetype = yes
+	    picture = archetype_infantry_equipment
+		is_buildable = yes
+		type = infantry
+		group_by = archetype
+		interface_category = interface_category_land
+		
+		soft_attack = 1
+        hard_attack = 3
+		air_attack = 0
+        ap_attack = 15
+        breakthrough = 0.5
+		defense = 0.5
+		max_strength = 3
+		reliability = 0.5
+		build_cost_ic = 5
+		resources = {
+			steel = 1
+		}
+	}
+	ork_gears_equipment_1 = { 
+		archetype = ork_gears_equipment
+		active = yes
+		priority = 2
+		visual_level = 20
+	}
+	ork_gears_equipment_2 = { 
+		archetype = ork_gears_equipment
+		active = yes
+		priority = 2
+		visual_level = 20
+	}
+	
+	ork_specgun_equipment = {  # Shokk Gun #
 	    is_archetype = yes
 	    picture = archetype_infantry_equipment
 		is_buildable = no

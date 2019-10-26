@@ -259,7 +259,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = { 
-					width = 2300 height = 975
+					width = 2300 height = 1600
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -271,12 +271,12 @@ guiTypes = {
 				}
 				
 				instantTextBoxType = {
-					name = "infantry_subtitle_wargear"
+					name = "infantry_subtitle_melee"
 					position = { x = 30 y = 100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WARGEAR"
+					text = "INFANTRY_TITLE_MELEE"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -284,36 +284,24 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_infantry"
+					name = "infantry_subtitle_assault"
 					position = { x = 30 y = 400 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_INFANTRY"
+					text = "INFANTRY_TITLE_ASSAULT"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "infantry_subtitle_special_weapons"
-					position = { x = 30 y = 800 }
+					name = "infantry_subtitle_gears"
+					position = { x = 30 y = 700 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SPECIAL_WEAPONS"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_subtitle_hq"
-					position = { x = 30 y = 900 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_HQ"
+					text = "INFANTRY_TITLE_GEARS"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -321,82 +309,13 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_special_forces"
-					position = { x = 1000 y = 750 }
+					position = { x = 30 y = 1000 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
 					text = "INFANTRY_TITLE_SPECIAL_FORCES"
 					maxWidth = 600
 					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}				
-				instantTextBoxType = {
-					name = "infantry_year2"
-					position = { x = 140 y = 50 }
-					textureFile = ""
-					font = "hoi_30header"
-					borderSize = { x = 0 y = 0}
-					text = "Threat Level 1"
-					maxWidth = 200
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year3"
-					position = { x = 420 y = 50 }
-					textureFile = ""
-					font = "hoi_30header"
-					borderSize = { x = 0 y = 0}
-					text = "Threat Level 1"
-					maxWidth = 200
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year5"
-					position = { x = 700 y = 50 }
-					font = "hoi_30header"
-					borderSize = { x = 0 y = 0}
-					text = "Threat Level 2"
-					maxWidth = 200
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year6"
-					position = { x = 980 y = 50 }
-					font = "hoi_30header"
-					borderSize = { x = 0 y = 0}
-					text = "Threat Level 3"
-					maxWidth = 200
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_year7"
-					position = { x = 1260 y = 50 }
-					font = "hoi_30header"
-					borderSize = { x = 0 y = 0}
-					text = "Threat Level 3"
-					maxWidth = 200
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year8"
-					position = { x = 1540 y = 50 }
-					font = "hoi_30header"
-					borderSize = { x = 0 y = 0}
-					text = "Threat Level 4"
-					maxWidth = 200
-					maxHeight = 32
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
@@ -410,6 +329,24 @@ guiTypes = {
 			gridboxtype = {
 				name = "ork_assault_tech_tree"
 				position = { x = 200 y = 300 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "ork_gears_tech_tree"
+				position = { x = 200 y = 800	 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "ork_spec1_tech_tree"
+				position = { x = 200 y = 1100	 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "ork_spec2_tech_tree"
+				position = { x = 200 y = 1300	 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
