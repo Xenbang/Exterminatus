@@ -4,33 +4,12 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 41038.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "FRA"
+		default_country = "TC1"
 		default = yes
 		
-		"FRA"={
+		"TC1"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		
-		MAN={
-			history = "OTHER_GATHERING_STORM_DESC"
-		} 
-		
-		GXC={
-			history = "OTHER_GATHERING_STORM_DESC"
-		} 
-		
-		SHX={
-			history = "OTHER_GATHERING_STORM_DESC"
-		} 
-		
-		YUN={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-		
-		XSM={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

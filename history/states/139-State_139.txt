@@ -2,20 +2,8 @@ state={
 	id=139
 	name="STATE_139"
 	provinces={
-		17 182 816 915 967 1094 1138 1326 1412 1864 2125 2475 2681 2902 3175 3417 3541 3637 3681 4188 4470 4808 4902 5089 5892 6160 6220 6349 6666 6695 6830 6902 7815 9269 9301 9320 9332 9358 9401 9411 9426 9437 9508 9532 9533 9578 9590 9591 9600 9601 9660 9669 9682 9683 9721 9744 9747 9834 9868 9891 
+		5787 
 	}
-		manpower=1000000
-
-	state_category = large_town
-
-	history = { 
-                owner = ENG
-		add_core_of = ENG
-
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-      	  	industrial_complex = 3
-		}
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

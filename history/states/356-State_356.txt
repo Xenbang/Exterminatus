@@ -1,16 +1,10 @@
+
 state={
 	id=356
 	name="STATE_356"
 	provinces={
-		1920 3047 3734 3896 3904 3979 4472 4571 4775 5100 5338 5534 6113 6331 7005 7903 12600 12666 12694 12715 12744 12745 12774 12802 12812 12821 12869 12879 12899 12911 12980 13044 13059 13122 13170 
+		153 220 389 1549 1814 2911 3318 4550 5847 8003 8277 8295 
 	}
-	manpower=350400
-	state_category = rural
-	history={
-	Owner = YUN
-	add_core_of = YUN
-	buildings = {
-			infrastructure = 1
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

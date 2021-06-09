@@ -1,16 +1,9 @@
 state={
 	id=394
 	name="STATE_394"
-history={
-    victory_points = { 2398 15 }
-	victory_points = { 13504 5 }
-	victory_points = { 13521 5 }
-	Owner = SHX
-	add_core_of = SHX
-}
-provinces={
-	352 1013 2398 2918 4959 6129 6480 6929 7463 7592 7647 7742 7803 13305 13376 13398 13441 13504 13521 
+	provinces={
+		250 428 701 1678 2446 2663 3072 3366 4069 4564 4772 6668 8366 8405 
 	}
-	manpower=1522753
-	state_category=city
+	manpower=0
+	buildings_max_level_factor=1.000
 }

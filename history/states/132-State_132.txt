@@ -1,24 +1,9 @@
-
 state={
 	id=132
 	name="STATE_132"
-
-	history={
-		owner = SCO
-		add_core_of = SCO
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-			industrial_complex = 3
-
-		}
-
-	}
-
 	provinces={
-		977 1037 1449 1942 2638 2851 3475 4184 4526 4620 5474 6097 7072 7363 7564 9403 9449 9476 9493 9536 9537 9558 9592 9608 9616 9640 9732 9777 9778 9796 9823 
+		11859 
 	}
-	manpower=1000000
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=large_town
 }

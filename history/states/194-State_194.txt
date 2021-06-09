@@ -2,19 +2,8 @@ state={
 	id=194
 	name="STATE_194"
 	provinces={
-		809 3564 10338 10361 10414 5129 3891
+		2335 2560 5143 6770 9441 
 	}
-	manpower=7340050
-    state_category = megalopolis
-	history={
-		owner = XSM
-		victory_points = { 3564 15 }
-		victory_points = { 10338 15}
-		victory_points = { 10361 50 }
-		victory_points = { 10414 15 }
-		victory_points = { 809 15 }
-		victory_points = { 5129 15 }
-		victory_points = { 3891 15 }
-		add_core_of = XSM
-	}	
+	manpower=0
+	buildings_max_level_factor=1.000
 }

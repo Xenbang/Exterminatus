@@ -2,12 +2,8 @@ state={
 	id=6
 	name="STATE_6"
 	provinces={
-		1771 2086 2290 2620 3023 3680 6767 7262 7688 11556 11562 11576 11605 11660 11713 11734 11803 11894 11907 11918 
+		11774 
 	}
-	manpower=64000
-	state_category = small_island
-		history={
-		owner = XSM
-		add_core_of = XSM
-	}	
+	manpower=0
+	buildings_max_level_factor=1.000
 }

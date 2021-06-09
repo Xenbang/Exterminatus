@@ -1,24 +1,10 @@
+
 state={
 	id=152
 	name="STATE_152"
 	provinces={
-		18 74 260 455 1151 1607 1819 1834 2619 2735 3089 3685 3866 4476 4485 4515 4674 4686 4946 4973 6225 6238 9541 9603 9642 9648 9658 9677 9733 9739 9824 9851 9860 9887 9919 9960 9976 9985 9987 10047 10118 
+		2858 3439 6439 8776 8779 8821 8837 
 	}
-
-	history={
-	victory_points = { 4476 5 }
-		owner = MAN
-		add_core_of = MAN
-		buildings = {
-			infrastructure = 1
-        }
-	}
-
-	resources={
-		steel=12
-		aluminium=8 
-	}	
-
-	manpower=780393
-	state_category = rural
+	manpower=0
+	buildings_max_level_factor=1.000
 }

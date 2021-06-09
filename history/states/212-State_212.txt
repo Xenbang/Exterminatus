@@ -2,11 +2,8 @@ state={
 	id=212
 	name="STATE_212"
 	provinces={
-		593 3632 5340 6094 6096 7220 10574 10612 10627 10690 10691 10728 10746 10767 10785 10801 10830 10846 
+		11900 
 	}
-	manpower = 1
-
-	state_category = wasteland
-
+	manpower=0
 	buildings_max_level_factor=1.000
 }

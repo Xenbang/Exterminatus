@@ -1,19 +1,9 @@
 state={
 	id=317
 	name="STATE_317"
-	history={
-    victory_points = { 3453 5 }
-	victory_points = { 5582 5 }
-	victory_points = { 12282 5 }
-	victory_points = { 12374 25 }
-	victory_points = { 12466 5 }
-	victory_points = { 6444 10 }
-	Owner = SHX
-	add_core_of = SHX
-	}
 	provinces={
-		918 975 1056 1096 1639 2033 3012 3339 3453 4291 4356 5090 5582 5679 5685 6441 6444 6497 6505 6743 7089 7376 7526 12019 12063 12147 12156 12168 12214 12282 12333 12356 12374 12451 12466 12506 12520 12614 
+		11972 
 	}
-	manpower=4744224	
-	state_category=metropolis
+	manpower=0
+	buildings_max_level_factor=1.000
 }

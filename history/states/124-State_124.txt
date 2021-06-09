@@ -2,16 +2,8 @@ state={
 	id=124
 	name="STATE_124"
 	provinces={
-		1238 1504 1697 3697 7260 7744 9289 9326 9413 9468 9514 9618 
+		8658 
 	}
-  manpower=610020
-    state_category = large_town
-	history={
-		owner = XSM
-		victory_points = { 9326 2 }
-		victory_points = { 9289 2 }
-		victory_points = { 9413 2 }
-		victory_points = { 7744 5 }
-		add_core_of = XSM
-	}	
+	manpower=0
+	buildings_max_level_factor=1.000
 }

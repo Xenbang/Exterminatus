@@ -2,18 +2,8 @@ state={
 	id=229
 	name="STATE_229"
 	provinces={
-		238 288 672 910 1124 1198 1646 1654 1987 2044 2292 2340 2431 2804 3112 3955 4487 4760 5287 5992 6178 6304 6454 6657 6794 7507 7659 10520 10566 10591 10635 10636 10646 10697 10715 10735 10752 10780 10784 10793 10798 10809 10827 10863 10864 10899 10946 10961 11009 11059 11110 11123 
+		11911 
 	}
-	manpower=4345122
-	state_category = large_city
-	history={
-	Owner = XSM
-	victory_points = { 10735 50 }
-	victory_points = { 6304 10 }
-	victory_points = { 1124 10 }
-	victory_points = { 6454 10 }
-	victory_points = { 3955 10 }
-	victory_points = { 10798 10 }
-	add_core_of = XSM
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

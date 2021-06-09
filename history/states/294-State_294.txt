@@ -2,17 +2,8 @@ state={
 	id=294
 	name="STATE_294"
 	provinces={
-		458 1812 2140 2873 3198 7738 11573 11599 11696 11770 11834 
+		11954 
 	}
-	manpower=150760
-	state_category = pastoral
-	history={
-	victory_points = { 458 2 }
-	Owner = YUN
-	add_core_of = YUN
-	buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

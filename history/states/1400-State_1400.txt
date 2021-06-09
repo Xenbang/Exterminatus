@@ -1,0 +1,9 @@
+state={
+	id=1400
+	name="STATE_1400"
+	provinces={
+		35 78 280 572 1085 1469 2246 3065 7206 7825 7835 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

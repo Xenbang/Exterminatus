@@ -2,25 +2,8 @@ state={
 	id=241
 	name="STATE_241"
 	provinces={
-		90 278 1109 1397 2092 2285 3862 3965 4708 5136 5359 5860 6171 6640 7110 7539 7827 10654 10672 10734 10774 10791 10843 10854 10862 10921 10929 11031 11083 11100 11161 11162 11217 
+		11920 
 	}
-	manpower=2200449
-	state_category = city
-	resources={
-        rubber=16
-    }
-	history={
-	victory_points = { 11083 20 }
-	victory_points = { 5359 10}
-	victory_points = { 11031 10}
-	victory_points = { 3965 10 }
-	victory_points = { 10791 2 }
-	Owner = YUN
-	add_core_of = YUN
-	buildings = {
-			infrastructure = 4
-			arms_factory = 2
-        	industrial_complex = 2
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

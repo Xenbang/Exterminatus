@@ -2,12 +2,8 @@ state={
 	id=328
 	name="STATE_328"
 	provinces={
-		669 3750 4776 4923 5503 5545 5610 6934 7025 7057 7145 7443 7627 7730 11952 11972 12024 12045 12171 12199 12258 12340 12348 12385 12428 12609 
+		407 777 1147 2061 3507 3520 3874 4006 6745 7833 8231 
 	}
-	manpower=185881
-	state_category = small_island
-		history={
-		owner = XSM
-		add_core_of = XSM
-	}	
+	manpower=0
+	buildings_max_level_factor=1.000
 }

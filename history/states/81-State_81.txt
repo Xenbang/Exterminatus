@@ -2,20 +2,8 @@ state={
 	id=81
 	name="STATE_81"
 	provinces={
-		245 428 710 1489 1748 1891 2446 3443 3627 3850 3924 4021 5175 5708 5757 5981 6369 6710 7291 8512 8524 8525 8530 8540 8555 8589 8613 8647 8660 8695 8703 8711 8837 
+		11827 
 	}
-	manpower=1000000
-
-	state_category = large_town
-
-	history = { 
-                owner = DEN
-		add_core_of = DEN
-
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-      	  	industrial_complex = 3
-		}
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

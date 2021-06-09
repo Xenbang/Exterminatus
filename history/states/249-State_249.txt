@@ -2,18 +2,8 @@ state={
 	id=249
 	name="STATE_249"
 	provinces={
-		10562 70 121 231 445 829 1055 1330 1409 1801 2237 2738 2836 2963 3330 4091 4225 4915 4950 5317 5350 5450 5576 5668 5954 6245 6725 7518 7668 7917 10643 10708 10823 10852 10880 10905 10920 10953 10985 10990 11019 11020 11028 11073 11090 11091 11172 11201 11257 11266 
+		6283 
 	}
-	manpower=674342
-	state_category=rural
-	history={
-	victory_points = { 11073 5 }
-	victory_points = { 4225 5 }
-	Owner = GXC
-	add_core_of = GXC
-	buildings = {
-			infrastructure = 2
-        	industrial_complex = 1
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

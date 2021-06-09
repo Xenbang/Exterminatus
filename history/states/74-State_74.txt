@@ -1,22 +1,9 @@
-
 state={
 	id=74
 	name="STATE_74"
 	provinces={
-		1076 1244 4976 5168 5737 6793 8733 8749 8781 8828 
+		11821 
 	}
-	manpower=1000000
-
-	state_category = large_town
-
-	history = { 
-                owner = SCO
-		add_core_of = SCO
-
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-      	  	industrial_complex = 3
-		}
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

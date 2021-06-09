@@ -2,17 +2,8 @@ state={
 	id=276
 	name="STATE_276"
 	provinces={
-		180 306 1264 1515 2587 3048 3133 3237 3590 5015 5231 6413 7157 11294 11366 11409 11430 11495 
+		11942 
 	}
-	manpower=310000
-	state_category = rural
-	history={
-	victory_points = { 11409 5 }
-	Owner = YUN
-	add_core_of = YUN
-	buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

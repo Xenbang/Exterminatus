@@ -1,10 +1,2 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-11203;3525;sea;-1;-1;-1;-1;-1;;Sigeric
-10967;7546;sea;-1;-1;-1;-1;-1;;Augaia
-2526;6778;sea;-1;-1;-1;-1;-1;;Rechiar
-11802;2620;sea;-1;-1;-1;-1;-1;;Edica
-3914;12548;sea;-1;-1;-1;-1;-1;;Abeius
-12881;7597;sea;-1;-1;-1;-1;-1;;Ju
-9862;9807;sea;-1;-1;-1;-1;-1;;Ervig
-9414;9340;sea;-1;-1;-1;-1;-1;;Winguric
-9567;330;sea;-1;-1;-1;-1;-1;;Ikalbel
+-1;-1;;-1;-1;-1;-1;-1;-1

@@ -2,20 +2,8 @@ state={
 	id=87
 	name="STATE_87"
 	provinces={
-		561 1159 4077 4260 5735 6132 6739 8746 8758 8836 8843 8895 
+		5396 
 	}
-	manpower=1000000
-
-	state_category = large_town
-
-	history = { 
-                owner = IRE
-		add_core_of = IRE
-
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-      	  	industrial_complex = 3
-		}
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

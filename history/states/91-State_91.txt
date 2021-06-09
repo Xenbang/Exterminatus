@@ -2,20 +2,8 @@ state={
 	id=91
 	name="STATE_91"
 	provinces={
-		578 1335 1846 1909 2490 2510 3644 4725 4949 5656 5763 6985 7388 8709 8777 8798 8858 8888 8905 8936 8955 8989 9133 
+		2795 3915 6919 8510 8514 
 	}
-	manpower=1000000
-
-	state_category = large_town
-
-	history = { 
-                owner = IRE
-		add_core_of = IRE
-
-		buildings = {
-			infrastructure = 5
-			arms_factory = 3
-      	  	industrial_complex = 3
-		}
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

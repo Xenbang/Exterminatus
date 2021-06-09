@@ -2,16 +2,8 @@ state={
 	id=477
 	name="STATE_477"
 	provinces={
-		7671 11018 10974 10913 2877 10904 
+		1533 2704 3512 3580 4098 5813 6454 6719 7632 8659 8669 8708 8727 8728 8811 
 	}
-	
-	manpower=85000
-	
-	state_category=town
-	
-	history={
-		victory_points = { 7671 10 }
-		owner=BEL
-		add_core_of=BEL
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

@@ -2,17 +2,8 @@ state={
 	id=288
 	name="STATE_288"
 	provinces={
-		222 368 432 464 1233 1453 2220 3031 3346 3523 3465 3989 3999 4069 4371 4809 4836 5406 5913 6237 7200 7278 7327 7341 7516 7604 11364  11442 11461 11503 11517 11571 11586 11645 11646 11656 11709 11725 11738 11775 11782 11813 11814 11881 11906 11989 12064 11452
+		11949 
 	}
-	manpower=1644422
-	state_category=city
-	history={
-	victory_points = { 7278 5 }
-	victory_points = { 4069 5 }
-	victory_points = { 11906 5 }
-	victory_points = { 7327 20 }
-	victory_points = { 11461 3 }
-	Owner = SHX
-	add_core_of = SHX
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

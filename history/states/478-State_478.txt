@@ -2,12 +2,8 @@ state={
 	id=478
 	name="STATE_478"
 	provinces={
-		3153 3994 11249 11281 6479
+		4257 4541 6986 7086 7387 7799 8141 8715 8793 8824 
 	}
-	manpower=45000
-	state_category=town
-	history={
-		owner = SHX
-		add_core_of = SHX
-	}	
+	manpower=0
+	buildings_max_level_factor=1.000
 }

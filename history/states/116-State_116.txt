@@ -2,15 +2,8 @@ state={
 	id=116
 	name="STATE_116"
 	provinces={
-		2462 6150 9162 9180 9218 
+		11851 
 	}
-	manpower=23000
-	state_category = pastoral
-	history={
-	Owner = MAN
-	add_core_of = MAN
-	buildings = {
-			infrastructure = 1
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

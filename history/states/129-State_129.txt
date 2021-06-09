@@ -2,16 +2,8 @@ state={
 	id=129
 	name="STATE_129"
 	provinces={
-		1901 1925 2123 2419 3552 4096 5099 5218 5239 5695 5915 6043 6838 6925 9348 9385 9391 9423 9434 9450 9467 9501 9583 9609 9622 9687 9710 
+		8682 
 	}
-	manpower=310000
-	state_category = pastoral	
-	history={
-	victory_points = { 9609 1 }
-	Owner = MAN
-	add_core_of = MAN
-	buildings = {
-			infrastructure = 2
-        }
-	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }
