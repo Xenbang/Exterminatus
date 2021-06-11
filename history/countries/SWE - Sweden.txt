@@ -1,4 +1,4 @@
-﻿capital = 48	
+﻿capital = 1288	
 
 create_country_leader = {
 	name = "Ervig von Heldebas"

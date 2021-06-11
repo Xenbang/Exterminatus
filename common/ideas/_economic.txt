@@ -176,7 +176,6 @@ ideas = {
 			traits = { trait_form_of_government }
 
 			modifier = {
-				army_chief_cost_factor = -0.25 
 				army_leader_start_level = 2 
 			}
 
@@ -204,7 +203,6 @@ ideas = {
 			traits = { trait_form_of_government }
 
 			modifier = {
-				army_chief_cost_factor = -0.25 
 				army_leader_start_level = 4
 				conscription_factor = 0.1 
 				training_time_factor = 2

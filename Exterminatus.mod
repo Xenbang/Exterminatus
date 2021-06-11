@@ -26,20 +26,15 @@ replace_path="common/scripted_triggers"
 replace_path="common/wargoals"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
-replace_path="common/units"
 replace_path="common/technology_sharing"
 replace_path="common/operations"
 replace_path="common/resistance_activity"
-replace_path="common/units/equipment"
-replace_path="common/ideas/_economic_2"
-
-path="mod/Exterminatus"
-
-
+replace_path="common/scorers/country/ai_decryption_scorer"
+replace_path="common/music"
 tags={
 	"Map"
 	"Utilities"
 }
-
 picture="blank_map_template_5632x2048.jpg"
-supported_version="1.7.1*"
+supported_version="1.10."
+path="C:/Users/erikc/Documents/Paradox Interactive/Hearts of Iron IV/mod/Exterminatus"

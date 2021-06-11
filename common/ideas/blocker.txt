@@ -1,0 +1,9 @@
+ideas = {
+
+    country = {
+
+        BUL_army_restrictions = {
+            
+        }
+    }
+}

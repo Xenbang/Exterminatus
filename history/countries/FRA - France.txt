@@ -25,10 +25,6 @@ add_ideas = {
 }
 
 set_technology = {
-	infantry_weapons = 1
-	special_weapons = 1
-	wargear_equipment = 1
-	HQ_equipment = 1 
 }
 
 create_country_leader = {
@@ -81,49 +77,4 @@ set_popularities = {
 	democratic = 0
 	fascism = 100
 	communism = 0
-}
-
-set_autonomy = {
-	target = BEL
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = DEN
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = ENG
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = GER
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = GRE
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = IRE
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = NOR
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = SCO
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = SWE
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = SWI
-	autonomous_state = autonomy_reichskommissariat
-}
-set_autonomy = {
-	target = WLS
-	autonomous_state = autonomy_reichskommissariat
 }

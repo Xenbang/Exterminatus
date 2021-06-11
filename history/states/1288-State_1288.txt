@@ -7,12 +7,13 @@ state={
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
-        state_category = town
+	state_category = town
 
-	history={
-		owner = TC1
+	history = {
+		owner = SWE
 		victory_points = { 3838 5 }
 		buildings = {
 		}
-		add_core_of = TC1
+		add_core_of = SWE
+	}
 }

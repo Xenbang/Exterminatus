@@ -4,10 +4,10 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 41038.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "TC1"
+		default_country = "SWE"
 		default = yes
 		
-		"TC1"={
+		"SWE"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		effect = {

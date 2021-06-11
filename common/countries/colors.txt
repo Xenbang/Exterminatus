@@ -1,4 +1,0 @@
-TC1 = {
-	color = rgb { 33 44 255 }
-	color_ui = rgb { 33 44 255 }
-}
