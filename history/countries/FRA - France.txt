@@ -14,14 +14,6 @@ set_technology = {
 }
 
 add_ideas = {
-	human
-	dictatorship
-	solutio_extremis
-	economic_stagnation
-	corruptio_solutio_prima
-	production_grade_III_maximus
-	hive_sector
-	limited_conscription
 }
 
 set_technology = {
