@@ -1,0 +1,9 @@
+state={
+	id=884
+	name="STATE_884"
+	provinces={
+		2018 3477 4561 5763 6135 7224 7783 7802 10000 10125 10139 10212 10229 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
