@@ -2,7 +2,6 @@ strategic_region={
 	id=1
 	name="STRATEGICREGION_1"
 	provinces={
-		0
 1
 2
 3
