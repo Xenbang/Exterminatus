@@ -4,6 +4,7 @@ state={
 	provinces={
 		862 1529 2964 3178 7575 7962 9634 9668 
 	}
-	manpower=0
+	manpower = 1 
+state_category = wasteland
 	buildings_max_level_factor=1.000
 }
