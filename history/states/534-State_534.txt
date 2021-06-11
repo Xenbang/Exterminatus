@@ -1,9 +1,0 @@
-state={
-	id=534
-	name="STATE_534"
-	provinces={
-		1594 3450 3673 5034 8864 8900 8948 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
-}
