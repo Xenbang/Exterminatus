@@ -2,31 +2,18 @@
 
 # Starting tech
 set_technology = {
-
 }
 
 set_convoys = 500
 
-41038.1.1 = {
-	
-	#focuses
-	complete_national_focus =
+1936.1.1 = {
 	
 	
-	set_technology = {
-
-		#doctrines
-		
-		#electronics
-
-		#industry
-	}
 }
-
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "41038.1.1"
+	last_election = "1936.1.1"
 	election_frequency = 
 	elections_allowed = no
 }

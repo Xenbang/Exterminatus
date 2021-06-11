@@ -804,7 +804,7 @@ guiTypes = {
 			size = { width=500 height=100%% }	
 			
 			containerWindowType = {
-				name = "grid"
+				name = "ideas_grid"
 				position = { x = 0 y = 20 }
 				size = { width=270 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
@@ -822,7 +822,7 @@ guiTypes = {
 				}
 				
 				gridBoxType = {
-					name = "box"
+					name = "ideas_box"
 					position = { x = 10 y = 10 }
 					size = { width = 280 height = 1 }
 					slotsize = { width = 231 height = 75 }

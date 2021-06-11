@@ -3309,8 +3309,6 @@ guiTypes = {
 			name = "equipment_button"
 			position = { x=5 y=4 }
 			quadTextureSprite = "GFX_equipment_item_large"
-			size = { width=342 height= 200 }
-
 			clicksound = click_default
 			frame = 1
 		}
