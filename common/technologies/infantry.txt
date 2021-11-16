@@ -1,0 +1,772 @@
+technologies = {
+	
+	@1918 = 0
+	@1936 = 2
+	@1938 = 4
+	@1939 = 6
+	@1940 = 8
+	@1941 = 10
+	@1942 = 12
+	@1943 = 14
+	@1944 = 16
+	@1945 = 18
+	@1946 = 20
+
+	tier_1_technology = {
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = las_gun_mod
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = infantry_armor
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = krak_grenades
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = entrenching_tools
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = combat_drugs
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = increased_training
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	las_gun_mod = {
+
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = tier_2_technology
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+	infantry_armor = {
+
+		path = {
+			leads_to_tech = tier_2_technology
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	krak_grenades = {
+
+		path = {
+			leads_to_tech = tier_2_technology
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	entrenching_tools = {
+
+		path = {
+			leads_to_tech = tier_2_technology
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	combat_drugs = {
+
+		path = {
+			leads_to_tech = tier_2_technology
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	increased_training = {
+
+		path = {
+			leads_to_tech = tier_2_technology
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	tier_2_technology = {
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = calmurn_pattern_lasgun
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = improved_boots
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = combat_grenades
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = medkits
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = combat_drugs_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = increased_officer_ratio
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	calmurn_pattern_lasgun = {
+
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = tier_3_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+	improved_boots = {
+
+		path = {
+			leads_to_tech = tier_3_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	combat_grenades = {
+
+		path = {
+			leads_to_tech = tier_3_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	medkits = {
+
+		path = {
+			leads_to_tech = tier_3_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	combat_drugs_2 = {
+
+		path = {
+			leads_to_tech = tier_3_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	increased_officer_ratio = {
+
+		path = {
+			leads_to_tech = tier_3_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	tier_3_technology = {
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = calmurn_bayonet
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = extended_infantry_armor
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = rocket_launchers
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = restructured_battalions
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = ogryns_integration
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = increased_banner_ratio
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	calmurn_bayonet = {
+
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = tier_4_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+	extended_infantry_armor = {
+
+		path = {
+			leads_to_tech = tier_4_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	rocket_launchers = {
+
+		path = {
+			leads_to_tech = tier_4_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	restructured_battalions = {
+
+		path = {
+			leads_to_tech = tier_4_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	ogryns_integration = {
+
+		path = {
+			leads_to_tech = tier_4_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	increased_banner_ratio = {
+
+		path = {
+			leads_to_tech = tier_4_technology
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	tier_4_technology = {
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = calmurn_combi_flame_lasgun
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = gasmask
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = melta_bombs
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = personnel_cloaks
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = guardsmen_bionics
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = 3_generation_punishment
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = 12 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	calmurn_combi_flame_lasgun = {
+
+		enable_equipments = {
+		}
+		
+		enable_subunits = {
+		}
+		
+		path = {
+			leads_to_tech = infantry_weapons1
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+	gasmask = {
+
+		path = {
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	melta_bombs = {
+
+		path = {
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	personnel_cloaks = {
+
+		path = {
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	guardsmen_bionics = {
+
+		path = {
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	3_generation_punishment = {
+
+		path = {
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = 14 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+		}
+	}
+}

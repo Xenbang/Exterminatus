@@ -37,4 +37,4 @@ tags={
 }
 picture="blank_map_template_5632x2048.jpg"
 supported_version="1.10."
-path="C:/Users/erikc/Documents/Paradox Interactive/Hearts of Iron IV/mod/Exterminatus"
+path="C:/Users/erikc/Documents/Paradox Interactive/Hearts of Iron IV/mod/40kmod"
