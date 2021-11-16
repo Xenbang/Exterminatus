@@ -1,0 +1,108 @@
+spriteTypes = {	
+
+	### generic equipment archetypes ###
+
+	#Tier 1 Imperium Techs#
+	SpriteType = {
+		name = "GFX_infantry_armor_medium"
+		texturefile = "gfx/interface/technologies/Imperial/infantry_armor.dds"
+	}		
+	SpriteType = {
+		name = "GFX_krak_grenades_medium"
+		texturefile = "gfx/interface/technologies/Imperial/krak_grenades.dds"
+	}		
+	SpriteType = {
+		name = "GFX_entrenching_tools_medium"
+		texturefile = "gfx/interface/technologies/Imperial/entrenching_tools.dds"
+	}		
+	SpriteType = {
+		name = "GFX_combat_drugs_medium"
+		texturefile = "gfx/interface/technologies/Imperial/combat_drugs.dds"
+	}		
+	SpriteType = {
+		name = "GFX_increased_training_medium"
+		texturefile = "gfx/interface/technologies/Imperial/increased_training.dds"
+	}		
+
+
+	#Tier 2 Imperium Techs#
+	SpriteType = {
+		name = "GFX_calmurn_pattern_lasgun_medium"
+		texturefile = "gfx/interface/technologies/Imperial/calmurn_pattern_lasgun.dds"
+	}		
+	SpriteType = {
+		name = "GFX_improved_boots_medium"
+		texturefile = "gfx/interface/technologies/Imperial/improved_boots.dds"
+	}		
+	SpriteType = {
+		name = "GFX_combat_grenades_medium"
+		texturefile = "gfx/interface/technologies/Imperial/combat_grenades.dds"
+	}		
+	SpriteType = {
+		name = "GFX_medkits_medium"
+		texturefile = "gfx/interface/technologies/Imperial/medkits.dds"
+	}		
+	SpriteType = {
+		name = "GFX_combat_drugs_2_medium"
+		texturefile = "gfx/interface/technologies/Imperial/combat_drugs_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_increased_officer_ratio_medium"
+		texturefile = "gfx/interface/technologies/Imperial/increased_officer_ratio.dds"
+	}	
+
+	#Tier 3 Imperium Techs#
+	SpriteType = {
+		name = "GFX_calmurn_bayonet_medium"
+		texturefile = "gfx/interface/technologies/Imperial/calmurn_bayonet.dds"
+	}		
+	SpriteType = {
+		name = "GFX_extended_infantry_armor_medium"
+		texturefile = "gfx/interface/technologies/Imperial/extended_infantry_armor.dds"
+	}		
+	SpriteType = {
+		name = "GFX_rocket_launchers_medium"
+		texturefile = "gfx/interface/technologies/Imperial/rocket_launchers.dds"
+	}		
+	SpriteType = {
+		name = "GFX_restructured_battalions_medium"
+		texturefile = "gfx/interface/technologies/Imperial/restructured_battalions.dds"
+	}		
+	SpriteType = {
+		name = "GFX_ogryns_integration_medium"
+		texturefile = "gfx/interface/technologies/Imperial/ogryns_integration.dds"
+	}		
+	SpriteType = {
+		name = "GFX_increased_banner_ratio_medium"
+		texturefile = "gfx/interface/technologies/Imperial/increased_banner_ratio.dds"
+	}		
+
+
+	#Tier 4 Imperium Techs#
+	SpriteType = {
+		name = "GFX_calmurn_combi_flame_lasgun_medium"
+		texturefile = "gfx/interface/technologies/Imperial/calmurn_combi_flame_lasgun.dds"
+	}		
+	SpriteType = {
+		name = "GFX_gasmask_medium"
+		texturefile = "gfx/interface/technologies/Imperial/gasmask.dds"
+	}		
+	SpriteType = {
+		name = "GFX_melta_bombs_medium"
+		texturefile = "gfx/interface/technologies/Imperial/melta_bombs.dds"
+	}		
+	SpriteType = {
+		name = "GFX_personnel_cloaks_medium"
+		texturefile = "gfx/interface/technologies/Imperial/personnel_cloaks.dds"
+	}		
+	SpriteType = {
+		name = "GFX_guardsmen_bionics_medium"
+		texturefile = "gfx/interface/technologies/Imperial/guardsmen_bionics.dds"
+	}		
+	SpriteType = {
+		name = "GFX_3_generation_punishment_medium"
+		texturefile = "gfx/interface/technologies/Imperial/3_generation_punishment.dds"
+	}		
+
+
+}
