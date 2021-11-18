@@ -4,7 +4,25 @@ state={
 	provinces={
 		1388 2880 5792 6363 10965 10982 10985 
 	}
-	manpower = 1 
-state_category = wasteland
+	manpower = 1585850
+	
+	history={
+		victory_points = {
+			6363 1 
+		}
+		victory_points = {
+			10982 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1 
+		}
+		add_core_of = OR6
+		owner = OR6
+	}
+	
+	state_category = rural 
 	buildings_max_level_factor=1.000
 }

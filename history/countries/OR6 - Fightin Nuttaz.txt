@@ -1,0 +1,39 @@
+﻿capital = 992
+
+oob = ""
+
+set_research_slots = 3
+set_stability = 1
+set_war_support = 1
+
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+}
+
+set_technology = {
+}
+
+create_country_leader = {
+	name = "Urbad Worldsmasha"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 100
+	communism = 0
+}
