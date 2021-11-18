@@ -1,0 +1,27 @@
+operations = {
+
+	GOF_add_cores = {
+
+		icon = generic_operation
+
+		allowed = {
+		}
+
+		available = {
+		}
+
+
+		activation = {
+
+		}
+
+		complete_effect = {
+			every_state = {
+                limit = {
+                    is_controlled_by = ROOT 
+                }
+                add_core_of = ROOT 
+            }
+		}
+	}
+}
