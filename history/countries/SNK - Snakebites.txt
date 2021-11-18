@@ -1,7 +1,7 @@
-﻿capital = 1118
+﻿capital = 
 
 create_country_leader = {
-	name = "Bullzog Killatusk"
+	name = "Ozlakk Mag Bonehamma"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "gfx/leaders/imperium/portrait_imperial_governor_2.dds"
 	expire = "1965.1.1"

@@ -1,8 +1,9 @@
-﻿capital = 1104
+﻿capital = 
+
 create_country_leader = {
-	name = "Bornar Buzrag"
+	name = "Thogtak Spleenblasta"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_10.dds"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_11.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {

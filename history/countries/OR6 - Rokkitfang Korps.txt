@@ -1,15 +1,30 @@
-﻿capital = 1118
-
-create_country_leader = {
-	name = "Bullzog Killatusk"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	}
-}
+﻿capital = 992
 
 oob = ""
+
+set_research_slots = 3
+set_stability = 1
+set_war_support = 1
+
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+}
+
+set_technology = {
+}
+
+create_country_leader = {
+	name = "Gortok Sunchewa"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
 
 set_politics = {
 	ruling_party = democratic

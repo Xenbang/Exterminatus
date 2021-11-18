@@ -1,30 +1,16 @@
-﻿capital = 992
-
-oob = ""
-
-set_research_slots = 3
-set_stability = 1
-set_war_support = 1
-
-# Starting tech
-set_technology = {
-}
-
-add_ideas = {
-}
-
-set_technology = {
-}
+﻿capital = 
 
 create_country_leader = {
-	name = "Urbad Worldsmasha"
+	name = "Wugwazza Blakshokk"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_11.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
 	}
 }
+
+oob = ""
 
 set_politics = {
 	ruling_party = democratic

@@ -1,11 +1,13 @@
-﻿capital = 1118
+﻿capital = 1011
 
 create_country_leader = {
-	name = "Bullzog Killatusk"
+	name = "Grozgrub Daemongutz"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_2.dds"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_3.dds"
 	expire = "1965.1.1"
 	ideology = socialism
+	traits = {
+		
 	}
 }
 
