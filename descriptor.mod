@@ -1,6 +1,8 @@
 name="Exterminatus"
 replace_path="history/units"
 replace_path="history/countries"
+replace_path="history/states"
+
 replace_path="common/national_focus"
 replace_path="events"
 replace_path="map/strategicregions"
