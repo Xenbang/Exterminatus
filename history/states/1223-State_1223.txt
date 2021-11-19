@@ -3,9 +3,22 @@ state={
 	id=1223
 	name="STATE_1223"
 	provinces={
-		4568 7500 11079 11084 11171 
+		4568 11079 11084
 	}
 	manpower = 1 
+	history={
+victory = {
+4568 1
+}
+buildings = {
+infrastructure = 4 
+industrial_complex = 1
+airbase = 1
+arms factory = 1
+}
+add_core_of = HOR
+owner = HOR
+} 
 state_category = wasteland
 	buildings_max_level_factor=1.000
 }
