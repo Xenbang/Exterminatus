@@ -2,7 +2,7 @@ state={
 	id=990
 	name="STATE_990"
 	provinces={
-		1067 1724 5335 8105 10463 10521 10565 
+		1067 1724 5335 5727 8105 10463 10521 10565 10687
 	}
 	manpower = 1 
 state_category = wasteland

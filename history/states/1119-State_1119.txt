@@ -6,6 +6,21 @@ state={
 		5047 7181 10908 10939 
 	}
 	manpower = 1 
+
+history={
+victory = {
+10939 1
+}
+buildings = {
+infrastructure = 4 
+industrial_complex = 1
+airbase = 1
+arms factory = 1
+}
+add_core_of = HOR
+owner = HOR
+} 
+
 state_category = wasteland
 	buildings_max_level_factor=1.000
 }
