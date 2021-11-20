@@ -3,7 +3,7 @@
 create_country_leader = {
 	name = "Ungrog Godhacka"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_11.dds"
+	picture = "gfx/leaders/ork/OR8Leader.tga"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
