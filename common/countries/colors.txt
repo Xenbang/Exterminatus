@@ -1,3 +1,8 @@
+CAL = {
+	color = rgb { 70 104 101 }	
+	color_ui = rgb { 70 104 101 }	
+
+}
 GOF = {
 	color = rgb { 96 116 103 }	
 	color_ui = rgb { 96 116 103 }
@@ -22,11 +27,13 @@ OR4 = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-OR5 = { color 	 = rgb { 193 171 8  }
-		color_ui = rgb { 251 222 10 }
-	  }
-OR6 = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+OR5 = { 
+	color = rgb { 193 171 8  }
+	color_ui = rgb { 251 222 10 }
+}
+OR6 = {	
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
 }
 OR7 = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
