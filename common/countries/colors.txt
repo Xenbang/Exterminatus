@@ -42,3 +42,7 @@ OR8 = {
 	color = rgb { 197 92 106 }
 	color_ui = rgb { 255 120 138 }
 }
+IM0 = {
+color = rgb { 201 56 55 } 
+color_ui = rgb { 201 56 55 } 
+}
