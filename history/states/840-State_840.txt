@@ -5,7 +5,21 @@ state={
 	provinces={
 		1619 3292 4786 7180 7412 9996 10088 
 	}
-	manpower = 1 
-state_category = wasteland
+	history={
+		41038.1.1 = {
+			owner = CAL 
+			add_core_of = CAL 
+		}
+		victory_points = {
+			4284 25
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1 
+		}
+	}
+	state_category = megalopolis
 	buildings_max_level_factor=1.000
 }

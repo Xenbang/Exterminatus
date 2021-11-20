@@ -1,6 +1,6 @@
 CAL = {
-	color = rgb { 70 104 101 }	
-	color_ui = rgb { 70 104 101 }	
+	color = rgb { 14 94 104 }	
+	color_ui = rgb { 14 94 104 }	
 
 }
 GOF = {

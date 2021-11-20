@@ -1,0 +1,4 @@
+graphical_culture = western_gfx
+graphical_culture_2d = western_2d
+
+color = { 14 94 104 }

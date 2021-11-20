@@ -5,7 +5,20 @@ state={
 	provinces={
 		2124 2590 4157 4578 5142 5286 6173 6176 6494 9262 9296 9308 9342 9408 
 	}
-	manpower = 1 
-state_category = wasteland
+	manpower = 1350250 
+	history={
+		41038.1.1 = {
+			owner = CAL 
+			add_core_of = CAL 
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			arms_factory = 1 
+		}
+	}
+	state_category = rural 
 	buildings_max_level_factor=1.000
 }
