@@ -3,7 +3,7 @@
 create_country_leader = {
 	name = "Kaptin Skagbag Badklaw"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/ork/ork_leader_portrait_2.dds"
+	picture = "gfx/leaders/ork/FRBLeader.tga"
 	expire = "1965.1.1"
 	ideology = socialism
 }

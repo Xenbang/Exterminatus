@@ -2,7 +2,7 @@
 create_country_leader = {
 	name = "Skrollbag Noseguzzla"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_10.dds"
+	picture = "gfx/leaders/ork/OR7Leader.tga"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {

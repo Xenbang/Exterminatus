@@ -3,7 +3,7 @@
 create_country_leader = {
 	name = "Ozlakk Mag Bonehamma"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_2.dds"
+	picture = "gfx/leaders/ork/SNKLeader.tga"
 	expire = "1965.1.1"
 	ideology = socialism
 	}
