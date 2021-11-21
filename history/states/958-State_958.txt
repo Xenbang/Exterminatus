@@ -5,6 +5,19 @@ state={
 		1454 3783 3849 4551 4941 7419 8095 10189 10273 10347 10424 10519 
 	}
 	manpower = 1 
+history={
+victory = {
+1454 1
+}
+buildings = {
+infrastructure = 4 
+industrial_complex = 1
+airbase = 1
+arms factory = 1
+}
+add_core_of = IM1
+owner = IM1
+} 
 state_category = wasteland
 	buildings_max_level_factor=1.000
 }

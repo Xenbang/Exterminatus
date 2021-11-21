@@ -46,3 +46,11 @@ IM0 = {
 color = rgb { 201 56 55 } 
 color_ui = rgb { 201 56 55 } 
 }
+IM1 = {
+color = rgb { 186 240 255 } 
+color_ui = rgb { 201 56 55 } 
+}
+IM2 = {
+color = rgb { 255 184 127 } 
+color_ui = rgb { 201 56 55 } 
+}
