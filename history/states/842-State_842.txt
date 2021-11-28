@@ -6,9 +6,7 @@ state={
 	}
 	manpower = 1 
 history={
-victory = {
-5024 1
-}
+victory_points = { 5024 1 }
 buildings = {
 infrastructure = 4 
 industrial_complex = 1
