@@ -8,10 +8,10 @@ state={
 	manpower = 1070808
 
 	history={
-		victory_points_points = {
+		victory_points = {
 			10737 1 
 		}
-		victory_points_points = {
+		victory_points = {
 			2581 1
 		}
 		buildings = {

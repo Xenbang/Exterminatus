@@ -7,7 +7,7 @@ state={
 	manpower = 4325850
 	
 	history={
-		victory_points_points = {
+		victory_points = {
 			4193 1 
 		}
 		buildings = {

@@ -7,10 +7,10 @@ state={
 	manpower = 503904 
 	state_category = rural 
 	history={
-		victory_points_points = {
+		victory_points = {
 			10891 1 
 		}
-		victory_points_points = {
+		victory_points = {
 			10938 1
 		}
 		buildings = {
