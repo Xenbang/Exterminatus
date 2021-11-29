@@ -8,10 +8,10 @@ state={
 	state_category = rural
 
 	history={
-		victory_points = {
+		victory_points_points = {
 			4448 1 
 		}
-		victory_points = {
+		victory_points_points = {
 			10810 1
 		}
 		buildings = {

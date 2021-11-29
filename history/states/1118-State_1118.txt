@@ -12,10 +12,10 @@ state={
 			owner = GOF
 			add_core_of = GOF
 		}
-		victory_points = {
+		victory_points_points = {
 			5368 1 
 		}
-		victory_points = {
+		victory_points_points = {
 			10906 1
 		}
 		buildings = {

@@ -6,7 +6,7 @@ state={
 	}
 	manpower = 1 
 	history={
-victory = {
+victory_points = {
 1819 1
 }
 buildings = {
