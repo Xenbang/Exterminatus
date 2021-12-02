@@ -240,7 +240,7 @@ guiTypes = {
 			format = center
 			maxWidth = 44
 			maxHeight = 24
-#			fixedsize = yes
+			fixedsize = yes
 		}
 		
 		iconType = {
@@ -274,20 +274,20 @@ guiTypes = {
 		iconType ={
 			name ="supply_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=564 y=5 }
+			position = { x=526 y=19 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="supply_icon"
 			spriteType = "GFX_equipment_icon"
-			position = { x= 565 y = 8 }
+			position = { x= 533 y = 22 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="supply_value"
-			position = { x= 586 y = 4 }
+			position = { x= 550 y = 16 }
 			font = "hoi_18mbs"
 			text = "999d"
 			format = center
@@ -299,7 +299,7 @@ guiTypes = {
 		iconType = {
 			name ="supply_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 587 y = 20 }
+			position = { x= 550 y = 30 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -331,7 +331,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="navy_experience_value"
-			position = { x= 800 y = 23 }
+			position = { x= -800 y = 23 }
 			font = "hoi_16mbs"
 			text = "999"
 			format = center
@@ -731,7 +731,7 @@ guiTypes = {
 				buttonType = {
 					name = "diplomacy_button"
 					quadTextureSprite ="GFX_topbar_diplomacy"
-					position = { x= 6 y = 0 }
+					position = { x= -2600 y = 0 }
 					Orientation = "UPPER_LEFT"
 					shortcut = "e"
 					clicksound = click_close
@@ -800,7 +800,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "army_button"
-				position = { x = -275 y = 8 }
+				position = { x = -370 y = 110 }
 				quadTextureSprite ="GFX_armyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "o"
@@ -810,7 +810,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "navy_button"
-				position = { x = -226 y = 8 }
+				position = { x = -22226 y = 8 }
 				quadTextureSprite ="GFX_navyoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "p"
@@ -820,7 +820,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "air_button"
-				position = { x = -180 y = 8 }
+				position = { x = -300 y = 110 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
 				shortcut = "l"
