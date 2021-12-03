@@ -524,7 +524,7 @@ ideas = {
 		}	
 	}	
 
-	economic_state = {
+	economic_state = { #Rework these into what sort of economy the country has
 		economic_ruination = {
 			cost = 0
 			removal_cost = -1
