@@ -1,0 +1,154 @@
+spriteTypes = {	
+	
+	#Race 
+	spriteType = {
+		name = "GFX_idea_human"
+		textureFile = "gfx/interface/ideas/idea_humans_race.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_greenskins"
+		textureFile = "gfx/interface/ideas/idea_orks_race.dds"
+	}   
+	
+	#Economic State (which will be changed)
+	spriteType = {
+		name = "GFX_idea_economic_ruination"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_5.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_decay"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_4.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_stagnation"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_3.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_growth"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_2.dds"
+	}   
+
+	spriteType = {
+		name = "GFX_idea_economic_prosperity"
+		textureFile = "gfx/interface/ideas/economicgrowth/economic_growth_1.dds"
+	}   
+
+	#Form of Government
+
+	spriteType = {
+		name = "GFX_idea_dictatorship"
+		textureFile = "gfx/interface/ideas/governmenticons/dictatorship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_theocracy"
+		textureFile = "gfx/interface/ideas/governmenticons/theocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_technocracy"
+		textureFile = "gfx/interface/ideas/governmenticons/technocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_clan"
+		textureFile = "gfx/interface/ideas/governmenticons/clan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_brotherhood"
+		textureFile = "gfx/interface/ideas/governmenticons/brotherhood.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_governance"
+		textureFile = "gfx/interface/ideas/governmenticons/military_junta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_feudal"
+		textureFile = "gfx/interface/ideas/governmenticons/feudal.dds"
+	}   
+
+	##Production Grade
+
+	spriteType = {
+		name = "GFX_idea_production_grade_adeptus_non"
+		textureFile = "gfx/interface/ideas/idea_production_grade_10.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_IV_tertius"
+		textureFile = "gfx/interface/ideas/idea_production_grade_9.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_IV_maximus"
+		textureFile = "gfx/interface/ideas/idea_production_grade_8.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_III_tertius"
+		textureFile = "gfx/interface/ideas/idea_production_grade_7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_III_maximus"
+		textureFile = "gfx/interface/ideas/idea_production_grade_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_II_tertius"
+		textureFile = "gfx/interface/ideas/idea_production_grade_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_II_maximus"
+		textureFile = "gfx/interface/ideas/idea_production_grade_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_I_tertius"
+		textureFile = "gfx/interface/ideas/idea_production_grade_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_I_extremis"
+		textureFile = "gfx/interface/ideas/idea_production_grade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_grade_maximus"
+		textureFile = "gfx/interface/ideas/idea_production_grade_1.dds"
+	}  
+
+	## Sector Focus ##
+	spriteType = {
+		name = "GFX_idea_feudal_sector"
+		textureFile = "gfx/interface/ideas/idea_feudal_sector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_industrial_sector"
+		textureFile = "gfx/interface/ideas/idea_industrial_sector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hive_sector"
+		textureFile = "gfx/interface/ideas/idea_hive_sector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shrine_sector"
+		textureFile = "gfx/interface/ideas/idea_shrine_sector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fortress_sector"
+		textureFile = "gfx/interface/ideas/idea_military_sector.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mining_sector"
+		textureFile = "gfx/interface/ideas/idea_mining_sector.dds"
+	}  	
+	spriteType = {
+		name = "GFX_idea_farming_sector"
+		textureFile = "gfx/interface/ideas/idea_farming_sector.dds"
+	}  	
+
+	# Prod Facility#
+	spriteType = {
+		name = "GFX_idea_tank_factory"
+		textureFile = "gfx/interface/ideas/idea_tank_prod_facility.dds"
+	}  	
+	spriteType = {
+		name = "GFX_idea_research_facility"
+		textureFile = "gfx/interface/ideas/idea_manticore_prod_facility.dds"
+	}  
+
+}

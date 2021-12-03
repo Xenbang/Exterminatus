@@ -1,14 +1,18 @@
 ideas = {
 
 	race = {
-		human = {
-						
-			cost = 0
+		law = yes
+		use_list_view = yes
+
+		race_human = {
+
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
-				always = no
-			}	
+			modifier = {
+				stability_factor = 0.05
+			}
 
 			cancel_if_invalid = no
 
@@ -17,15 +21,16 @@ ideas = {
 			ai_will_do = {
    			}
 		}		
-		greenskins = {
-			cost = 0
+		race_greenskins = {
+			cost = 0 
+	
 			removal_cost = -1
-			
-			available = {
-				always = no
-			}	
 
 			cancel_if_invalid = no
+
+			modifier = {
+				stability_factor = 0.05
+			}
 
 			traits = { trait_race }
 
@@ -35,16 +40,20 @@ ideas = {
 	}
 
 	form_of_government = {
+		law = yes
+		use_list_view = yes
+
 		dictatorship = {
 						
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -67,14 +76,15 @@ ideas = {
    			}
 		}		
 		theocracy = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -97,14 +107,15 @@ ideas = {
    			}
 		}	
 		technocracy = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -126,14 +137,15 @@ ideas = {
    			}
 		}
 		feudal = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -156,14 +168,15 @@ ideas = {
    			}
 		}
 		military_governance = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -183,14 +196,15 @@ ideas = {
    			}
 		}
 		brotherhood = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -212,14 +226,15 @@ ideas = {
    			}
 		}
 		clan = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -243,11 +258,15 @@ ideas = {
 	}
 
 	idea_category_tithe_grade = {
+		law = yes
+		use_list_view = yes
+
 		exactic_extremis = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -272,10 +291,11 @@ ideas = {
    			}																							
 		}
 		exactis_median = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -301,10 +321,11 @@ ideas = {
 		}
 
 		exactic_tertius = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -330,10 +351,11 @@ ideas = {
 		}
 
 		decuma_extremis = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -358,10 +380,11 @@ ideas = {
    			}																							
 		}
 		decuma_prima = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -386,10 +409,11 @@ ideas = {
    			}																							
 		}	
 		decuma_tertius = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -414,10 +438,11 @@ ideas = {
    			}																							
 		}
 		solutio_extremis = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -442,10 +467,11 @@ ideas = {
    			}																							
 		}
 		solutio_prima = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -470,10 +496,11 @@ ideas = {
    			}																							
 		}	
 		solutio_tertius = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -498,10 +525,11 @@ ideas = {
    			}																							
 		}
 		adeptus_non = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -525,11 +553,15 @@ ideas = {
 	}	
 
 	economic_state = { #Rework these into what sort of economy the country has
+		law = yes
+		use_list_view = yes
+
 		economic_ruination = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}					
 				
@@ -549,10 +581,11 @@ ideas = {
 			}																							
 		}
 		economic_decay = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}					
 			
@@ -572,10 +605,11 @@ ideas = {
 			}																							
 		}
 		economic_stagnation = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}			
 			
@@ -595,14 +629,15 @@ ideas = {
 			}																							
 		}
 		economic_growth = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
-			available = {
+			allowed = {
 				always = no
 			}		
 				
@@ -621,10 +656,11 @@ ideas = {
 			}																							
 		}
 		economic_prosperity = {
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -649,11 +685,15 @@ ideas = {
 	}
 
 	idea_category_corruption = {
+		law = yes
+		use_list_view = yes
+
 		corruptio_exactic_extremis = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -679,10 +719,11 @@ ideas = {
    			}																							
 		}
 		corruptio_exactis_median = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 			
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -708,10 +749,11 @@ ideas = {
    			}																							
 		}
 		corruptio_exactic_tertius = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -737,10 +779,11 @@ ideas = {
    			}																							
 		}
 		corruptio_decuma_extremis = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -766,10 +809,11 @@ ideas = {
    			}																							
 		}
 		corruptio_decuma_prima = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -795,10 +839,11 @@ ideas = {
    			}																							
 		}	
 		corruptio_decuma_tertius = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -823,14 +868,15 @@ ideas = {
    			}																							
 		}
 		corruptio_solutio_extremis = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -855,14 +901,15 @@ ideas = {
    			}																							
 		}
 		corruptio_solutio_prima = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -887,14 +934,15 @@ ideas = {
    			}																							
 		}	
 		corruptio_solutio_tertius = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 
@@ -919,14 +967,15 @@ ideas = {
    			}																							
 		}
 		corruptio_adeptus_non = { 
-			cost = 0
+			cost = 0 
+
 			removal_cost = -1
 
 			allowed = {
 				always = no
 			}
 
-			available = {
+			allowed = {
 				always = no
 			}	
 			
