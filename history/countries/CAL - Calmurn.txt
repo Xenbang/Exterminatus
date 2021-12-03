@@ -1,14 +1,5 @@
 ﻿capital = 480
 
-create_country_leader = {
-	name = "Aldrich Eadwald"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	}
-}
-
 add_ideas = race_human
 
 set_politics = {
@@ -23,4 +14,13 @@ set_popularities = {
 }
 
 set_technology = {
+}
+
+create_country_leader = {
+	name = "Aldrich Eadwald"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "gfx/leaders/imperium/portrait_imperial_governor_1.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	}
 }

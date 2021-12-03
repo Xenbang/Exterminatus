@@ -49,16 +49,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -80,16 +73,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -111,16 +97,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -141,16 +120,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -172,16 +144,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -200,16 +165,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -230,16 +188,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = greenskins
+				has_idea = race_greenskins
 			}
 
 			cancel_if_invalid = no
@@ -265,13 +216,9 @@ ideas = {
 			cost = 0 
 
 			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -295,12 +242,8 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 	
 			cancel_if_invalid = no
@@ -319,18 +262,13 @@ ideas = {
 			ai_will_do = {
    			}																							
 		}
-
 		exactic_tertius = { 
 			cost = 0 
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -349,18 +287,13 @@ ideas = {
 			ai_will_do = {
    			}																							
 		}
-
 		decuma_extremis = { 
 			cost = 0 
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -383,13 +316,9 @@ ideas = {
 			cost = 0 
 
 			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -413,12 +342,8 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -442,12 +367,8 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -470,13 +391,9 @@ ideas = {
 			cost = 0 
 
 			removal_cost = -1
-			
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -500,12 +417,8 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -529,12 +442,8 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
-
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -560,10 +469,6 @@ ideas = {
 			cost = 0 
 
 			removal_cost = -1
-
-			allowed = {
-				always = no
-			}					
 				
 			cancel_if_invalid = no
 
@@ -580,14 +485,11 @@ ideas = {
 			ai_will_do = {
 			}																							
 		}
+
 		economic_decay = {
 			cost = 0 
 
 			removal_cost = -1
-
-			allowed = {
-				always = no
-			}					
 			
 			cancel_if_invalid = no
 
@@ -604,14 +506,11 @@ ideas = {
 			ai_will_do = {			
 			}																							
 		}
+
 		economic_stagnation = {
 			cost = 0 
 
 			removal_cost = -1
-
-			allowed = {
-				always = no
-			}			
 			
 			cancel_if_invalid = no
 	
@@ -628,19 +527,12 @@ ideas = {
 			ai_will_do = {
 			}																							
 		}
+
 		economic_growth = {
 			cost = 0 
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}	
-
-			allowed = {
-				always = no
-			}		
-				
 			cancel_if_invalid = no
 
 			traits = { trait_economic_state }
@@ -655,18 +547,11 @@ ideas = {
 			ai_will_do = {
 			}																							
 		}
+
 		economic_prosperity = {
 			cost = 0 
 
 			removal_cost = -1
-
-			allowed = {
-				always = no
-			}	
-
-			allowed = {
-				always = no
-			}			
 			
 			cancel_if_invalid = no
 
@@ -693,12 +578,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			cancel_if_invalid = no
@@ -723,12 +605,9 @@ ideas = {
 
 			removal_cost = -1
 			
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			cancel_if_invalid = no
@@ -753,12 +632,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 
 			modifier = {
@@ -783,12 +659,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 						
 			modifier = {
@@ -813,12 +686,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			modifier = {
@@ -843,12 +713,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 						
 			modifier = {
@@ -872,16 +739,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			modifier = {
@@ -905,16 +765,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			modifier = {
@@ -938,16 +791,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			modifier = {
@@ -971,16 +817,9 @@ ideas = {
 
 			removal_cost = -1
 
-			allowed = {
-				always = no
-			}
-
-			allowed = {
-				always = no
-			}	
 			
 			visible = {
-				has_idea = human
+				has_idea = race_human
 			}
 			
 			modifier = {

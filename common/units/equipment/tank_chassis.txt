@@ -5,14 +5,11 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 
-
 		picture = archetype_light_tank_equipment
 		type = armor
 		group_by = archetype
 		interface_category = interface_category_armor
 		priority = 2000
-
-		
 
 		module_slots = {
 			main_armament_slot = {
@@ -98,10 +95,6 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 2
-		}
-		module_count_limit = {
-			module = amphibious_drive
 			count < 2
 		}
 
@@ -524,11 +517,6 @@ equipments = {
 			category = tank_radio_module
 			count < 2
 		}
-
-		module_count_limit = {
-			module = amphibious_drive
-			count < 2
-		}
 		module_count_limit = {
 			module = wet_ammo_storage
 			count < 2
@@ -734,11 +722,6 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
-			module = amphibious_drive
-			count < 1
-		}
-
-		module_count_limit = {
 			module = wet_ammo_storage
 			count < 2
 		}
@@ -900,10 +883,6 @@ equipments = {
 		module_count_limit = {
 			category = tank_radio_module
 			count < 2
-		}
-		module_count_limit = {
-			module = amphibious_drive
-			count < 1
 		}
 		module_count_limit = {
 			module = wet_ammo_storage
