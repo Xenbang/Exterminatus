@@ -1,6 +1,7 @@
 state={
 	id=1076
-	name="STATE_1076"
+	name="North Outpost"
+	manpower = 53553
 	provinces={
 		 1393 10589 
 	}
@@ -8,6 +9,10 @@ state={
 		41038.1.1 = {
 			owner = CAL 
 			add_core_of = CAL 
+		}
+		
+		victory_points = {
+			10589 2
 		}
 
 		buildings = {
@@ -18,5 +23,5 @@ state={
 		}
 	}
 	state_category = rural 
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=2.000
 }

@@ -1,14 +1,18 @@
 state={
 	id=1031
-	name="STATE_1031"
+	name="Taectia"
 	provinces={
 		207 4667 7077 10526 10595 10661 10664 
 	}
-	manpower = 1350250 
+	manpower = 350250 
 	history={
 		41038.1.1 = {
 			owner = CAL 
 			add_core_of = CAL 
+		}
+		
+		victory_points = {
+			10526 1
 		}
 
 		buildings = {
