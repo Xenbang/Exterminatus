@@ -1,0 +1,43 @@
+spriteTypes = {	
+
+
+	#Tier 1 Imperium Techs#
+	SpriteType = {
+		name = "GFX_imp_industry_background_1"
+		texturefile = "gfx/interface/background/imp_industry_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_imp_industry_background_2"
+		texturefile = "gfx/interface/background/imp_industry_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_imp_industry_background_3"
+		texturefile = "gfx/interface/background/imp_industry_3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_imp_industry_background_4"
+		texturefile = "gfx/interface/background/imp_industry_4.dds"
+	}		
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_2"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_2.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_2_glow"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_2.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		looping = yes
+		animation_rate_spf = 2
+		alwaystransparent = yes
+	}
+}

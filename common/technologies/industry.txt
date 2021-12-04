@@ -1,6 +1,6 @@
 technologies = {
 
-	#slavery
+	#CANTUS ORDINATUS
 
 	industry_slavery_1 = {
 	
@@ -21,7 +21,13 @@ technologies = {
 		path = { 
 			leads_to_tech = industry_slavery_2
 		}
-		
+		path = { 
+			leads_to_tech = industry_chants_of_servitude_1
+		}
+		path = { 
+			leads_to_tech = industry_bio_pens_1
+		}
+
 		ai_will_do = {
 			factor = 50
 		}
@@ -45,7 +51,7 @@ technologies = {
 		research_cost = 3
 		folder = {
 			name = industry_folder
-			position = { x = 5 y = 0 }
+			position = { x = 0 y = 2 }
 		}
 		
 		path = { 
@@ -75,7 +81,7 @@ technologies = {
 		research_cost = 3.5
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 0 }
+			position = { x = 0 y = 6 }
 		}
 		
 		path = { 
@@ -91,7 +97,7 @@ technologies = {
 			industrial_slavery
 		}
 	}	
-	
+
 	industry_slavery_4 = {
 	
 		industrial_capacity_factory = 0.15
@@ -105,7 +111,7 @@ technologies = {
 		research_cost = 4
 		folder = {
 			name = industry_folder
-			position = { x = 15 y = 0 }
+			position = { x = 0 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -118,7 +124,185 @@ technologies = {
 		}
 	}
 	
-	#military complex
+	industry_bio_pens_1 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_bio_pens_2
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	industry_bio_pens_2 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_bio_pens_3
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	industry_bio_pens_3 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		path = { 
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	industry_chants_of_servitude_1 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_chants_of_servitude_2
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	industry_chants_of_servitude_2 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_chants_of_servitude_3
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	industry_chants_of_servitude_3 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		path = { 
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	#CANTUS DOMINATUS
 	
 	industry_militarum_1 = {
 	
@@ -159,7 +343,7 @@ technologies = {
 		research_cost = 3.5
 		folder = {
 			name = industry_folder
-			position = { x = 5 y = 0 }
+			position = { x = -2 y = 2 }
 		}
 		
 		path = {
@@ -187,7 +371,7 @@ technologies = {
 		research_cost = 4
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 0 }
+			position = { x = 0 y = 4 }
 		}
 		
 		path = {
@@ -215,7 +399,7 @@ technologies = {
 		research_cost = 5
 		folder = {
 			name = industry_folder
-			position = { x = 15 y = 0 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -228,8 +412,7 @@ technologies = {
 		}
 	}
 	
-	
-	# cap mass produce
+	#CANTUS IMPETUS 
 	
 	industry_cap_1 = {
 	
@@ -266,7 +449,7 @@ technologies = {
 		research_cost = 2
 		folder = {
 			name = industry_folder
-			position = { x = 5 y = 0 }
+			position = { x = 0 y = 2 }
 		}
 		
 		path = {
@@ -292,7 +475,7 @@ technologies = {
 		research_cost = 1.5
 		folder = {
 			name = industry_folder
-			position = { x = 10 y = 0 }
+			position = { x = 0 y = 4 }
 		}
 		
 		path = {
@@ -309,7 +492,6 @@ technologies = {
 		}
 	}
 	
-	
 	industry_cap_4 = {
 	
 		production_factory_start_efficiency_factor = 0.15
@@ -319,7 +501,7 @@ technologies = {
 		research_cost = 1.5
 		folder = {
 			name = industry_folder
-			position = { x = 15 y = 0 }
+			position = { x = 0 y = 6 }
 		}
 
 		ai_will_do = {
@@ -331,6 +513,4 @@ technologies = {
 			industrial_cap
 		}
 	}
-	
-	
 }
