@@ -73,6 +73,9 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	cat_synth_oil
+	industrial_military
+	industrial_slavery
+	industrial_cap
 }
 
 technology_folders = {

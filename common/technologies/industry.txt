@@ -1,0 +1,336 @@
+technologies = {
+
+	#slavery
+
+	industry_slavery_1 = {
+	
+		industrial_capacity_factory = 0.075
+		production_factory_efficiency_gain_factor = -0.05
+		line_change_production_efficiency_factor = -0.05
+		production_speed_infrastructure_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 2
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_slavery_2
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+	
+	industry_slavery_2 = {
+	
+		industrial_capacity_factory = 0.1
+		production_factory_efficiency_gain_factor = -0.1
+		line_change_production_efficiency_factor = -0.1
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_slavery_3
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+
+	industry_slavery_3 = {
+	
+		industrial_capacity_factory = 0.125
+		production_factory_efficiency_gain_factor = -0.15
+		line_change_production_efficiency_factor = -0.15
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.15
+		global_building_slots = 0.05
+		monthly_population = -0.05
+			
+		research_cost = 3.5
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = 0 }
+		}
+		
+		path = { 
+			leads_to_tech = industry_slavery_4
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}	
+	
+	industry_slavery_4 = {
+	
+		industrial_capacity_factory = 0.15
+		production_factory_efficiency_gain_factor = -0.2
+		line_change_production_efficiency_factor = -0.2
+		production_speed_infrastructure_factor = 0.1
+		production_speed_buildings_factor = 0.15
+		global_building_slots = 0.1
+		monthly_population = -0.05
+			
+		research_cost = 4
+		folder = {
+			name = industry_folder
+			position = { x = 15 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_slavery
+		}
+	}
+	
+	#military complex
+	
+	industry_militarum_1 = {
+	
+		industrial_capacity_factory = 0.10
+		production_factory_efficiency_gain_factor = 0.15
+		line_change_production_efficiency_factor = 0.15
+		production_speed_buildings_factor = 0.05
+		global_building_slots = 0.05
+			
+		research_cost = 3
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = industry_militarum_2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_military
+		}
+	}
+	
+	industry_militarum_2 = {
+	
+		industrial_capacity_factory = 0.15
+		production_factory_efficiency_gain_factor = 0.2
+		line_change_production_efficiency_factor = 0.2
+		production_speed_buildings_factor = 0.05
+		global_building_slots = 0.05
+			
+		research_cost = 3.5
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = industry_militarum_3
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_military
+		}
+	}
+	
+	industry_militarum_3 = {
+	
+		industrial_capacity_factory = 0.20
+		production_factory_efficiency_gain_factor = 0.25
+		line_change_production_efficiency_factor = 0.25
+		production_speed_buildings_factor = 0.05
+		global_building_slots = 0.05
+			
+		research_cost = 4
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = industry_militarum_4
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_military
+		}
+	}
+	
+	industry_militarum_4 = {
+	
+		industrial_capacity_factory = 0.25
+		production_factory_efficiency_gain_factor = 0.5
+		line_change_production_efficiency_factor = 0.5
+		production_speed_buildings_factor = 0.05
+		global_building_slots = 0.1
+			
+		research_cost = 5
+		folder = {
+			name = industry_folder
+			position = { x = 15 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_military
+		}
+	}
+	
+	
+	# cap mass produce
+	
+	industry_cap_1 = {
+	
+		production_factory_start_efficiency_factor = 0.15
+		production_factory_max_efficiency_factor = 0.1
+		global_building_slots = 0.1
+			
+		research_cost = 1.5
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = industry_cap_2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_cap
+		}
+	}
+	
+	industry_cap_2 = {
+	
+		production_factory_start_efficiency_factor = 0.10
+		production_factory_max_efficiency_factor = 0.15
+		global_building_slots = 0.1
+			
+		research_cost = 2
+		folder = {
+			name = industry_folder
+			position = { x = 5 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = industry_cap_3
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_cap
+		}
+	}
+	
+	industry_cap_3 = {
+	
+		production_factory_start_efficiency_factor = 0.15
+		production_factory_max_efficiency_factor = 0.1
+		global_building_slots = 0.1
+			
+		research_cost = 1.5
+		folder = {
+			name = industry_folder
+			position = { x = 10 y = 0 }
+		}
+		
+		path = {
+			leads_to_tech = industry_cap_4
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_cap
+		}
+	}
+	
+	
+	industry_cap_4 = {
+	
+		production_factory_start_efficiency_factor = 0.15
+		production_factory_max_efficiency_factor = 0.1
+		global_building_slots = 0.1
+			
+		research_cost = 1.5
+		folder = {
+			name = industry_folder
+			position = { x = 15 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			industry
+			industrial_cap
+		}
+	}
+	
+	
+}
