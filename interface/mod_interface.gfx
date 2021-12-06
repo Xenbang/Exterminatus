@@ -19,6 +19,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/background/imp_industry_4.dds"
 	}		
 
+	SpriteType = {
+		name = "GFX_imp_infantry_tier_1"
+		texturefile = "gfx/interface/background/imp_infantry_tier_1.dds"
+	}		
+	SpriteType = {
+		name = "GFX_imp_infantry_tier_2"
+		texturefile = "gfx/interface/background/imp_infantry_tier_2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_imp_infantry_tier_3"
+		texturefile = "gfx/interface/background/imp_infantry_tier_3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_imp_infantry_tier_4"
+		texturefile = "gfx/interface/background/imp_infantry_tier_4.dds"
+	}		
+
+
 	corneredTileSpriteType = {
 		name = "GFX_tiled_research_bg_2"
 		size= { x=96 y=96 }
@@ -33,6 +51,95 @@ spriteTypes = {
 		name = "GFX_tiled_research_bg_2_glow"
 		size= { x=96 y=96 }
 		textureFile = "gfx//interface//tiles//tiled_research_bg_2.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		looping = yes
+		animation_rate_spf = 2
+		alwaystransparent = yes
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_3"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_3.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_3_glow"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_3.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		looping = yes
+		animation_rate_spf = 2
+		alwaystransparent = yes
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_4"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_4.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_4_glow"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_4.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		looping = yes
+		animation_rate_spf = 2
+		alwaystransparent = yes
+	}
+
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_5"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_5.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_5_glow"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_5.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		looping = yes
+		animation_rate_spf = 2
+		alwaystransparent = yes
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_6"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_6.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_research_bg_6_glow"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_research_bg_6.dds"
 		borderSize = { x=32 y=32 }
 		tilingCenter = yes
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
